@@ -3,6 +3,13 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  color: #fff;
+}
+
+body {
+  background-color: $clear-01;
+  font-family: $font-main;
+  color: #fff;
 }
 
 h1 {
