@@ -1,0 +1,21 @@
+.header {
+  @include flexbox;
+  height: 80px;
+  background: linear-gradient($clear-01, rgba($clear-01, 0));
+
+  .location {
+    @include column-flexbox;
+    width: 100%;
+
+    &-name {
+      margin: 0 0 4px 0;
+      font-size: 16px;
+    }
+
+    &-weather {
+      font-size: 13px;
+      font-weight: 400;
+      opacity: 0.75;
+    }
+  }
+}
