@@ -1,0 +1,79 @@
+.current {
+  @include column-flexbox(start);
+  position: relative;
+  height: 260px;
+
+  .temp-summery {
+    @include flexbox;
+
+    .temp-highest {
+      opacity: 0.75;
+    }
+
+    .temp-lowest {
+      opacity: 0.5;
+      &:before {
+        content: "/";
+        margin: 0 4px;
+      }
+    }
+
+    .temp-highest,
+    .temp-lowest {
+      &:after {
+        content: "˚";
+      }
+    }
+  }
+
+  .temp-current {
+    position: relative;
+    font-family: $font-sub;
+    font-size: 96px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+    background: linear-gradient(#fff 25%, $clear-01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:after {
+      position: absolute;
+      top: 0;
+      right: -24px;
+      font-size: 80px;
+      content: "˚";
+      background: #fff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .current-image {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transform: translateX(-50%);
+    animation: image-up 3000ms ease-in-out;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+}
+
+@keyframes image-up {
+  0% {
+    top: 120px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 72px;
+    opacity: 1;
+  }
+}
