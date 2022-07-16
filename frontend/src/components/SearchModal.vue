@@ -1,10 +1,10 @@
 <template>
-  <aside class="search-modal">
+  <aside class="search-modal" :class="{ 'is-active': isActive }">
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
           <header class="search-modal-header">
-            <button class="back-button" type="button">
+            <button class="back-button" type="button" @click="closeSearchModal">
               <img src="../assets/icon-caret.png" alt="뒤로가기" />
             </button>
             <h1>위치 검색하기</h1>
@@ -19,7 +19,11 @@
             </button>
 
             <div class="direct-search">
-              <button class="display-button" type="button">
+              <button
+                class="display-button"
+                type="button"
+                @click="openSearchForm"
+              >
                 <h2>직접 위치 검색</h2>
                 <div class="button-icon" aria-hidden>
                   <img src="../assets/icon-caret.png" alt="" />
@@ -46,5 +50,15 @@
 <script>
 export default {
   name: "SearchModal",
+  data() {
+    return {
+      isActive: false,
+    };
+  },
+  methods: {
+    closeSearchModal() {
+      this.isActive = !this.isActive;
+    },
+  },
 };
 </script>
