@@ -18,7 +18,7 @@
               </div>
             </button>
 
-            <div class="direct-search">
+            <div class="direct-search" :class="{ 'is-open': isOpen }">
               <button
                 class="display-button"
                 type="button"
@@ -53,11 +53,15 @@ export default {
   data() {
     return {
       isActive: false,
+      isOpen: false,
     };
   },
   methods: {
     closeSearchModal() {
       this.isActive = !this.isActive;
+    },
+    openSearchForm() {
+      this.isOpen = !this.isOpen;
     },
   },
 };
