@@ -4,8 +4,8 @@
       <div class="row">
         <div class="col-sm-4">
           <button class="location" type="button">
-            <h1 class="location-name">수원시 금곡동</h1>
-            <strong class="location-weather">대체로 맑음</strong>
+            <h1 class="location-name">{{ location }}</h1>
+            <strong class="location-weather">{{ weather }}</strong>
           </button>
         </div>
       </div>
@@ -16,5 +16,9 @@
 <script>
 export default {
   name: "GlobalHeader",
+  props: {
+    weather: String,
+    location: String,
+  },
 };
 </script>
