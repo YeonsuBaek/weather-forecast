@@ -57,11 +57,27 @@
     overflow: hidden;
     transform: translateX(-50%);
     animation: image-up 3000ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center center;
 
-    img {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
+    &.clear {
+      background-image: url("@/assets/icon-clear.svg");
+    }
+
+    &.clear-night {
+      background-image: url("@/assets/icon-clear-night.svg");
+    }
+
+    &.cloudy {
+      background-image: url("@/assets/icon-cloudy.svg");
+    }
+
+    &.rainy {
+      background-image: url("@/assets/icon-rainy.svg");
+    }
+
+    &.snowy {
+      background-image: url("@/assets/icon-snowy.svg");
     }
   }
 }

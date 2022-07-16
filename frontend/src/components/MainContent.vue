@@ -15,9 +15,7 @@
             <strong class="temp-current" aria-label="현재 기온">{{
               temp.current
             }}</strong>
-            <div class="current-image">
-              <img src="../assets/icon-clear.svg" alt="대체로 맑음" />
-            </div>
+            <div class="current-image" :class="weather"></div>
           </div>
         </div>
       </div>

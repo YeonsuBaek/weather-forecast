@@ -2,7 +2,7 @@
   <div>
     <GlobalHeader weather="맑음" location="수원시 금곡동" />
     <MainContent
-      weather="맑음"
+      weather="clear"
       :temp="{ highest: 29, lowest: 24, current: 26 }"
     />
   </div>
