@@ -32,9 +32,36 @@
     font-size: 96px;
     line-height: 90%;
     letter-spacing: -0.05em;
-    background: linear-gradient(#fff 25%, $clear-01);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
+    &.clear {
+      background: linear-gradient(#fff 25%, $clear-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.clear-night {
+      background: linear-gradient(#fff 25%, $clear-night);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.cloudy {
+      background: linear-gradient(#fff 25%, $cloudy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.rainy {
+      background: linear-gradient(#fff 25%, $rainy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.snowy {
+      background: linear-gradient(#fff 25%, $snowy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
     &:after {
       position: absolute;

@@ -3,13 +3,33 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  color: #fff;
 }
 
 body {
-  background-color: $clear-01;
   font-family: $font-main;
   color: #fff;
+
+  &.clear {
+    background-color: $clear-01;
+  }
+
+  &.clear-night {
+    background-color: $clear-night;
+  }
+
+  &.cloudy {
+    background-color: $cloudy-01;
+    color: $cloudy-02;
+  }
+
+  &.rainy {
+    background-color: $rainy-01;
+  }
+
+  &.snowy {
+    background-color: $snowy-01;
+    color: $snowy-02;
+  }
 }
 
 h1 {
