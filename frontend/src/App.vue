@@ -27,6 +27,7 @@ export default {
     };
   },
   mounted() {
+    document.body.className = "";
     document.body.classList.add(this.weather);
   },
 };
