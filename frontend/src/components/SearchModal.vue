@@ -59,6 +59,9 @@ export default {
     };
   },
   methods: {
+    closeSearchModal() {
+      this.$emit("closeModal");
+    },
     openSearchForm() {
       this.isOpen = !this.isOpen;
     },

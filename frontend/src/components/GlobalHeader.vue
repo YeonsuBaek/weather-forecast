@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <SearchModal :isActive="isActive" />
+    <SearchModal :isActive="isActive" @closeModal="closeActiveModal" />
   </header>
 </template>
 
@@ -34,6 +34,10 @@ export default {
   },
   methods: {
     openSearchModal() {
+      this.isActive = !this.isActive;
+    },
+    closeActiveModal() {
+      console.log("된다");
       this.isActive = !this.isActive;
     },
   },
