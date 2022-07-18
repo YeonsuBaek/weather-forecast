@@ -1,20 +1,18 @@
 <template>
-  <div>
-    <header class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <button class="location" type="button">
-              <h1 class="location-name">{{ location }}</h1>
-              <strong class="location-weather">{{ weather }}</strong>
-            </button>
-          </div>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <button class="location" type="button" @click="openSearchModal">
+            <h1 class="location-name">{{ location }}</h1>
+            <strong class="location-weather">{{ weather }}</strong>
+          </button>
         </div>
       </div>
-    </header>
+    </div>
 
-    <SearchModal :modalActive="modalActive" />
-  </div>
+    <SearchModal :isActive="isActive" />
+  </header>
 </template>
 
 <script>
@@ -28,6 +26,16 @@ export default {
   props: {
     weather: String,
     location: String,
+  },
+  data() {
+    return {
+      isActive: false,
+    };
+  },
+  methods: {
+    openSearchModal() {
+      this.isActive = !this.isActive;
+    },
   },
 };
 </script>

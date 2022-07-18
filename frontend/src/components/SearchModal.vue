@@ -50,16 +50,15 @@
 <script>
 export default {
   name: "SearchModal",
+  props: {
+    isActive: Boolean,
+  },
   data() {
     return {
-      isActive: false,
       isOpen: false,
     };
   },
   methods: {
-    closeSearchModal() {
-      this.isActive = !this.isActive;
-    },
     openSearchForm() {
       this.isOpen = !this.isOpen;
     },
