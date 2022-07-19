@@ -1,0 +1,48 @@
+.daily {
+  padding: 8px 0;
+  background: rgba(#fff, 0.25);
+  border-radius: 8px;
+  overflow: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &-list {
+    @include flexbox(start);
+  }
+
+  &-item {
+    @include column-flexbox;
+    margin-right: 20px;
+
+    &:first-child {
+      margin-left: 16px;
+    }
+
+    &:last-child {
+      padding-right: 16px;
+    }
+  }
+
+  &-time {
+    font-size: 13px;
+  }
+
+  &-temp {
+    &:after {
+      content: "˚";
+    }
+  }
+
+  &-icon {
+    @include flexbox;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    background-image: url("@/assets/icon-weather.png");
+    background-size: 164px 128.34px;
+    background-position: -131.6px 0;
+    background-repeat: no-repeat;
+  }
+}
