@@ -20,6 +20,26 @@
             >
             <div class="current-image" :class="weather"></div>
           </div>
+
+          <div class="daily">
+            <ul class="daily-list">
+              <li class="daily-item">
+                <span class="daily-time">지금</span>
+                <i class="daily-icon" aria-label="맑음"></i>
+                <span class="daily-temp" aria-label="기온">26</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">22시</span>
+                <i class="daily-icon" aria-label="구름"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">23시</span>
+                <i class="daily-icon" aria-label="비"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
