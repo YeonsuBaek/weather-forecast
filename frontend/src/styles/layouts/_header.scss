@@ -1,0 +1,58 @@
+.header {
+  @include flexbox;
+  height: 80px;
+
+  .location {
+    @include column-flexbox;
+    width: 100%;
+    color: #fff;
+
+    &-name {
+      margin: 0 0 4px 0;
+      font-size: 16px;
+    }
+
+    &-weather {
+      font-size: 13px;
+      font-weight: 400;
+      opacity: 0.75;
+    }
+  }
+}
+
+.clear {
+  .header {
+    background: linear-gradient($clear-01, rgba($clear-01, 0));
+  }
+}
+
+.clear-night {
+  .header {
+    background: linear-gradient($clear-night, rgba($clear-night, 0));
+  }
+}
+
+.cloudy {
+  .header {
+    background: linear-gradient($cloudy-01, rgba($cloudy-01, 0));
+  }
+
+  .location {
+    color: $cloudy-02;
+  }
+}
+
+.rainy {
+  .header {
+    background: linear-gradient($rainy-01, rgba($rainy-01, 0));
+  }
+}
+
+.snowy {
+  .header {
+    background: linear-gradient($snowy-01, rgba($snowy-01, 0));
+  }
+  .location {
+    color: $snowy-02;
+  }
+}

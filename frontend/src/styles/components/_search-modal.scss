@@ -1,0 +1,157 @@
+$input-group-padding-top: 12px;
+$input-height: 34px;
+$input-margin-bottom: 8px;
+$input-group-margin-bottom: 16px;
+$search-button-height: 40px;
+
+@function _calculate-max-content-height() {
+  @return $input-group-padding-top + $input-height * 3 + $input-margin-bottom *
+    (3 - 1) + $input-group-margin-bottom + $search-button-height;
+}
+
+body {
+  position: relative;
+}
+
+.search-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  transform: translate3d(100%, 0, 0);
+  transition: transform 300ms ease-in-out;
+  z-index: 100;
+
+  &.is-active {
+    transform: translate3d(0, 0, 0);
+  }
+
+  &-header {
+    @include flexbox;
+    position: relative;
+    height: 80px;
+
+    button {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+      transform: translateY(-50%);
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+
+    h1 {
+      margin: 0 auto;
+      font-size: 18px;
+      color: #222;
+    }
+  }
+
+  .button-group {
+    h2 {
+      font-size: 16px;
+    }
+
+    .button-icon {
+      width: 24px;
+      height: 24px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .gps-button,
+  .display-button {
+    @include flexbox(between, center);
+    width: 100%;
+  }
+
+  .gps-button {
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    background-color: $clear-01;
+    border-radius: 4px;
+
+    h2 {
+      color: #ffff;
+    }
+  }
+
+  .direct-search {
+    padding: 12px 16px;
+    background-color: $snowy-01;
+    border-radius: 4px;
+
+    &.is-open {
+      .search-form {
+        max-height: _calculate-max-content-height();
+      }
+
+      .button-icon {
+        transform: rotate(90deg);
+      }
+    }
+
+    h2 {
+      color: $snowy-02;
+    }
+
+    .button-icon {
+      transform: rotate(-90deg);
+      transition: transform 200ms ease-in-out;
+    }
+  }
+
+  .search-form {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 200ms ease-in-out;
+
+    .input-group {
+      padding-top: $input-group-padding-top;
+      margin-bottom: $input-group-margin-bottom;
+
+      input {
+        width: 100%;
+        height: $input-height;
+        margin-bottom: $input-margin-bottom;
+        padding: 8px 12px;
+        color: $snowy-02;
+        background-color: #fff;
+        border-radius: 4px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &::placeholder {
+          color: $snowy-03;
+        }
+      }
+    }
+
+    .search-button {
+      @include flexbox;
+      width: 100%;
+      height: $search-button-height;
+      color: #fff;
+      font-weight: 700;
+      background-color: $snowy-02;
+      border-radius: 4px;
+    }
+  }
+}

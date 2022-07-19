@@ -1,0 +1,122 @@
+.current {
+  @include column-flexbox(start);
+  position: relative;
+  height: 260px;
+
+  .temp-summery {
+    @include flexbox;
+
+    .temp-highest {
+      opacity: 0.75;
+    }
+
+    .temp-lowest {
+      opacity: 0.5;
+      &:before {
+        content: "/";
+        margin: 0 4px;
+      }
+    }
+
+    .temp-highest,
+    .temp-lowest {
+      &:after {
+        content: "˚";
+      }
+    }
+  }
+
+  .temp-current {
+    position: relative;
+    font-family: $font-sub;
+    font-size: 96px;
+    line-height: 90%;
+    letter-spacing: -0.05em;
+
+    &.clear {
+      background: linear-gradient(#fff 25%, $clear-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.clear-night {
+      background: linear-gradient(#fff 25%, $clear-night);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.cloudy {
+      background: linear-gradient(#fff 25%, $cloudy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.rainy {
+      background: linear-gradient(#fff 25%, $rainy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &.snowy {
+      background: linear-gradient(#fff 25%, $snowy-01);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    &:after {
+      position: absolute;
+      top: 0;
+      right: -24px;
+      font-size: 80px;
+      content: "˚";
+      background: #fff;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .current-image {
+    position: absolute;
+    top: 72px;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    transform: translateX(-50%);
+    animation: image-up 3000ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    &.clear {
+      background-image: url("@/assets/icon-clear.svg");
+    }
+
+    &.clear-night {
+      background-image: url("@/assets/icon-clear-night.svg");
+    }
+
+    &.cloudy {
+      background-image: url("@/assets/icon-cloudy.svg");
+    }
+
+    &.rainy {
+      background-image: url("@/assets/icon-rainy.svg");
+    }
+
+    &.snowy {
+      background-image: url("@/assets/icon-snowy.svg");
+    }
+  }
+}
+
+@keyframes image-up {
+  0% {
+    top: 120px;
+    opacity: 0;
+  }
+
+  100% {
+    top: 72px;
+    opacity: 1;
+  }
+}
