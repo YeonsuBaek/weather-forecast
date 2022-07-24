@@ -1,0 +1,43 @@
+.weekly {
+  padding: 8px 16px;
+  margin-bottom: 16px;
+  background: rgba(#fff, 0.25);
+  border-radius: 8px;
+  overflow: auto;
+
+  &-item {
+    @include flexbox(between);
+    width: 100%;
+    height: 40px;
+  }
+
+  .icon-wrapper {
+    @include flexbox;
+
+    i:first-child {
+      margin-right: 4px;
+    }
+  }
+
+  .temp-summery {
+    .temp-highest {
+      font-weight: 700;
+    }
+
+    .temp-lowest {
+      opacity: 0.75;
+
+      &:before {
+        content: "/";
+        margin: 0 4px;
+      }
+    }
+
+    .temp-highest,
+    .temp-lowest {
+      &:after {
+        content: "˚";
+      }
+    }
+  }
+}
