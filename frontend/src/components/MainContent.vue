@@ -38,6 +38,36 @@
                 <i class="daily-icon" aria-label="비"></i>
                 <span class="daily-temp" aria-label="기온">25</span>
               </li>
+              <li class="daily-item">
+                <span class="daily-time">내일</span>
+                <i class="daily-icon" aria-label="맑음"></i>
+                <span class="daily-temp" aria-label="기온">26</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">1시</span>
+                <i class="daily-icon" aria-label="구름"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">2시</span>
+                <i class="daily-icon" aria-label="비"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">3시</span>
+                <i class="daily-icon" aria-label="맑음"></i>
+                <span class="daily-temp" aria-label="기온">26</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">4시</span>
+                <i class="daily-icon" aria-label="구름"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
+              <li class="daily-item">
+                <span class="daily-time">5시</span>
+                <i class="daily-icon" aria-label="비"></i>
+                <span class="daily-temp" aria-label="기온">25</span>
+              </li>
             </ul>
           </div>
         </div>
