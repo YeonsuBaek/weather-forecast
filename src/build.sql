@@ -1,4 +1,5 @@
 CREATE TABLE `geographic_coordinate` (
+     `no` INT NOT null,
 	`country`	VARCHAR(8)	NULL,
 	`area`	BIGINT	NULL,
 	`state`	VARCHAR(16)	NULL,
@@ -12,7 +13,7 @@ CREATE TABLE `geographic_coordinate` (
 	`latitude_hour`	INT	NULL,
 	`latitude_minute`	INT	NULL,
 	`latitude_second`	DOUBLE	NULL,
-	`langitude`	DOUBLE	NULL,
+	`longitude`	DOUBLE	NULL,
 	`latitude`	DOUBLE	NULL
 ) ENGINE=InnoDB CHARSET=utf8;
 
@@ -25,14 +26,14 @@ CREATE TABLE `midfcstinfo_region` (
 
 CREATE TABLE `vilagefcst` (
 	`no`	INT	NOT NULL,
-	`baseDate`	INT	NULL,
-	`baseTime`	INT	NULL,
-	`fcstDate`	INT	NULL,
-	`fcstTime`	INT	NULL,
+	`base_date`	INT	NULL,
+	`base_time`	INT	NULL,
+	`fcst_date`	INT	NULL,
+	`fcst_time`	INT	NULL,
 	`x`	INT	NULL,
 	`y`	INT	NULL,
 	`category`	VARCHAR(4)	NULL,
-	`fcstValue`	VARCHAR(16)	NULL
+	`fcst_value`	VARCHAR(16)	NULL
 );
 
 CREATE TABLE `getMidTa` (
@@ -121,7 +122,11 @@ CREATE TABLE `getMidLandFcst` (
     `wf10` VARCHAR(8) NULL
 );
 
-ALTER TABLE `vilagefcst` ADD CONSTRAINT `PK_VILAGEFCST2` PRIMARY KEY (
+ALTER TABLE `geographic_coordinate` ADD CONSTRAINT `PK_GEOGRAPHIC_COORDINATE` PRIMARY KEY (
+	`no`
+);
+
+ALTER TABLE `vilagefcst` ADD CONSTRAINT `PK_VILAGEFCST` PRIMARY KEY (
 	`no`
 );
 
@@ -134,5 +139,7 @@ ALTER TABLE `getMidLandFcst` ADD CONSTRAINT `PK_GETMIDLANDFCST` PRIMARY KEY (
 );
 
 ALTER TABLE vilagefcst MODIFY no INT NOT NULL AUTO_INCREMENT;
+
+ALTER TABLE geographic_coordinate MODIFY no INT NOT NULL AUTO_INCREMENT;
 
 
