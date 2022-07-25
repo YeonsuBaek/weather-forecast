@@ -22,11 +22,11 @@ public class Geographic {
     private String state;
     private String city;
     private String town;
-    private long grid_x;
-    private long grid_y;
-    private long longitude_hour;
-    private long longitude_minute;
-    private double longitude_second;
+    private long gridX;
+    private long gridY;
+    private long longitudeHour;
+    private long longitudeMinute;
+    private double longitudeSecond;
     private double longitude;
     private double latitude;
 
