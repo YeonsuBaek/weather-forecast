@@ -1,5 +1,5 @@
 $input-group-padding-top: 12px;
-$input-height: 34px;
+$input-height: 36px;
 $input-margin-bottom: 8px;
 $input-group-margin-bottom: 16px;
 $search-button-height: 40px;
@@ -129,7 +129,7 @@ body {
         width: 100%;
         height: $input-height;
         margin-bottom: $input-margin-bottom;
-        padding: 8px 12px;
+        padding: 0 12px;
         color: $snowy-02;
         background-color: #fff;
         border-radius: 4px;
