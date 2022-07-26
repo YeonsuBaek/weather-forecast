@@ -22,8 +22,8 @@ public class Geographic {
     private String state;
     private String city;
     private String town;
-    private long gridX;
-    private long gridY;
+    private long grid_X;
+    private long grid_Y;
     private long longitudeHour;
     private long longitudeMinute;
     private double longitudeSecond;
