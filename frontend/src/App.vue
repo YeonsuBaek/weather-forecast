@@ -1,10 +1,7 @@
 <template>
   <div>
-    <GlobalHeader weather="맑음" location="수원시 금곡동" />
-    <MainContent
-      :weather="weather"
-      :temp="{ highest: 29, lowest: 24, current: 26 }"
-    />
+    <GlobalHeader :weather="weatherSummery" :location="location" />
+    <MainContent :weather="weather" :temp="temp" />
   </div>
 </template>
 
@@ -21,6 +18,13 @@ export default {
   data() {
     return {
       weather: "clear",
+      location: "수원시 금곡동",
+      weatherSummery: "맑음",
+      temp: {
+        highest: 29,
+        lowest: 24,
+        current: 26,
+      },
     };
   },
   mounted() {

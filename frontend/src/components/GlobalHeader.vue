@@ -37,7 +37,6 @@ export default {
       this.isActive = !this.isActive;
     },
     closeActiveModal() {
-      console.log("된다");
       this.isActive = !this.isActive;
     },
   },
