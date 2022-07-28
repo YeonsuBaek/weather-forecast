@@ -2,6 +2,7 @@ package com.weatherproject.weather.serviceImpl;
 
 import com.weatherproject.weather.domain.DTO.CityDTO;
 import com.weatherproject.weather.domain.DTO.StateDTO;
+import com.weatherproject.weather.domain.DTO.TownDTO;
 import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.domain.repository.GeographicRepository;
 import lombok.RequiredArgsConstructor;
@@ -18,6 +19,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -41,8 +43,8 @@ class GeographicServiceImplTest {
 
         list.add(geographic);
 
-        List<CityDTO> cityDTOS = geographicService.findByState(list);
-        Assertions.assertEquals(cityDTOS.get(0).getCity(), "종로구");
+        List<String> cityDTOS = geographicService.findCity(list);
+        //Assertions.assertEquals(cityDTOS.get(0).getCity(), "종로구");
 
         //System.out.println(cityDTOS.get(0).toString());
     }
@@ -57,7 +59,31 @@ class GeographicServiceImplTest {
 
         list.add(geographic);
 
-        List<StateDTO> stateDTOS = geographicService.findState(list);
-        Assertions.assertEquals(stateDTOS.get(0).getState(), "서울특별시");
+        List<String> stateDTOS = geographicService.findState(list);
+        //Assertions.assertEquals(stateDTOS.get(0).getState(), "서울특별시");
+    }
+
+    @Test
+    void findByCity() {
+        List<Geographic> list = new ArrayList<>();
+        Long no = Long.valueOf(0);
+        Long area = Long.valueOf(1);
+
+        Geographic geographic = new Geographic(no, "kor", area, "서울특별시", "종로구", "도곡동", 60, 127, 0, 0, 0, 0, 0);
+
+        list.add(geographic);
+
+        Long no2 = Long.valueOf(0);
+        Long area2 = Long.valueOf(1);
+
+        Geographic geographic2 = new Geographic(no2, "kor", area2, "서울특별시", "종로구", "도곡동", 60, 127, 0, 0, 0, 0, 0);
+
+        list.add(geographic2);
+
+        List<String> townDTOS = geographicService.findTown(list);
+        list = list.stream().distinct().collect(Collectors.toList());
+        System.out.println(townDTOS.size() + " " + townDTOS.get(0).toString() + " " + townDTOS.get(1).toString());
+        //Assertions.assertEquals(townDTOS.get(0).getTown(), "도곡동");
+
     }
 }

@@ -7,6 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class TownDTO {
-    String town;
+public class CityDTO {
+
+    String city;
 }

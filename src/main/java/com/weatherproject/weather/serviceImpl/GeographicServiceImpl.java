@@ -3,6 +3,7 @@ package com.weatherproject.weather.serviceImpl;
 import com.weatherproject.weather.domain.DTO.CityDTO;
 import com.weatherproject.weather.domain.DTO.GeographicDTO;
 import com.weatherproject.weather.domain.DTO.StateDTO;
+import com.weatherproject.weather.domain.DTO.TownDTO;
 import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.service.GeographicService;
 import org.springframework.stereotype.Service;
@@ -34,32 +35,54 @@ public class GeographicServiceImpl implements GeographicService {
     }
 
     @Override
-    public List<StateDTO> findState(List<Geographic> geographic) {
+    public List<String> findState(List<Geographic> geographic) {
 
-        List<StateDTO> stateDTOS = new ArrayList<>();
+        List<String> stateDTOS = new ArrayList<>();
 
         for (int i = 0; i < geographic.size(); i++) {
             StateDTO stateDTOTemp = new StateDTO(geographic.get(i).getState());
-            stateDTOS.add(stateDTOTemp);
+            stateDTOS.add(stateDTOTemp.getState());
         }
 
-        return stateDTOS;
+        List<String> result = new ArrayList<>();
+
+        result = stateDTOS.stream().distinct().collect(Collectors.toList());
+
+        return result;
     }
 
-    @Override
-    public List<CityDTO> findByState(List<Geographic> geographic) {
 
-        List<CityDTO> cityDTOS = new ArrayList<>();
+    @Override
+    public List<String> findCity(List<Geographic> geographic) {
+        List<String> cityDTOS = new ArrayList<>();
 
         for (int i = 0; i < geographic.size(); i++) {
             CityDTO cityDTOTemp = new CityDTO(geographic.get(i).getCity());
-            cityDTOTemp.setCity(geographic.get(i).getCity());
-
-            cityDTOS.add(cityDTOTemp);
+            //cityDTOTemp.setCity(geographic.get(i).getCity());
+            cityDTOS.add(cityDTOTemp.getCity());
         }
 
-        cityDTOS = cityDTOS.stream().distinct().collect(Collectors.toList());
+        List<String> result = new ArrayList<>();
 
-        return cityDTOS;
+        result = cityDTOS.stream().distinct().collect(Collectors.toList());
+
+        return result;
+    }
+
+
+    @Override
+    public List<String> findTown(List<Geographic> geographic) {
+        List<String> townDTOS = new ArrayList<>();
+
+        for (int i = 0; i < geographic.size(); i++) {
+            TownDTO townDTOTemp = new TownDTO(geographic.get(i).getTown());
+            townDTOS.add(townDTOTemp.getTown());
+        }
+
+        List<String> result = new ArrayList<>();
+
+        townDTOS = townDTOS.stream().distinct().collect(Collectors.toList());
+
+        return result;
     }
 }
