@@ -31,10 +31,52 @@
               </button>
 
               <div class="search-form">
-                <div class="input-group">
-                  <input type="text" placeholder="시/도" />
+                <div class="dropdown-group">
+                  <div class="dropdown">
+                    <button class="dropdown-toggle" type="button">시/도</button>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-option">
+                        <button type="button">서울특별시</button>
+                      </li>
+                      <li class="dropdown-option">
+                        <button type="button">경기도</button>
+                      </li>
+                      <li class="dropdown-option">
+                        <button type="button">대전광역시</button>
+                      </li>
+                      <li class="dropdown-option">
+                        <button type="button">부산광역시</button>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown">
+                    <button class="dropdown-toggle" type="button">
+                      시/군/구
+                    </button>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-option">
+                        <button type="button">수원시권선구</button>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="dropdown">
+                    <button class="dropdown-toggle" type="button">
+                      동/읍/면
+                    </button>
+
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-option">
+                        <button type="button">금곡동</button>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- <input type="text" placeholder="시/도" />
                   <input type="text" placeholder="시/군/구" />
-                  <input type="text" placeholder="동/읍/면" />
+                  <input type="text" placeholder="동/읍/면" /> -->
                 </div>
 
                 <button class="search-button" type="button">검색하기</button>
