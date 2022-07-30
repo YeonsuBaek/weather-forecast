@@ -123,67 +123,6 @@ body {
     overflow: hidden;
     transition: max-height 200ms ease-in-out;
 
-    .dropdown {
-      &-toggle {
-        position: relative;
-        width: 100%;
-        height: $input-height;
-        margin-bottom: $input-margin-bottom;
-        padding: 0 12px;
-        color: $snowy-02;
-        background-color: #fff;
-        border-radius: 4px;
-        @include flexbox(start);
-        color: $snowy-03;
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-
-      &-group {
-        padding-top: $input-group-padding-top;
-        margin-bottom: $input-group-margin-bottom;
-      }
-
-      &-menu {
-        @include pos-center-x;
-        padding: 8px 0;
-        width: calc(100% - $gutter - ($direct-search-padding + $sm-margin) * 2);
-        visibility: hidden;
-        background-color: #fff;
-        border-radius: 4px;
-        z-index: 10000;
-        box-shadow: 0px 4px 20px rgba(63, 65, 80, 0.3);
-        opacity: 0;
-        transform: translate3d(-50%, -10px, 0);
-        transition: transform 200ms ease-in-out, opacity 200ms ease-in-out,
-          visibility 200ms ease-in-out;
-
-        &.is-open {
-          visibility: visible;
-          opacity: 1;
-          transform: translate3d(-50%, 0, 0);
-        }
-      }
-
-      &-option {
-        height: $input-height;
-
-        button {
-          @include flexbox(start);
-          padding: 0 12px;
-          width: 100%;
-          height: 100%;
-          color: $snowy-02;
-
-          &:active,
-          &:hover {
-            background-color: $snowy-01;
-          }
-        }
-      }
-    }
-
     .search-button {
       @include flexbox;
       width: 100%;
