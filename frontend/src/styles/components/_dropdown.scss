@@ -24,6 +24,8 @@
     @include pos-center-x;
     padding: 8px 0;
     width: calc(100% - $gutter - ($direct-search-padding + $sm-margin) * 2);
+    height: 240px;
+    overflow-y: auto;
     visibility: hidden;
     background-color: #fff;
     border-radius: 4px;
@@ -38,6 +40,10 @@
       visibility: visible;
       opacity: 1;
       transform: translate3d(-50%, 0, 0);
+    }
+
+    &::-webkit-scrollbar {
+      display: none;
     }
   }
 
