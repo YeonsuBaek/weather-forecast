@@ -33,50 +33,79 @@
               <div class="search-form">
                 <div class="dropdown-group">
                   <div class="dropdown">
-                    <button class="dropdown-toggle" type="button">시/도</button>
+                    <button
+                      class="dropdown-toggle"
+                      type="button"
+                      @click="toggleDropdown(0)"
+                    >
+                      {{ selectedState }}
+                    </button>
 
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-option">
-                        <button type="button">서울특별시</button>
-                      </li>
-                      <li class="dropdown-option">
-                        <button type="button">경기도</button>
-                      </li>
-                      <li class="dropdown-option">
-                        <button type="button">대전광역시</button>
-                      </li>
-                      <li class="dropdown-option">
-                        <button type="button">부산광역시</button>
+                    <ul
+                      class="dropdown-menu"
+                      :class="{ 'is-open': isOpenDropdown[0] }"
+                    >
+                      <li
+                        class="dropdown-option"
+                        v-for="data in state"
+                        :key="data"
+                      >
+                        <button type="button" @click="selectState(data)">
+                          {{ data }}
+                        </button>
                       </li>
                     </ul>
                   </div>
 
                   <div class="dropdown">
-                    <button class="dropdown-toggle" type="button">
-                      시/군/구
+                    <button
+                      class="dropdown-toggle"
+                      type="button"
+                      @click="toggleDropdown(1)"
+                    >
+                      {{ selectedCity }}
                     </button>
 
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-option">
-                        <button type="button">수원시권선구</button>
+                    <ul
+                      class="dropdown-menu"
+                      :class="{ 'is-open': isOpenDropdown[1] }"
+                    >
+                      <li
+                        class="dropdown-option"
+                        v-for="data in city"
+                        :key="data"
+                      >
+                        <button type="button" @click="selectCity(data)">
+                          {{ data }}
+                        </button>
                       </li>
                     </ul>
                   </div>
 
                   <div class="dropdown">
-                    <button class="dropdown-toggle" type="button">
-                      동/읍/면
+                    <button
+                      class="dropdown-toggle"
+                      type="button"
+                      @click="toggleDropdown(2)"
+                    >
+                      {{ selectedTown }}
                     </button>
 
-                    <ul class="dropdown-menu">
-                      <li class="dropdown-option">
-                        <button type="button">금곡동</button>
+                    <ul
+                      class="dropdown-menu"
+                      :class="{ 'is-open': isOpenDropdown[2] }"
+                    >
+                      <li
+                        class="dropdown-option"
+                        v-for="data in town"
+                        :key="data"
+                      >
+                        <button type="button" @click="selectTown(data)">
+                          {{ data }}
+                        </button>
                       </li>
                     </ul>
                   </div>
-                  <!-- <input type="text" placeholder="시/도" />
-                  <input type="text" placeholder="시/군/구" />
-                  <input type="text" placeholder="동/읍/면" /> -->
                 </div>
 
                 <button class="search-button" type="button">검색하기</button>
@@ -90,6 +119,14 @@
 </template>
 
 <script>
+import PlaceState from "@/assets/data/state.json";
+import PlaceCity from "@/assets/data/city.json";
+import PlaceTown from "@/assets/data/town.json";
+
+const state = PlaceState;
+const city = PlaceCity;
+const town = PlaceTown;
+
 export default {
   name: "SearchModal",
   props: {
@@ -98,6 +135,13 @@ export default {
   data() {
     return {
       isOpen: false,
+      isOpenDropdown: [false, false, false],
+      state,
+      city,
+      town,
+      selectedState: "시/도",
+      selectedCity: "시/군/구",
+      selectedTown: "동/읍/면",
     };
   },
   methods: {
@@ -106,6 +150,21 @@ export default {
     },
     openSearchForm() {
       this.isOpen = !this.isOpen;
+    },
+    toggleDropdown(num) {
+      this.isOpenDropdown[num] = !this.isOpenDropdown[num];
+    },
+    selectState(item) {
+      this.selectedState = item;
+      this.toggleDropdown(0);
+    },
+    selectCity(item) {
+      this.selectedCity = item;
+      this.toggleDropdown(1);
+    },
+    selectTown(item) {
+      this.selectedTown = item;
+      this.toggleDropdown(2);
     },
   },
 };
