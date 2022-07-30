@@ -59,8 +59,9 @@ export default {
       this.isActive = !this.isActive;
     },
     viewPlaceName(city, town) {
-      console.log(city, town);
-      this.location = `${city} ${town}`;
+      if (city !== "시/군/구" && town !== "동/읍/면") {
+        this.location = `${city} ${town}`;
+      }
     },
   },
 };
