@@ -108,7 +108,13 @@
                   </div>
                 </div>
 
-                <button class="search-button" type="button">검색하기</button>
+                <button
+                  class="search-button"
+                  type="button"
+                  @click="selectPlaceAll"
+                >
+                  검색하기
+                </button>
               </div>
             </div>
           </div>
@@ -119,29 +125,24 @@
 </template>
 
 <script>
-import PlaceState from "@/assets/data/state.json";
-import PlaceCity from "@/assets/data/city.json";
-import PlaceTown from "@/assets/data/town.json";
-
-const state = PlaceState;
-const city = PlaceCity;
-const town = PlaceTown;
-
 export default {
   name: "SearchModal",
   props: {
     isActive: Boolean,
+    placeState: Array,
+    placeCity: Array,
+    placeTown: Array,
   },
   data() {
     return {
       isOpen: false,
       isOpenDropdown: [false, false, false],
-      state,
-      city,
-      town,
       selectedState: "시/도",
       selectedCity: "시/군/구",
       selectedTown: "동/읍/면",
+      state: this.placeState,
+      city: this.placeCity,
+      town: this.placeTown,
     };
   },
   methods: {
@@ -165,6 +166,11 @@ export default {
     selectTown(item) {
       this.selectedTown = item;
       this.toggleDropdown(2);
+    },
+    selectPlaceAll() {
+      console.log(this.selectedCity, this.selectedTown);
+      this.$emit("selectPlace", this.selectedCity, this.selectedTown);
+      this.$emit("closeModal");
     },
   },
 };
