@@ -200,7 +200,7 @@ export default {
 
       this.selectedState = item;
       this.toggleDropdown(0);
-      this.isSelected[0] = !this.isSelected[0];
+      this.isSelected[0] = true;
     },
     selectCity(item, idx) {
       this.isSelectedIndex[1] = idx;
@@ -208,12 +208,12 @@ export default {
 
       this.selectedCity = item;
       this.toggleDropdown(1);
-      this.isSelected[1] = !this.isSelected[1];
+      this.isSelected[1] = true;
     },
     selectTown(item) {
       this.selectedTown = item;
       this.toggleDropdown(2);
-      this.isSelected[2] = !this.isSelected[2];
+      this.isSelected[2] = true;
     },
     selectPlaceAll() {
       this.$emit("selectPlace", this.selectedCity, this.selectedTown);
