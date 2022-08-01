@@ -48,10 +48,13 @@
                     >
                       <li
                         class="dropdown-option"
-                        v-for="data in state"
-                        :key="data"
+                        v-for="(data, stateIndex) in state"
+                        :key="stateIndex"
                       >
-                        <button type="button" @click="selectState(data)">
+                        <button
+                          type="button"
+                          @click="selectState(data, stateIndex)"
+                        >
                           {{ data }}
                         </button>
                       </li>
@@ -74,10 +77,10 @@
                     >
                       <li
                         class="dropdown-option"
-                        v-for="data in city"
-                        :key="data"
+                        v-for="(data, index) in city"
+                        :key="index"
                       >
-                        <button type="button" @click="selectCity(data)">
+                        <button type="button" @click="selectCity(data, index)">
                           {{ data }}
                         </button>
                       </li>
@@ -155,6 +158,7 @@ export default {
       state: this.placeState,
       city: this.placeCity,
       town: this.placeTown,
+      isSelectedIndex: [null, null, null],
       isSelected: [false, false, false],
       isActiveToast: false,
     };
@@ -190,12 +194,18 @@ export default {
         this.isOpenDropdown[num] = !this.isOpenDropdown[num];
       }
     },
-    selectState(item) {
+    selectState(item, idx) {
+      this.isSelectedIndex[0] = idx;
+      this.city = this.placeCity[idx];
+
       this.selectedState = item;
       this.toggleDropdown(0);
       this.isSelected[0] = !this.isSelected[0];
     },
-    selectCity(item) {
+    selectCity(item, idx) {
+      this.isSelectedIndex[1] = idx;
+      this.town = this.placeTown[this.isSelectedIndex[0]][idx];
+
       this.selectedCity = item;
       this.toggleDropdown(1);
       this.isSelected[1] = !this.isSelected[1];
