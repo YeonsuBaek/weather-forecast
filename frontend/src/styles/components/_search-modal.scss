@@ -1,14 +1,14 @@
-$input-group-padding-top: 12px;
 $input-height: 36px;
 $input-margin-bottom: 8px;
 $input-group-margin-bottom: 16px;
 $search-button-height: 40px;
-
+$search-button-margin-top: 12px;
 $direct-search-padding: 16px;
 
 @function _calculate-max-content-height() {
-  @return $input-group-padding-top + $input-height * 3 + $input-margin-bottom *
-    (3 - 1) + $input-group-margin-bottom + $search-button-height;
+  @return $input-height * 3 + $input-margin-bottom * (3 - 1) +
+    $input-group-margin-bottom + $search-button-height +
+    $search-button-margin-top;
 }
 
 body {
@@ -80,10 +80,10 @@ body {
   .display-button {
     @include flexbox(between, center);
     width: 100%;
+    padding: 12px 16px;
   }
 
   .gps-button {
-    padding: 12px 16px;
     margin-bottom: 8px;
     background-color: $clear-01;
     border-radius: 4px;
@@ -94,7 +94,7 @@ body {
   }
 
   .direct-search {
-    padding: 12px $direct-search-padding;
+    // padding: 12px $direct-search-padding;
     background-color: $snowy-01;
     border-radius: 4px;
 
@@ -125,7 +125,8 @@ body {
 
     .search-button {
       @include flexbox;
-      width: 100%;
+      margin: 0 $direct-search-padding $search-button-margin-top;
+      width: calc(100% - $direct-search-padding * 2);
       height: $search-button-height;
       color: #fff;
       font-weight: 700;
