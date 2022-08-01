@@ -18,7 +18,7 @@
               </div>
             </button>
 
-            <div class="direct-search" :class="{ 'is-open': isOpen }">
+            <div class="direct-search" :class="{ 'is-open': isOpenSearchForm }">
               <button
                 class="display-button"
                 type="button"
@@ -147,7 +147,7 @@ export default {
   },
   data() {
     return {
-      isOpen: false,
+      isOpenSearchForm: false,
       isOpenDropdown: [false, false, false],
       selectedState: "시/도",
       selectedCity: "시/군/구",
@@ -162,9 +162,18 @@ export default {
   methods: {
     closeSearchModal() {
       this.$emit("closeModal");
+      this.isOpenSearchForm = false;
     },
     openSearchForm() {
-      this.isOpen = !this.isOpen;
+      this.isOpenSearchForm = !this.isOpenSearchForm;
+
+      this.selectedState = "시/도";
+      this.selectedCity = "시/군/구";
+      this.selectedTown = "동/읍/면";
+
+      this.isSelected[0] = false;
+      this.isSelected[1] = false;
+      this.isSelected[2] = false;
     },
     toggleDropdown(num) {
       if (this.isSelected[num - 1] == false) {
@@ -193,9 +202,9 @@ export default {
       this.isSelected[2] = !this.isSelected[2];
     },
     selectPlaceAll() {
-      console.log(this.selectedCity, this.selectedTown);
       this.$emit("selectPlace", this.selectedCity, this.selectedTown);
       this.$emit("closeModal");
+      this.isOpenSearchForm = false;
     },
     closeToast() {
       this.isActiveToast = !this.isActiveToast;
