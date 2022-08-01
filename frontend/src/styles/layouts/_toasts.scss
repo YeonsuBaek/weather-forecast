@@ -8,11 +8,13 @@ $toast-height: 56px;
   height: $toast-height;
   background-color: #fff;
   box-shadow: 0px -4px 20px rgba(63, 65, 80, 0.3);
+  opacity: 0;
   z-index: 150;
-  transition: bottom 200ms ease-in-out;
+  transition: bottom 200ms ease-in-out, opacity 200ms ease-in-out;
 
   &.is-active {
     bottom: 0;
+    opacity: 1;
   }
 
   &-message {
