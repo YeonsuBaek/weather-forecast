@@ -35,6 +35,7 @@
                   <div class="dropdown">
                     <button
                       class="dropdown-toggle"
+                      :class="{ 'is-active': isSelected[0] }"
                       type="button"
                       @click="toggleDropdown(0)"
                     >
@@ -60,6 +61,7 @@
                   <div class="dropdown">
                     <button
                       class="dropdown-toggle"
+                      :class="{ 'is-active': isSelected[1] }"
                       type="button"
                       @click="toggleDropdown(1)"
                     >
@@ -85,6 +87,7 @@
                   <div class="dropdown">
                     <button
                       class="dropdown-toggle"
+                      :class="{ 'is-active': isSelected[2] }"
                       type="button"
                       @click="toggleDropdown(2)"
                     >
@@ -143,6 +146,7 @@ export default {
       state: this.placeState,
       city: this.placeCity,
       town: this.placeTown,
+      isSelected: [false, false, false],
     };
   },
   methods: {
@@ -158,14 +162,17 @@ export default {
     selectState(item) {
       this.selectedState = item;
       this.toggleDropdown(0);
+      this.isSelected[0] = !this.isSelected[0];
     },
     selectCity(item) {
       this.selectedCity = item;
       this.toggleDropdown(1);
+      this.isSelected[1] = !this.isSelected[1];
     },
     selectTown(item) {
       this.selectedTown = item;
       this.toggleDropdown(2);
+      this.isSelected[2] = !this.isSelected[2];
     },
     selectPlaceAll() {
       console.log(this.selectedCity, this.selectedTown);

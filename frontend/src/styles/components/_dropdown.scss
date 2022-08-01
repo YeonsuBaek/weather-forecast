@@ -1,15 +1,19 @@
 .dropdown {
   &-toggle {
+    @include flexbox(start);
     position: relative;
-    width: 100%;
-    height: $input-height;
     margin-bottom: $input-margin-bottom;
     padding: 0 12px;
-    color: $snowy-02;
+    width: 100%;
+    height: $input-height;
+    color: $snowy-03;
     background-color: #fff;
     border-radius: 4px;
-    @include flexbox(start);
-    color: $snowy-03;
+
+    &.is-active {
+      color: $snowy-02;
+    }
+
     &:last-child {
       margin-bottom: 0;
     }
