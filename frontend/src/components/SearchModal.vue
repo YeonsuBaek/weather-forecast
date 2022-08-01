@@ -124,6 +124,15 @@
         </div>
       </div>
     </div>
+
+    <div class="toast">
+      <button type="button" class="close-button">
+        <img src="@/assets/icon-close.png" alt="창닫기" />
+      </button>
+      <strong class="toast-message">
+        상위 카테고리를 먼저 선택해주세요!
+      </strong>
+    </div>
   </aside>
 </template>
 
@@ -157,7 +166,11 @@ export default {
       this.isOpen = !this.isOpen;
     },
     toggleDropdown(num) {
-      this.isOpenDropdown[num] = !this.isOpenDropdown[num];
+      if (this.isSelected[num - 1] == false) {
+        alert("상위 카테고리를 먼저 선택해주세요.");
+      } else {
+        this.isOpenDropdown[num] = !this.isOpenDropdown[num];
+      }
     },
     selectState(item) {
       this.selectedState = item;
