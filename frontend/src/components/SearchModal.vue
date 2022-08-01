@@ -185,11 +185,7 @@ export default {
       this.isOpenDropdown[num + 2] = false;
 
       if (this.isSelected[num - 1] == false) {
-        this.isActiveToast = !this.isActiveToast;
-
-        if (this.isActiveToast == true) {
-          setTimeout(() => (this.isActiveToast = false), 2000);
-        }
+        this.openToast();
       } else {
         this.isOpenDropdown[num] = !this.isOpenDropdown[num];
       }
@@ -217,15 +213,18 @@ export default {
     },
     selectPlaceAll() {
       if (this.isSelected.includes(false) == true) {
-        this.isActiveToast = !this.isActiveToast;
-
-        if (this.isActiveToast == true) {
-          setTimeout(() => (this.isActiveToast = false), 2000);
-        }
+        this.openToast();
       } else {
         this.$emit("selectPlace", this.selectedCity, this.selectedTown);
         this.$emit("closeModal");
         this.isOpenSearchForm = false;
+      }
+    },
+    openToast() {
+      this.isActiveToast = !this.isActiveToast;
+
+      if (this.isActiveToast == true) {
+        setTimeout(() => (this.isActiveToast = false), 2000);
       }
     },
     closeToast() {
