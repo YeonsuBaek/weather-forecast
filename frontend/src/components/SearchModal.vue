@@ -1,5 +1,5 @@
 <template>
-  <aside class="search-modal" :class="{ 'is-active': isActive }">
+  <aside class="search-modal" :class="{ 'is-active': isActiveSearchModal }">
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
@@ -140,7 +140,7 @@
 export default {
   name: "SearchModal",
   props: {
-    isActive: Boolean,
+    isActiveSearchModal: Boolean,
     placeState: Array,
     placeCity: Array,
     placeTown: Array,

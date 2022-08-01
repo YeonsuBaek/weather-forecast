@@ -14,7 +14,7 @@
     </div>
 
     <SearchModal
-      :isActive="isActive"
+      :isActiveSearchModal="isActiveSearchModal"
       @closeModal="closeActiveModal"
       :placeState="placeState"
       :placeCity="placeCity"
@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      isActive: false,
+      isActiveSearchModal: false,
       location: "수원시 금곡동",
       placeState,
       placeCity,
@@ -53,10 +53,10 @@ export default {
   },
   methods: {
     openSearchModal() {
-      this.isActive = !this.isActive;
+      this.isActiveSearchModal = !this.isActiveSearchModal;
     },
     closeActiveModal() {
-      this.isActive = !this.isActive;
+      this.isActiveSearchModal = !this.isActiveSearchModal;
     },
     viewPlaceName(city, town) {
       if (city !== "시/군/구" && town !== "동/읍/면") {
