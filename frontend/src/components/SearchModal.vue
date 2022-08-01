@@ -176,6 +176,10 @@ export default {
       this.isSelected[2] = false;
     },
     toggleDropdown(num) {
+      this.isOpenDropdown[num - 1] = false;
+      this.isOpenDropdown[num + 1] = false;
+      this.isOpenDropdown[num + 2] = false;
+
       if (this.isSelected[num - 1] == false) {
         this.isActiveToast = !this.isActiveToast;
 
