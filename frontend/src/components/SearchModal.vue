@@ -125,8 +125,8 @@
       </div>
     </div>
 
-    <div class="toast">
-      <button type="button" class="close-button">
+    <div class="toast" :class="{ 'is-active': isActiveToast }">
+      <button type="button" class="close-button" @click="closeToast">
         <img src="@/assets/icon-close.png" alt="창닫기" />
       </button>
       <strong class="toast-message">
@@ -156,6 +156,7 @@ export default {
       city: this.placeCity,
       town: this.placeTown,
       isSelected: [false, false, false],
+      isActiveToast: false,
     };
   },
   methods: {
@@ -167,7 +168,11 @@ export default {
     },
     toggleDropdown(num) {
       if (this.isSelected[num - 1] == false) {
-        alert("상위 카테고리를 먼저 선택해주세요.");
+        this.isActiveToast = !this.isActiveToast;
+
+        if (this.isActiveToast == true) {
+          setTimeout(() => (this.isActiveToast = false), 2000);
+        }
       } else {
         this.isOpenDropdown[num] = !this.isOpenDropdown[num];
       }
@@ -191,6 +196,9 @@ export default {
       console.log(this.selectedCity, this.selectedTown);
       this.$emit("selectPlace", this.selectedCity, this.selectedTown);
       this.$emit("closeModal");
+    },
+    closeToast() {
+      this.isActiveToast = !this.isActiveToast;
     },
   },
 };
