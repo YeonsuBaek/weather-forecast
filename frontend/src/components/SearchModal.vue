@@ -216,9 +216,17 @@ export default {
       this.isSelected[2] = true;
     },
     selectPlaceAll() {
-      this.$emit("selectPlace", this.selectedCity, this.selectedTown);
-      this.$emit("closeModal");
-      this.isOpenSearchForm = false;
+      if (this.isSelected.includes(false) == true) {
+        this.isActiveToast = !this.isActiveToast;
+
+        if (this.isActiveToast == true) {
+          setTimeout(() => (this.isActiveToast = false), 2000);
+        }
+      } else {
+        this.$emit("selectPlace", this.selectedCity, this.selectedTown);
+        this.$emit("closeModal");
+        this.isOpenSearchForm = false;
+      }
     },
     closeToast() {
       this.isActiveToast = !this.isActiveToast;
