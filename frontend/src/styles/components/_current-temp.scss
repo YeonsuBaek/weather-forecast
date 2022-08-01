@@ -89,23 +89,23 @@
     background-position: center center;
 
     &.clear {
-      background-image: url("@/assets/icon-clear.svg");
+      background-image: url("@/assets/icons/icon-clear.svg");
     }
 
     &.clear-night {
-      background-image: url("@/assets/icon-clear-night.svg");
+      background-image: url("@/assets/icons/icon-clear-night.svg");
     }
 
     &.cloudy {
-      background-image: url("@/assets/icon-cloudy.svg");
+      background-image: url("@/assets/icons/icon-cloudy.svg");
     }
 
     &.rainy {
-      background-image: url("@/assets/icon-rainy.svg");
+      background-image: url("@/assets/icons/icon-rainy.svg");
     }
 
     &.snowy {
-      background-image: url("@/assets/icon-snowy.svg");
+      background-image: url("@/assets/icons/icon-snowy.svg");
     }
   }
 }

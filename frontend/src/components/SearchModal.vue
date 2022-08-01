@@ -5,7 +5,7 @@
         <div class="col-sm-4">
           <header class="search-modal-header">
             <button class="back-button" type="button" @click="closeSearchModal">
-              <img src="../assets/icon-caret.png" alt="뒤로가기" />
+              <img src="../assets/icons/icon-caret.png" alt="뒤로가기" />
             </button>
             <h1>위치 검색하기</h1>
           </header>
@@ -14,7 +14,7 @@
             <button class="gps-button" type="button">
               <h2>GPS 현재 위치</h2>
               <div class="button-icon" aria-hidden>
-                <img src="../assets/icon-gps.png" alt="" />
+                <img src="../assets/icons/icon-gps.png" alt="" />
               </div>
             </button>
 
@@ -26,7 +26,7 @@
               >
                 <h2>직접 위치 검색</h2>
                 <div class="button-icon" aria-hidden>
-                  <img src="../assets/icon-caret.png" alt="" />
+                  <img src="../assets/icons/icon-caret.png" alt="" />
                 </div>
               </button>
 
@@ -130,7 +130,7 @@
 
     <div class="toast" :class="{ 'is-active': isActiveToast }">
       <button type="button" class="close-button" @click="closeToast">
-        <img src="@/assets/icon-close.png" alt="창닫기" />
+        <img src="@/assets/icons/icon-close.png" alt="창닫기" />
       </button>
       <strong class="toast-message">
         상위 카테고리를 먼저 선택해주세요!
