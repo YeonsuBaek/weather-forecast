@@ -1,5 +1,7 @@
 package com.weatherproject.weather.serviceImpl;
 
+import com.weatherproject.weather.config.WeatherAPIConfig;
+import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
 import com.weatherproject.weather.service.WeatherAPIService;
 import org.springframework.http.HttpHeaders;
@@ -12,11 +14,16 @@ import org.springframework.web.util.UriComponents;
 import org.springframework.web.util.UriComponentsBuilder;
 import reactor.core.publisher.Mono;
 
+import java.util.List;
+
 @Service
 public class WeatherAPIServiceImpl implements WeatherAPIService {
 
+    //WeatherAPIConfig weatherAPIConfig;
+
+
     private final static String BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0";
-    private final String API_KET = "";
+    private final String API_KEY = "";
 
     @Override
     public UriComponents generateApiUrl(ApiUrlGeneratorDTO apiUrlGeneratorDTO) {
@@ -39,7 +46,7 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
     }
 
     @Override
-    public String getApiDate(UriComponents url) {
+    public Object getApiDate(UriComponents url) {
         /*WebClient client = WebClient.builder()
                 .baseUrl(BASE_URL)
                 .defaultCookie("cookieKey", "cookieValue")
@@ -58,10 +65,10 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
                 .baseUrl(BASE_URL)
                 .build();
 
-        String response = client.get()
+        Object response = client.get()
                 .uri(uriBuilder -> uriBuilder
                         .path("/getVilageFcst")
-                        .queryParam("serviceKey" , API_KET)
+                        .queryParam("serviceKey" , API_KEY)
                         .queryParam("numOfRows", 954)
                         .queryParam("pageNo", 1)
                         .queryParam("base_date", 20220802)
@@ -69,7 +76,7 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
                         .queryParam("dataType", "JSON")
                         .queryParam("nx", 61)
                         .queryParam("ny", 120).build()
-                ).retrieve().bodyToMono(String.class).block();
+                ).retrieve().bodyToMono(Object.class).block();
 
         return response;
 

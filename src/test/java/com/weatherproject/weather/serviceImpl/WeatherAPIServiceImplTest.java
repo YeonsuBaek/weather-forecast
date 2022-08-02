@@ -1,5 +1,6 @@
 package com.weatherproject.weather.serviceImpl;
 
+import com.weatherproject.weather.config.WeatherAPIConfig;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +16,12 @@ class WeatherAPIServiceImplTest {
     @Autowired
     WeatherAPIServiceImpl weatherAPIService;
 
+    @Autowired
+    WeatherAPIConfig weatherAPIConfig;
+
     @Test
     void urlTest() {
-        String key = "";
+        String key = weatherAPIConfig.key;
         ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220802, 1700, "JSON", 61, 120);
         String url = String.valueOf(weatherAPIService.generateApiUrl(apiUrlGeneratorDTO));
 
@@ -26,11 +30,11 @@ class WeatherAPIServiceImplTest {
 
     @Test
     void apiTest() {
-        String key = "";
+        String key = weatherAPIConfig.key;
         ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220802, 1700, "JSON", 61, 120);
         UriComponents url = weatherAPIService.generateApiUrl(apiUrlGeneratorDTO);
 
-        String response = weatherAPIService.getApiDate(url);
+        Object response = weatherAPIService.getApiDate(url);
         System.out.println(response.toString());
     }
 

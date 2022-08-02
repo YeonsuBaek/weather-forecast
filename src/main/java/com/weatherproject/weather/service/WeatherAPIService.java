@@ -8,5 +8,5 @@ public interface WeatherAPIService {
 
     public UriComponents generateApiUrl(ApiUrlGeneratorDTO apiUrlGeneratorDTO);
 
-    public String getApiDate(UriComponents url);
+    public Object getApiDate(UriComponents url);
 }
