@@ -1,17 +1,11 @@
 <template>
   <header class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <button class="location" type="button" @click="openSearchModal">
-            <h1 class="location-name">
-              {{ location }}
-            </h1>
-            <strong class="location-weather">{{ weather }}</strong>
-          </button>
-        </div>
-      </div>
-    </div>
+    <button class="location" type="button" @click="openSearchModal">
+      <h1 class="location-name">
+        {{ location }}
+      </h1>
+      <strong class="location-weather">{{ weather }}</strong>
+    </button>
 
     <SearchModal
       :isActiveSearchModal="isActiveSearchModal"

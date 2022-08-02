@@ -1,8 +1,16 @@
 <template>
   <div>
-    <CurrentTime />
-    <GlobalHeader :weather="weatherSummery" />
-    <MainContent :weather="weather" :temp="temp" />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-lg-2">
+          <CurrentTime />
+        </div>
+        <div class="col-sm-4 col-lg-6">
+          <GlobalHeader :weather="weatherSummery" />
+          <MainContent :weather="weather" :temp="temp" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
