@@ -1,5 +1,6 @@
 <template>
   <div>
+    <CurrentTime />
     <GlobalHeader :weather="weatherSummery" />
     <MainContent :weather="weather" :temp="temp" />
   </div>
@@ -8,12 +9,14 @@
 <script>
 import GlobalHeader from "./components/GlobalHeader.vue";
 import MainContent from "./components/MainContent.vue";
+import CurrentTime from "./components/CurrentTime.vue";
 
 export default {
   name: "App",
   components: {
     GlobalHeader,
     MainContent,
+    CurrentTime,
   },
   data() {
     return {
