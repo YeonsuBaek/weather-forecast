@@ -16,7 +16,7 @@ import reactor.core.publisher.Mono;
 public class WeatherAPIServiceImpl implements WeatherAPIService {
 
     private final static String BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0";
-    private final String API_KET = "nSmfjRDZ%2BV50faXQDrWwUeedWar2l0UM5KkCehAPcH%2BwjUF%2FR362qlgBd1mYU9xBIauT11l5O5OWvlCDS9PrqQ%3D%3D";
+    private final String API_KET = "";
 
     @Override
     public UriComponents generateApiUrl(ApiUrlGeneratorDTO apiUrlGeneratorDTO) {
