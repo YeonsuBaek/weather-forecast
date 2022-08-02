@@ -11,8 +11,11 @@
 
 @import "./layouts/grids";
 @import "./layouts/header";
+@import "./layouts/scrollbar";
+@import "./layouts/toasts";
 
 @import "./components/current-temp";
 @import "./components/search-modal";
 @import "./components/daily-temp";
 @import "./components/weekly-temp";
+@import "./components/dropdown";

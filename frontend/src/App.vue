@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GlobalHeader :weather="weatherSummery" :location="location" />
+    <GlobalHeader :weather="weatherSummery" />
     <MainContent :weather="weather" :temp="temp" />
   </div>
 </template>
@@ -18,7 +18,6 @@ export default {
   data() {
     return {
       weather: "clear",
-      location: "수원시 금곡동",
       weatherSummery: "맑음",
       temp: {
         highest: 29,
