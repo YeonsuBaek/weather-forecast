@@ -81,7 +81,7 @@ public class GeographicServiceImpl implements GeographicService {
 
         List<String> result = new ArrayList<>();
 
-        townDTOS = townDTOS.stream().distinct().collect(Collectors.toList());
+        result = townDTOS.stream().distinct().collect(Collectors.toList());
 
         return result;
     }

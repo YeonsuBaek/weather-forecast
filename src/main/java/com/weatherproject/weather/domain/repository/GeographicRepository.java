@@ -18,6 +18,6 @@ public interface GeographicRepository extends JpaRepository<Geographic, Long> {
     //@Query(value = "SELECT DISTINCT city FROM geographic_coordinate g WHERE g.state = :state", nativeQuery = true)
     List<Geographic> findDistinctCityByState(String state);
 
-    List<Geographic> findDistinctByCity(String city);
+    List<Geographic> findDistinctTownByStateAndCity(String state, String city);
 
 }
