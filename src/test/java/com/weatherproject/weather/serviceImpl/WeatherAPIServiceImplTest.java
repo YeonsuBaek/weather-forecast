@@ -17,7 +17,7 @@ class WeatherAPIServiceImplTest {
 
     @Test
     void urlTest() {
-        String key = "nSmfjRDZ%2BV50faXQDrWwUeedWar2l0UM5KkCehAPcH%2BwjUF%2FR362qlgBd1mYU9xBIauT11l5O5OWvlCDS9PrqQ%3D%3D";
+        String key = "";
         ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220802, 1700, "JSON", 61, 120);
         String url = String.valueOf(weatherAPIService.generateApiUrl(apiUrlGeneratorDTO));
 
@@ -26,7 +26,7 @@ class WeatherAPIServiceImplTest {
 
     @Test
     void apiTest() {
-        String key = "nSmfjRDZ%2BV50faXQDrWwUeedWar2l0UM5KkCehAPcH%2BwjUF%2FR362qlgBd1mYU9xBIauT11l5O5OWvlCDS9PrqQ%3D%3D";
+        String key = "";
         ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220802, 1700, "JSON", 61, 120);
         UriComponents url = weatherAPIService.generateApiUrl(apiUrlGeneratorDTO);
 
