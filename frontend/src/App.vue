@@ -2,7 +2,7 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-lg-2">
+        <div class="col-lg-2 lg-only">
           <CurrentTime />
         </div>
         <div class="col-sm-4 col-lg-6">

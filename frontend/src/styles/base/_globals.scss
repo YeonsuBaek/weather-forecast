@@ -9,3 +9,15 @@
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+.lg-only {
+  @media screen and (max-width: 1199px) {
+    display: none !important;
+  }
+}
+
+.lg-hidden {
+  @media screen and (min-width: 1200px) {
+    display: none !important;
+  }
+}
