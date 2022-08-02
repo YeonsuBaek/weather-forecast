@@ -18,6 +18,23 @@
       opacity: 0.75;
     }
   }
+
+  @include responsive(D) {
+    // @include flexbox(start);
+    margin-top: 40px;
+
+    .location {
+      @include column-flexbox(center, start);
+
+      &-name {
+        font-size: 24px;
+      }
+
+      &-weather {
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 .clear {
