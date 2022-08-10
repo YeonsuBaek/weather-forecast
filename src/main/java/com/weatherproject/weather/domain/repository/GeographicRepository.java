@@ -20,4 +20,6 @@ public interface GeographicRepository extends JpaRepository<Geographic, Long> {
 
     List<Geographic> findDistinctTownByStateAndCity(String state, String city);
 
+    Geographic findDistinctByStateAndCityAndTown(String state, String city, String town);
+
 }

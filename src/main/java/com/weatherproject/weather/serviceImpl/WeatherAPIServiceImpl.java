@@ -3,6 +3,8 @@ package com.weatherproject.weather.serviceImpl;
 import com.weatherproject.weather.config.WeatherAPIConfig;
 import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
+import com.weatherproject.weather.domain.DTO.CoordinateDTO;
+import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.service.WeatherAPIService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -19,11 +21,15 @@ import java.util.List;
 @Service
 public class WeatherAPIServiceImpl implements WeatherAPIService {
 
-    //WeatherAPIConfig weatherAPIConfig;
 
+    WeatherAPIConfig weatherAPIConfig;
+
+    public WeatherAPIServiceImpl(WeatherAPIConfig weatherAPIConfig) {
+        this.weatherAPIConfig = weatherAPIConfig;
+    }
 
     private final static String BASE_URL = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0";
-    private final String API_KEY = "";
+    private final String API_KEY = weatherAPIConfig.key;
 
     @Override
     public UriComponents generateApiUrl(ApiUrlGeneratorDTO apiUrlGeneratorDTO) {
@@ -81,4 +87,5 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
         return response;
 
     }
+
 }

@@ -1,9 +1,6 @@
 package com.weatherproject.weather.serviceImpl;
 
-import com.weatherproject.weather.domain.DTO.CityDTO;
-import com.weatherproject.weather.domain.DTO.GeographicDTO;
-import com.weatherproject.weather.domain.DTO.StateDTO;
-import com.weatherproject.weather.domain.DTO.TownDTO;
+import com.weatherproject.weather.domain.DTO.*;
 import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.service.GeographicService;
 import org.springframework.stereotype.Service;
@@ -84,5 +81,14 @@ public class GeographicServiceImpl implements GeographicService {
         result = townDTOS.stream().distinct().collect(Collectors.toList());
 
         return result;
+    }
+
+
+    //해당 지역의 좌표값을 구해 DTO로 반환하는 메소드
+    @Override
+    public CoordinateDTO getCoordinate(Geographic geographic) {
+        CoordinateDTO coordinateDTO = new CoordinateDTO((int) geographic.getGrid_X(), (int) geographic.getGrid_Y());
+
+        return coordinateDTO;
     }
 }

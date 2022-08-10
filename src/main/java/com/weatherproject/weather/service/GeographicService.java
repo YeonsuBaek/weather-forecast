@@ -1,9 +1,6 @@
 package com.weatherproject.weather.service;
 
-import com.weatherproject.weather.domain.DTO.CityDTO;
-import com.weatherproject.weather.domain.DTO.GeographicDTO;
-import com.weatherproject.weather.domain.DTO.StateDTO;
-import com.weatherproject.weather.domain.DTO.TownDTO;
+import com.weatherproject.weather.domain.DTO.*;
 import com.weatherproject.weather.domain.entity.Geographic;
 
 import java.util.List;
@@ -19,6 +16,8 @@ public interface GeographicService {
     public List<String> findCity(List<Geographic> Geographic);
 
     public List<String> findTown(List<Geographic> Geographic);
+
+    public CoordinateDTO getCoordinate(Geographic geographic);
 
 
 }

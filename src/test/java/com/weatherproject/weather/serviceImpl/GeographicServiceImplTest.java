@@ -1,6 +1,7 @@
 package com.weatherproject.weather.serviceImpl;
 
 import com.weatherproject.weather.domain.DTO.CityDTO;
+import com.weatherproject.weather.domain.DTO.CoordinateDTO;
 import com.weatherproject.weather.domain.DTO.StateDTO;
 import com.weatherproject.weather.domain.DTO.TownDTO;
 import com.weatherproject.weather.domain.entity.Geographic;
@@ -85,5 +86,18 @@ class GeographicServiceImplTest {
         System.out.println(townDTOS.size() + " " + townDTOS.get(0).toString() + " " + townDTOS.get(1).toString());
         //Assertions.assertEquals(townDTOS.get(0).getTown(), "도곡동");
 
+    }
+
+    @Test
+    void 좌표를DTO로반환() {
+
+        Long no = Long.valueOf(0);
+        Long area = Long.valueOf(1);
+        Geographic geographic = new Geographic(no, "kor", area, "서울특별시", "종로구", "도곡동", 60, 127, 0, 0, 0, 0, 0);
+
+        CoordinateDTO coordinateDTO = geographicService.getCoordinate(geographic);
+
+        Assertions.assertEquals(coordinateDTO.getNx(), 60);
+        Assertions.assertEquals(coordinateDTO.getNy(), 127);
     }
 }

@@ -4,6 +4,7 @@ import com.weatherproject.weather.domain.DTO.CityDTO;
 import com.weatherproject.weather.domain.DTO.GeographicDTO;
 import com.weatherproject.weather.domain.entity.Geographic;
 import lombok.RequiredArgsConstructor;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -41,5 +42,16 @@ class GeographicRepositoryTest {
 
         cityList.stream().distinct().forEach(name -> {System.out.println(name);});
 
+    }
+
+    @Test
+    void 좌표구하기() {
+        Geographic geographic = geographicRepository.findDistinctByStateAndCityAndTown("서울특별시", "종로구", "가회동");
+
+        Assertions.assertEquals(geographic
+                .getGrid_X(), 60);
+        Assertions.assertEquals(geographic.getGrid_Y(), 127);
+
+        System.out.println(geographic.getGrid_X() + " " + geographic.getGrid_Y());
     }
 }
