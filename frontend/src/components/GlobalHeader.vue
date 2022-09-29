@@ -1,7 +1,7 @@
 <template>
-  <header class="header">
+  <header class="header" :class="weather">
     <span class="header-message">지금 한신대는</span>
-    <h1 class="current-condition">{{ weather }}</h1>
+    <h1 class="current-condition">{{ weatherSummery }}</h1>
 
     <a
       class="hs-button"
@@ -20,6 +20,7 @@ export default {
 
   props: {
     weather: String,
+    weatherSummery: String,
   },
   data() {
     return {

@@ -6,70 +6,51 @@
   width: 100%;
   height: 60px;
   color: #fff;
+  background: linear-gradient($clear-01, rgba($clear-01, 0));
   z-index: $global-header;
-}
 
-.header-message {
-  font-size: 13px;
-  font-weight: 400;
-  opacity: 0.75;
-}
-
-.current-condition {
-  margin: 0;
-  font-size: 18px;
-}
-
-.hs-button {
-  position: absolute;
-  top: 50%;
-  right: 16px;
-  width: 48px;
-  height: 48px;
-  overflow: hidden;
-  transform: translate(0, -50%);
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-}
-
-.clear,
-.cloudy {
-  .header {
-    background: linear-gradient($clear-01, rgba($clear-01, 0));
-  }
-}
-
-.clear-night {
-  .header {
+  &.clear-night {
     background: linear-gradient($clear-night, rgba($clear-night, 0));
   }
-}
 
-.blur {
-  .header {
+  &.blur {
+    color: $blur-02;
     background: linear-gradient($blur-01, rgba($blur-01, 0));
   }
 
-  .location {
-    color: $blur-02;
-  }
-}
-
-.rainy {
-  .header {
+  &.rainy {
     background: linear-gradient($rainy-01, rgba($rainy-01, 0));
   }
-}
 
-.snowy {
-  .header {
+  &.snowy {
+    color: $snowy-02;
     background: linear-gradient($snowy-01, rgba($snowy-01, 0));
   }
-  .location {
-    color: $snowy-02;
+
+  .header-message {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.75;
+  }
+
+  .current-condition {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .hs-button {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    transform: translate(0, -50%);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }

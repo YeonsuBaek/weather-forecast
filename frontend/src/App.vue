@@ -6,7 +6,7 @@
           <CurrentTime />
         </div>
         <div class="col-sm-4 col-lg-6">
-          <GlobalHeader :weather="weatherSummery" />
+          <GlobalHeader :weather="weather" :weatherSummery="weatherSummery" />
           <WeatherContent
             v-show="weatherShow"
             :weather="weather"
