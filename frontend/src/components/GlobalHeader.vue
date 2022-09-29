@@ -1,62 +1,30 @@
 <template>
   <header class="header">
-    <button class="location" type="button" @click="openSearchModal">
-      <h1 class="location-name">
-        {{ location }}
-      </h1>
-      <strong class="location-weather">{{ weather }}</strong>
-    </button>
+    <span class="header-message">지금 한신대는</span>
+    <h1 class="current-condition">{{ weather }}</h1>
 
-    <SearchModal
-      :isActiveSearchModal="isActiveSearchModal"
-      @closeModal="closeActiveModal"
-      :placeState="placeState"
-      :placeCity="placeCity"
-      :placeTown="placeTown"
-      @selectPlace="viewPlaceName"
-    />
+    <a
+      class="hs-button"
+      href="https://www.hs.ac.kr/"
+      target="_blank"
+      type="button"
+    >
+      <img src="../assets/icons/icon-hs-white.svg" alt="" />
+    </a>
   </header>
 </template>
 
 <script>
-import SearchModal from "./SearchModal.vue";
-import PlaceState from "@/assets/data/state.json";
-import PlaceCity from "@/assets/data/city.json";
-import PlaceTown from "@/assets/data/town.json";
-
-const placeState = PlaceState;
-const placeCity = PlaceCity;
-const placeTown = PlaceTown;
-
 export default {
   name: "GlobalHeader",
-  components: {
-    SearchModal,
-  },
+
   props: {
     weather: String,
   },
   data() {
     return {
       isActiveSearchModal: false,
-      location: "수원시 금곡동",
-      placeState,
-      placeCity,
-      placeTown,
     };
-  },
-  methods: {
-    openSearchModal() {
-      this.isActiveSearchModal = !this.isActiveSearchModal;
-    },
-    closeActiveModal() {
-      this.isActiveSearchModal = !this.isActiveSearchModal;
-    },
-    viewPlaceName(city, town) {
-      if (city !== "시/군/구" && town !== "동/읍/면") {
-        this.location = `${city} ${town}`;
-      }
-    },
   },
 };
 </script>
