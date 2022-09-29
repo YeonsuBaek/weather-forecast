@@ -14,7 +14,7 @@
           />
           <ClosetContent v-show="closetShow" />
           <MusicContent v-show="musicShow" />
-          <GlobalFooter @changeTab="moveToTab" />
+          <GlobalFooter @changeTab="moveToTab" :weather="weather" />
         </div>
       </div>
     </div>
@@ -42,7 +42,7 @@ export default {
 
   data() {
     return {
-      weather: "cloudy",
+      weather: "snowy",
       weatherSummery: "맑음",
       temp: {
         highest: 29,

@@ -1,0 +1,43 @@
+.footer {
+  @include flexbox;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+  .tab {
+    &-list {
+      @include flexbox(between);
+      gap: 70px;
+    }
+
+    &-button {
+      @include flexbox;
+      width: 40px;
+      height: 40px;
+
+      i {
+        font-size: 28px;
+      }
+
+      &:is(:hover, :active) {
+        i:is(.clear, .cloudy, .clear-night):before {
+          color: $clear-02;
+        }
+
+        i.rainy:before {
+          color: $rainy-02;
+        }
+
+        i.blur:before {
+          color: $blur-02;
+        }
+
+        i.snowy:before {
+          color: $snowy-02;
+        }
+      }
+    }
+  }
+}

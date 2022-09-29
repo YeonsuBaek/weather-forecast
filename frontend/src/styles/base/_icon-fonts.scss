@@ -25,15 +25,26 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ic-icon-closet:before {
+.ic-icon-closet::before {
   content: "\e900";
-  color: #fff;
 }
+
 .ic-icon-music:before {
   content: "\e901";
-  color: #fff;
 }
 .ic-icon-temp:before {
   content: "\e902";
+}
+
+:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp):is(.clear, .cloudy, .clear-night):before {
   color: #fff;
+}
+:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).rainy::before {
+  color: $rainy-03;
+}
+:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).blur::before {
+  color: $blur-03;
+}
+:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).snowy::before {
+  color: $snowy-03;
 }
