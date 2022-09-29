@@ -7,7 +7,14 @@
         </div>
         <div class="col-sm-4 col-lg-6">
           <GlobalHeader :weather="weatherSummery" />
-          <WeatherContent :weather="weather" :temp="temp" />
+          <WeatherContent
+            v-show="weatherShow"
+            :weather="weather"
+            :temp="temp"
+          />
+          <ClosetContent v-show="closetShow" />
+          <MusicContent v-show="musicShow" />
+          <GlobalFooter @changeTab="moveToTab" />
         </div>
       </div>
     </div>
@@ -18,6 +25,9 @@
 import GlobalHeader from "./components/GlobalHeader.vue";
 import WeatherContent from "./components/WeatherContent.vue";
 import CurrentTime from "./components/CurrentTime.vue";
+import GlobalFooter from "./components/GlobalFooter.vue";
+import ClosetContent from "./components/ClosetContent.vue";
+import MusicContent from "./components/MusicContent.vue";
 
 export default {
   name: "App",
@@ -25,7 +35,11 @@ export default {
     GlobalHeader,
     CurrentTime,
     WeatherContent,
+    GlobalFooter,
+    ClosetContent,
+    MusicContent,
   },
+
   data() {
     return {
       weather: "cloudy",
@@ -35,11 +49,33 @@ export default {
         lowest: 24,
         current: 26,
       },
+      weatherShow: true,
+      closetShow: false,
+      musicShow: false,
     };
   },
+
   mounted() {
     document.body.className = "";
     document.body.classList.add(this.weather);
+  },
+
+  methods: {
+    moveToTab(tab) {
+      if (tab === "weather") {
+        this.weatherShow = true;
+        this.closetShow = false;
+        this.musicShow = false;
+      } else if (tab === "closet") {
+        this.weatherShow = false;
+        this.closetShow = true;
+        this.musicShow = false;
+      } else if (tab === "music") {
+        this.weatherShow = false;
+        this.closetShow = false;
+        this.musicShow = true;
+      }
+    },
   },
 };
 </script>
