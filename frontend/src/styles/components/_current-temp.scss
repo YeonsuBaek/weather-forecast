@@ -88,6 +88,7 @@
     animation: image-up 3000ms ease-in-out;
     background-repeat: no-repeat;
     background-position: center top;
+    z-index: $current-image;
 
     &.clear {
       background-image: url("@/assets/icons/icon-clear.svg");

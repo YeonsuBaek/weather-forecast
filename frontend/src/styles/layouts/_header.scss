@@ -6,7 +6,7 @@
   width: 100%;
   height: 60px;
   color: #fff;
-  z-index: 100;
+  z-index: $global-header;
 }
 
 .header-message {
@@ -23,7 +23,7 @@
 .hs-button {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 16px;
   width: 48px;
   height: 48px;
   overflow: hidden;
@@ -36,7 +36,8 @@
   }
 }
 
-.clear {
+.clear,
+.cloudy {
   .header {
     background: linear-gradient($clear-01, rgba($clear-01, 0));
   }
