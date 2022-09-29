@@ -15,6 +15,50 @@
       <div class="current-image" :class="weather"></div>
     </div>
 
+    <div class="summary">
+      <dl class="summary-list">
+        <div class="summary-item">
+          <dt>
+            습도
+            <i>
+              <img src="../assets/icons/icon-humd.svg" alt="" />
+            </i>
+          </dt>
+          <dd>50%</dd>
+        </div>
+
+        <div class="summary-item">
+          <dt>
+            바람
+            <i>
+              <img src="../assets/icons/icon-wind.svg" alt="" />
+            </i>
+          </dt>
+          <dd>약함</dd>
+        </div>
+
+        <div class="summary-item">
+          <dt>
+            강수확률
+            <i>
+              <img src="../assets/icons/icon-water.svg" alt="" />
+            </i>
+          </dt>
+          <dd>0%</dd>
+        </div>
+
+        <div class="summary-item">
+          <dt>
+            강수형태
+            <i>
+              <img src="../assets/icons/icon-rain.svg" alt="" />
+            </i>
+          </dt>
+          <dd>없음</dd>
+        </div>
+      </dl>
+    </div>
+
     <div class="daily">
       <ul class="daily-list">
         <li class="daily-item">

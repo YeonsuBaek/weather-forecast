@@ -1,0 +1,33 @@
+.summary {
+  margin-bottom: 24px;
+
+  &-list {
+    @include flexbox;
+  }
+
+  &-item {
+    @include column-flexbox;
+    margin-right: 16px;
+    width: 48px;
+  }
+
+  dt {
+    @include column-flexbox;
+    font-size: 13px;
+    opacity: 0.75;
+
+    i {
+      margin: 4px 0;
+      width: 32px;
+      height: 32px;
+      overflow: hidden;
+      opacity: 1;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
