@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <section class="tab tab-weather">
     <div class="current">
       <p class="temp-summery">
         <span class="temp-highest" aria-label="최고 기온">{{
@@ -159,7 +159,7 @@
         </li>
       </ul>
     </div>
-  </main>
+  </section>
 </template>
 
 <script>

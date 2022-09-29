@@ -48,13 +48,13 @@
   }
 }
 
-.cloudy {
+.blur {
   .header {
-    background: linear-gradient($cloudy-01, rgba($cloudy-01, 0));
+    background: linear-gradient($blur-01, rgba($blur-01, 0));
   }
 
   .location {
-    color: $cloudy-02;
+    color: $blur-02;
   }
 }
 
