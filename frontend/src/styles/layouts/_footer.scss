@@ -6,6 +6,26 @@
   width: 100%;
   height: 50px;
 
+  &:is(.clear, :cloudy) {
+    background-color: $clear-01;
+  }
+
+  &.clear-night {
+    background-color: $clear-night;
+  }
+
+  &.blur {
+    background-color: $blur-01;
+  }
+
+  &.rainy {
+    background-color: $rainy-01;
+  }
+
+  &.snowy {
+    background-color: $snowy-01;
+  }
+
   .tab {
     &-list {
       @include flexbox(between);
@@ -21,7 +41,7 @@
         font-size: 28px;
       }
 
-      &:is(:hover, :active) {
+      &:is(:hover, :active, .isActive) {
         i:is(.clear, .cloudy, .clear-night):before {
           color: $clear-02;
         }
