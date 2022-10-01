@@ -8,7 +8,7 @@
       </li>
 
       <li class="tab-item">
-        <button type="button" class="tab-button" @click="clickTab('closet')">
+        <button type="button" class="tab-button" @click="clickTab('codi')">
           <i class="ic-icon-closet" :class="weather"></i>
         </button>
       </li>

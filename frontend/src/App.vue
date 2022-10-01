@@ -12,12 +12,12 @@
             :weather="weather"
             :temp="temp"
           />
-          <ClosetContent v-show="closetShow" />
-          <MusicContent v-show="musicShow" />
-          <GlobalFooter @changeTab="moveToTab" :weather="weather" />
         </div>
       </div>
     </div>
+    <CodiContent v-show="codiShow" />
+    <MusicContent v-show="musicShow" />
+    <GlobalFooter @changeTab="moveToTab" :weather="weather" />
   </div>
 </template>
 
@@ -26,7 +26,7 @@ import GlobalHeader from "./components/GlobalHeader.vue";
 import WeatherContent from "./components/WeatherContent.vue";
 import CurrentTime from "./components/CurrentTime.vue";
 import GlobalFooter from "./components/GlobalFooter.vue";
-import ClosetContent from "./components/ClosetContent.vue";
+import CodiContent from "./components/CodiContent.vue";
 import MusicContent from "./components/MusicContent.vue";
 
 export default {
@@ -36,13 +36,13 @@ export default {
     CurrentTime,
     WeatherContent,
     GlobalFooter,
-    ClosetContent,
+    CodiContent,
     MusicContent,
   },
 
   data() {
     return {
-      weather: "snowy",
+      weather: "clear",
       weatherSummery: "맑음",
       temp: {
         highest: 29,
@@ -50,7 +50,7 @@ export default {
         current: 26,
       },
       weatherShow: true,
-      closetShow: false,
+      codiShow: false,
       musicShow: false,
     };
   },
@@ -64,15 +64,15 @@ export default {
     moveToTab(tab) {
       if (tab === "weather") {
         this.weatherShow = true;
-        this.closetShow = false;
+        this.codiShow = false;
         this.musicShow = false;
-      } else if (tab === "closet") {
+      } else if (tab === "codi") {
         this.weatherShow = false;
-        this.closetShow = true;
+        this.codiShow = true;
         this.musicShow = false;
       } else if (tab === "music") {
         this.weatherShow = false;
-        this.closetShow = false;
+        this.codiShow = false;
         this.musicShow = true;
       }
     },
