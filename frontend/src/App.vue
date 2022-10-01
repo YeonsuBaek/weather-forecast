@@ -17,7 +17,11 @@
     </div>
     <CodiContent v-show="codiShow" />
     <MusicContent v-show="musicShow" />
-    <GlobalFooter @changeTab="moveToTab" :weather="weather" />
+    <GlobalFooter
+      @changeTab="moveToTab"
+      :weather="weather"
+      :activeShow="activeShow"
+    />
   </div>
 </template>
 

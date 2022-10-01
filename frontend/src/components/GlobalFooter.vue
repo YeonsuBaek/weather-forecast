@@ -1,20 +1,35 @@
 <template>
-  <footer class="footer">
+  <footer class="footer" :class="weather">
     <ul class="tab-list">
       <li class="tab-item">
-        <button type="button" class="tab-button" @click="clickTab('weather')">
+        <button
+          type="button"
+          class="tab-button"
+          :class="{ isActive: weatherActive }"
+          @click="clickTab('weather')"
+        >
           <i class="ic-icon-temp" :class="weather"></i>
         </button>
       </li>
 
       <li class="tab-item">
-        <button type="button" class="tab-button" @click="clickTab('codi')">
+        <button
+          type="button"
+          class="tab-button"
+          :class="{ isActive: codiActive }"
+          @click="clickTab('codi')"
+        >
           <i class="ic-icon-closet" :class="weather"></i>
         </button>
       </li>
 
       <li class="tab-item">
-        <button type="button" class="tab-button" @click="clickTab('music')">
+        <button
+          type="button"
+          class="tab-button"
+          :class="{ isActive: musicActive }"
+          @click="clickTab('music')"
+        >
           <i class="ic-icon-music" :class="weather"></i>
         </button>
       </li>
@@ -28,9 +43,33 @@ export default {
     weather: String,
   },
 
+  data() {
+    return {
+      weatherActive: true,
+      codiActive: false,
+      musicActive: false,
+    };
+  },
+
   methods: {
     clickTab(tab) {
       this.$emit("changeTab", tab);
+
+      if (tab === "weather") {
+        this.weatherActive = true;
+        this.codiActive = false;
+        this.musicActive = false;
+      }
+      if (tab === "codi") {
+        this.weatherActive = false;
+        this.codiActive = true;
+        this.musicActive = false;
+      }
+      if (tab === "music") {
+        this.weatherActive = false;
+        this.codiActive = false;
+        this.musicActive = true;
+      }
     },
   },
 };
