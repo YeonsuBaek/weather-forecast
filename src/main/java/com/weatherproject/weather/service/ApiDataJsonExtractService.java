@@ -1,6 +1,5 @@
 package com.weatherproject.weather.service;
 
-import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.ParseException;
 

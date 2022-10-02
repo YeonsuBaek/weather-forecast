@@ -5,9 +5,9 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.weatherproject.weather.config.WeatherAPIConfig;
-import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
 import com.weatherproject.weather.domain.DTO.CoordinateDTO;
+import com.weatherproject.weather.domain.DTO.FcstApiDataDTO;
 import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.service.WeatherAPIService;
 import org.apache.tomcat.util.json.JSONParser;
@@ -68,7 +68,7 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
 
     //기상청에서 API 데이터 JSON으로 가져오기
     @Override
-    public List<ApiDataDTO> getApiDate(UriComponents url, ApiUrlGeneratorDTO apiUrlGeneratorDTO) throws ParseException {
+    public List<FcstApiDataDTO> getApiDate(UriComponents url, ApiUrlGeneratorDTO apiUrlGeneratorDTO) throws ParseException {
 
         DefaultUriBuilderFactory factory = new DefaultUriBuilderFactory(BASE_URL);
         factory.setEncodingMode(DefaultUriBuilderFactory.EncodingMode.VALUES_ONLY);
@@ -78,7 +78,7 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
                 .baseUrl(BASE_URL)
                 .build();
 
-        List<ApiDataDTO> result = new ArrayList<>();
+        List<FcstApiDataDTO> result = new ArrayList<>();
         //ObjectMapper objectMapper = new ObjectMapper();
 
 
@@ -105,7 +105,7 @@ public class WeatherAPIServiceImpl implements WeatherAPIService {
 
         for (int i = 0; i < dataArray.size(); i++) {
             JSONObject objectTemp = (JSONObject) dataArray.get(i);
-            ApiDataDTO apiDataDTOTemp = new ApiDataDTO((String) objectTemp.get("baseDate"),
+            FcstApiDataDTO apiDataDTOTemp = new FcstApiDataDTO((String) objectTemp.get("baseDate"),
                     (String) objectTemp.get("baseTime"),
                     (String) objectTemp.get("category"),
                     (String) objectTemp.get("fcstDate"),

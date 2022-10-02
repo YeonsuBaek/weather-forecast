@@ -1,6 +1,5 @@
 package com.weatherproject.weather.serviceImpl;
 
-import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import com.weatherproject.weather.service.ApiDataJsonExtractService;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;

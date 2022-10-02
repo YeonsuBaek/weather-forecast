@@ -7,7 +7,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class ApiDataDTO {
+public class FcstApiDataDTO {
 
     private String baseDate;
     private String baseTime;

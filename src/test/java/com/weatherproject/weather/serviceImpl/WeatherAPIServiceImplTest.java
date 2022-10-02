@@ -2,7 +2,7 @@ package com.weatherproject.weather.serviceImpl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.weatherproject.weather.config.WeatherAPIConfig;
-import com.weatherproject.weather.domain.DTO.ApiDataDTO;
+import com.weatherproject.weather.domain.DTO.FcstApiDataDTO;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
 import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.Test;
@@ -41,7 +41,7 @@ class WeatherAPIServiceImplTest {
         ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220928, 1700, "JSON", 61, 120);
         UriComponents url = weatherAPIService.generateApiUrl(apiUrlGeneratorDTO);
 
-        List<ApiDataDTO> response = weatherAPIService.getApiDate(url, apiUrlGeneratorDTO);
+        List<FcstApiDataDTO> response = weatherAPIService.getApiDate(url, apiUrlGeneratorDTO);
         System.out.println(response.toString());
     }
 
