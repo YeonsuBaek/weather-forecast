@@ -9,6 +9,6 @@ import lombok.*;
 @ToString
 public class CoordinateDTO {
 
-    int nx;
-    int ny;
+    long nx;
+    long ny;
 }

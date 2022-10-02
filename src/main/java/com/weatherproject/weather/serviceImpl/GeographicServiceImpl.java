@@ -3,6 +3,7 @@ package com.weatherproject.weather.serviceImpl;
 import com.weatherproject.weather.domain.DTO.*;
 import com.weatherproject.weather.domain.entity.Geographic;
 import com.weatherproject.weather.service.GeographicService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+//@Slf4j
 public class GeographicServiceImpl implements GeographicService {
 
     @Override
@@ -87,7 +89,9 @@ public class GeographicServiceImpl implements GeographicService {
     //해당 지역의 좌표값을 구해 DTO로 반환하는 메소드
     @Override
     public CoordinateDTO getCoordinate(Geographic geographic) {
-        CoordinateDTO coordinateDTO = new CoordinateDTO((int) geographic.getGrid_X(), (int) geographic.getGrid_Y());
+        //log.info("geographic.getGrid_X() : ", geographic.getGrid_X());
+
+        CoordinateDTO coordinateDTO = new CoordinateDTO(geographic.getGrid_X(), geographic.getGrid_Y());
 
         return coordinateDTO;
     }

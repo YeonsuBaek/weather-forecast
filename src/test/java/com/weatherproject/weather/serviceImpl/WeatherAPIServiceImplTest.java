@@ -1,7 +1,10 @@
 package com.weatherproject.weather.serviceImpl;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.weatherproject.weather.config.WeatherAPIConfig;
+import com.weatherproject.weather.domain.DTO.ApiDataDTO;
 import com.weatherproject.weather.domain.DTO.ApiUrlGeneratorDTO;
+import org.json.simple.parser.ParseException;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -9,6 +12,7 @@ import org.springframework.web.util.UriComponents;
 import reactor.core.publisher.Mono;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @SpringBootTest
 class WeatherAPIServiceImplTest {
@@ -18,6 +22,9 @@ class WeatherAPIServiceImplTest {
 
     @Autowired
     WeatherAPIConfig weatherAPIConfig;
+
+    @Autowired
+    ApiDataJsonExtractServiceImpl apiDataJsonExtractService;
 
     @Test
     void urlTest() {
@@ -29,12 +36,12 @@ class WeatherAPIServiceImplTest {
     }
 
     @Test
-    void apiTest() {
+    void apiTest() throws JsonProcessingException, ParseException {
         String key = weatherAPIConfig.key;
-        ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220802, 1700, "JSON", 61, 120);
+        ApiUrlGeneratorDTO apiUrlGeneratorDTO = new ApiUrlGeneratorDTO(key, 954, 1, 20220928, 1700, "JSON", 61, 120);
         UriComponents url = weatherAPIService.generateApiUrl(apiUrlGeneratorDTO);
 
-        Object response = weatherAPIService.getApiDate(url);
+        List<ApiDataDTO> response = weatherAPIService.getApiDate(url, apiUrlGeneratorDTO);
         System.out.println(response.toString());
     }
 

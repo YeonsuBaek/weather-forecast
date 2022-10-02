@@ -19,6 +19,6 @@ public class ApiUrlGeneratorDTO {
     private int baseDate;
     private int baseTime;
     private String dataType;
-    private int nx;
-    private int ny;
+    private long nx;
+    private long ny;
 }
