@@ -3,6 +3,10 @@
     margin-bottom: 16px;
   }
 
+  &-men {
+    margin-bottom: calc(50px + 8px);
+  }
+
   &-header {
     @include flexbox(between, end);
     padding: 0 8px;
