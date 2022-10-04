@@ -6,25 +6,25 @@
   width: 100%;
   height: 60px;
   color: #fff;
-  background: linear-gradient($clear-01, rgba($clear-01, 0));
+  background: $clear-01;
   z-index: $global-header;
 
   &.clear-night {
-    background: linear-gradient($clear-night, rgba($clear-night, 0));
+    background: $clear-night;
   }
 
   &.blur {
     color: $blur-02;
-    background: linear-gradient($blur-01, rgba($blur-01, 0));
+    background: $blur-01;
   }
 
   &.rainy {
-    background: linear-gradient($rainy-01, rgba($rainy-01, 0));
+    background: $rainy-01;
   }
 
   &.snowy {
     color: $snowy-02;
-    background: linear-gradient($snowy-01, rgba($snowy-01, 0));
+    background: $snowy-01;
   }
 
   .header-message {
