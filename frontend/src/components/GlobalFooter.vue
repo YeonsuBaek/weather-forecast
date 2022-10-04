@@ -8,7 +8,7 @@
           :class="{ isActive: weatherActive }"
           @click="clickTab('weather')"
         >
-          <i class="ic-icon-temp" :class="weather"></i>
+          <i class="ic-temp" :class="weather"></i>
         </button>
       </li>
 
@@ -19,7 +19,7 @@
           :class="{ isActive: codiActive }"
           @click="clickTab('codi')"
         >
-          <i class="ic-icon-closet" :class="weather"></i>
+          <i class="ic-closet" :class="weather"></i>
         </button>
       </li>
 
@@ -30,7 +30,7 @@
           :class="{ isActive: musicActive }"
           @click="clickTab('music')"
         >
-          <i class="ic-icon-music" :class="weather"></i>
+          <i class="ic-music" :class="weather"></i>
         </button>
       </li>
     </ul>

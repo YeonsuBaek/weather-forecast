@@ -20,9 +20,7 @@
         <div class="summary-item">
           <dt>
             습도
-            <i>
-              <img src="../assets/icons/icon-humd.svg" alt="" />
-            </i>
+            <i class="ic-humd" :class="weather"></i>
           </dt>
           <dd>50%</dd>
         </div>
@@ -30,9 +28,7 @@
         <div class="summary-item">
           <dt>
             바람
-            <i>
-              <img src="../assets/icons/icon-wind.svg" alt="" />
-            </i>
+            <i class="ic-wind" :class="weather"></i>
           </dt>
           <dd>약함</dd>
         </div>
@@ -40,9 +36,7 @@
         <div class="summary-item">
           <dt>
             강수확률
-            <i>
-              <img src="../assets/icons/icon-water.svg" alt="" />
-            </i>
+            <i class="ic-water" :class="weather"></i>
           </dt>
           <dd>0%</dd>
         </div>
@@ -50,9 +44,7 @@
         <div class="summary-item">
           <dt>
             강수형태
-            <i>
-              <img src="../assets/icons/icon-rain.svg" alt="" />
-            </i>
+            <i class="ic-rain" :class="weather"></i>
           </dt>
           <dd>없음</dd>
         </div>
