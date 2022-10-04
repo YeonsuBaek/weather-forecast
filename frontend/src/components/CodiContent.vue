@@ -1,56 +1,44 @@
 <template>
   <section class="tab tab-codi">
     <div class="codi-women">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <header class="codi-header">
-              <h2 class="codi-title">여성 코디 추천</h2>
-              <a
-                class="codi-site-button"
-                href="https://store.musinsa.com/app/codimap/lists"
-                target="_blank"
-                >더보기</a
-              >
-            </header>
-          </div>
-        </div>
+      <header class="codi-header">
+        <h2 class="codi-title">여성 코디 추천</h2>
+        <a
+          class="codi-site-button"
+          href="https://store.musinsa.com/app/codimap/lists"
+          target="_blank"
+          >더보기</a
+        >
+      </header>
 
-        <ul class="row codi-list">
-          <li v-for="(codi, index) in women" :key="index" class="col-sm-2">
-            <a class="codi-item" :href="codi.link" target="_blank">
-              <img :src="codi.image" :alt="codi.alt" />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <ul class="codi-list">
+        <li v-for="(codi, index) in women" :key="index">
+          <a class="codi-item" :href="codi.link" target="_blank">
+            <img :src="codi.image" :alt="codi.alt" />
+          </a>
+        </li>
+      </ul>
     </div>
 
     <div class="codi-men">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <header class="codi-header">
-              <h2 class="codi-title">남성 코디 추천</h2>
-              <a
-                class="codi-site-button"
-                href="https://store.musinsa.com/app/codimap/lists"
-                target="_blank"
-                >더보기</a
-              >
-            </header>
-          </div>
-        </div>
-
-        <ul class="row codi-list">
-          <li v-for="(codi, index) in men" :key="index" class="col-sm-2">
-            <a class="codi-item" :href="codi.link" target="_blank">
-              <img :src="codi.image" :alt="codi.alt" />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <header class="codi-header">
+        <h2 class="codi-title">남성 코디 추천</h2>
+        <a
+          class="codi-site-button"
+          href="https://store.musinsa.com/app/codimap/lists"
+          target="_blank"
+          >더보기</a
+        >
+      </header>
     </div>
+
+    <ul class="codi-list">
+      <li v-for="(codi, index) in men" :key="index">
+        <a class="codi-item" :href="codi.link" target="_blank">
+          <img :src="codi.image" :alt="codi.alt" />
+        </a>
+      </li>
+    </ul>
   </section>
 </template>
 

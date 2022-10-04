@@ -2,8 +2,13 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 lg-only">
-          <CurrentTime />
+        <div class="col-lg-2">
+          <CurrentTime class="lg-only" />
+          <GlobalFooter
+            @changeTab="moveToTab"
+            :weather="weather"
+            :activeShow="activeShow"
+          />
         </div>
         <div class="col-sm-4 col-lg-6">
           <GlobalHeader :weather="weather" :weatherSummery="weatherSummery" />
@@ -12,16 +17,13 @@
             :weather="weather"
             :temp="temp"
           />
+          <CodiContent v-show="codiShow" />
+          <MusicContent v-show="musicShow" />
         </div>
+
+        <div class="col-lg-4 lg-only"></div>
       </div>
     </div>
-    <CodiContent v-show="codiShow" />
-    <MusicContent v-show="musicShow" />
-    <GlobalFooter
-      @changeTab="moveToTab"
-      :weather="weather"
-      :activeShow="activeShow"
-    />
   </div>
 </template>
 
