@@ -53,4 +53,22 @@
       object-fit: cover;
     }
   }
+
+  @include responsive(D) {
+    position: relative;
+    @include column-flexbox(center, start);
+    margin-top: 48px;
+
+    .header-message {
+      font-size: 16px;
+    }
+
+    .current-condition {
+      font-size: 24px;
+    }
+
+    .hs-button {
+      right: 0;
+    }
+  }
 }
