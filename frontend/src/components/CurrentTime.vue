@@ -1,9 +1,7 @@
 <template>
   <div class="current-time">
-    <div class="wrapper">
-      <strong class="date">{{ month }}.{{ day }}</strong>
-      <span class="time">{{ hour }}:{{ minute }}</span>
-    </div>
+    <strong class="date">{{ month }}.{{ day }}</strong>
+    <span class="time">{{ hour }}:{{ minute }}</span>
   </div>
 </template>
 
