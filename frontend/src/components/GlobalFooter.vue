@@ -9,6 +9,7 @@
           @click="clickTab('weather')"
         >
           <i class="ic-temp" :class="weather"></i>
+          <span class="button-name lg-only" :class="weather">날씨</span>
         </button>
       </li>
 
@@ -20,6 +21,7 @@
           @click="clickTab('codi')"
         >
           <i class="ic-closet" :class="weather"></i>
+          <span class="button-name lg-only" :class="weather">코디</span>
         </button>
       </li>
 
@@ -31,6 +33,7 @@
           @click="clickTab('music')"
         >
           <i class="ic-music" :class="weather"></i>
+          <span class="button-name lg-only" :class="weather">음악</span>
         </button>
       </li>
     </ul>

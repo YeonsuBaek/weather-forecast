@@ -61,4 +61,90 @@
       }
     }
   }
+
+  @include responsive(D) {
+    position: static;
+    @include flexbox(start);
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+
+    &:is(.clear, .cloudy, .clear-night) .tab-button::before {
+      background-color: $clear-02;
+    }
+
+    &.rainy .tab-button::before {
+      background-color: $rainy-02;
+    }
+
+    &.blur .tab-button::before {
+      background-color: $blur-02;
+    }
+
+    &.snowy .tab-button::before {
+      color: $snowy-02;
+    }
+
+    .tab {
+      &-list {
+        @include column-flexbox(start);
+        width: 100%;
+        height: 100%;
+        gap: 32px;
+        border-right: 1px solid rgba($color: #fff, $alpha: 0.25);
+      }
+
+      &-item {
+        width: 100%;
+      }
+
+      &-button {
+        @include flexbox(start);
+        position: relative;
+        width: 100%;
+        height: 40px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          right: -1px;
+          width: 2px;
+          height: 100%;
+          opacity: 0;
+        }
+
+        &.isActive::before {
+          opacity: 1;
+        }
+
+        i {
+          margin-right: 16px;
+        }
+
+        .button-name {
+          color: #fff;
+          font-size: 18px;
+        }
+
+        &:is(:hover, :active, .isActive) {
+          .button-name:is(.clear, .cloudy, .clear-night) {
+            color: $clear-02;
+          }
+
+          .button-name.rainy {
+            color: $rainy-02;
+          }
+
+          .button-name.blur {
+            color: $blur-02;
+          }
+
+          .button-name.snowy {
+            color: $snowy-02;
+          }
+        }
+      }
+    }
+  }
 }
