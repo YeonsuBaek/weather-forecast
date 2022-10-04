@@ -125,6 +125,18 @@
         .button-name {
           color: #fff;
           font-size: 18px;
+
+          &.rainy {
+            color: $rainy-03;
+          }
+
+          &.blur {
+            color: $blur-03;
+          }
+
+          &.snowy {
+            color: $snowy-03;
+          }
         }
 
         &:is(:hover, :active, .isActive) {
