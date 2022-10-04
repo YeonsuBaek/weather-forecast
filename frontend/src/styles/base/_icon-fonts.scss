@@ -25,26 +25,53 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ic-icon-closet::before {
-  content: "\e900";
-}
-
-.ic-icon-music:before {
-  content: "\e901";
-}
-.ic-icon-temp:before {
-  content: "\e902";
-}
-
-:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp):is(.clear, .cloudy, .clear-night):before {
+.ic-humd:before {
+  content: "\e903";
   color: #fff;
 }
-:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).rainy::before {
+.ic-rain:before {
+  content: "\e904";
+  color: #fff;
+}
+.ic-water:before {
+  content: "\e905";
+  color: #fff;
+}
+.ic-wind:before {
+  content: "\e906";
+  color: #fff;
+}
+
+:is(.ic-humd, .ic-rain, .ic-water, .ic-wind).blur:before {
+  color: $blur-02;
+}
+
+:is(.ic-humd, .ic-rain, .ic-water, .ic-wind).snowy:before {
+  color: $snowy-02;
+}
+
+.ic-closet:before {
+  content: "\e900";
+  color: #fff;
+}
+.ic-music:before {
+  content: "\e901";
+  color: #fff;
+}
+.ic-temp:before {
+  content: "\e902";
+  color: #fff;
+}
+
+:is(.ic-closet, .ic-music, .ic-temp):is(.clear, .cloudy, .clear-night):before {
+  color: #fff;
+}
+:is(.ic-closet, .ic-music, .ic-temp).rainy::before {
   color: $rainy-03;
 }
-:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).blur::before {
+:is(.ic-closet, .ic-music, .ic-temp).blur::before {
   color: $blur-03;
 }
-:is(.ic-icon-closet, .ic-icon-music, .ic-icon-temp).snowy::before {
+:is(.ic-closet, .ic-music, .ic-temp).snowy::before {
   color: $snowy-03;
 }
