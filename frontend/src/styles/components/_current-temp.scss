@@ -114,6 +114,34 @@
       background-image: url("@/assets/icons/icon-snowy.svg");
     }
   }
+
+  @include responsive(D) {
+    height: 372px;
+
+    .temp-summery {
+      font-size: 18px;
+    }
+
+    .temp-current {
+      position: relative;
+      padding: 1px;
+      font-family: $font-sub;
+      font-size: 120px;
+      line-height: 90%;
+      letter-spacing: -0.05em;
+
+      &::after {
+        font-size: 100px;
+      }
+    }
+
+    .current-image {
+      position: absolute;
+      height: 320px;
+      animation: image-up 3000ms ease-in-out;
+      background-size: 60%;
+    }
+  }
 }
 
 @keyframes image-up {

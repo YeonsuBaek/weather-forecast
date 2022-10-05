@@ -1,3 +1,7 @@
 .tab {
   padding-top: calc(60px + 8px);
+
+  @include responsive(D) {
+    padding-top: 48px;
+  }
 }
