@@ -22,7 +22,7 @@
             습도
             <i class="ic-humd" :class="weather"></i>
           </dt>
-          <dd>50%</dd>
+          <dd>{{ weatherDetail.humd }}</dd>
         </div>
 
         <div class="summary-item">
@@ -30,7 +30,7 @@
             바람
             <i class="ic-wind" :class="weather"></i>
           </dt>
-          <dd>약함</dd>
+          <dd>{{ weatherDetail.wind }}</dd>
         </div>
 
         <div class="summary-item">
@@ -38,7 +38,7 @@
             강수확률
             <i class="ic-water" :class="weather"></i>
           </dt>
-          <dd>0%</dd>
+          <dd>{{ weatherDetail.rainPercent }}</dd>
         </div>
 
         <div class="summary-item">
@@ -46,7 +46,7 @@
             강수형태
             <i class="ic-rain" :class="weather"></i>
           </dt>
-          <dd>없음</dd>
+          <dd>{{ weatherDetail.rainShape }}</dd>
         </div>
       </dl>
     </div>
@@ -109,6 +109,7 @@ export default {
   props: {
     weather: String,
     temp: Object,
+    weatherDetail: Object,
   },
 };
 </script>
