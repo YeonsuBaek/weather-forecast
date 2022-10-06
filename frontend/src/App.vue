@@ -67,6 +67,7 @@ export default {
       codiShow: false,
       musicShow: false,
       weatherData,
+      weatherWind: "",
       dailyWeather: ref([]),
       weatherTime: 0,
       dateComparison: 0,
@@ -139,8 +140,20 @@ export default {
         (v) => v.category === "강수형태"
       );
 
+      this.weatherWind = weatherData[windIndex].fcstValue.slice(0, -3);
+
+      if (this.weatherWind === 0) {
+        this.weatherWind = "없음";
+      } else if (this.weatherWind > 0 && this.weatherWind <= 8) {
+        this.weatherWind = "약함";
+      } else if (this.weatherWind > 8 && this.weatherWind <= 16) {
+        this.weatherWind = "강함";
+      } else if (this.weatherWind > 16) {
+        this.weatherWind = "날아감";
+      }
+
       this.weatherDetail.humd = weatherData[humdIndex].fcstValue + "%";
-      this.weatherDetail.wind = weatherData[windIndex].fcstValue;
+      this.weatherDetail.wind = this.weatherWind;
       this.weatherDetail.rainPercent =
         weatherData[rainPercentIndex].fcstValue + "%";
       this.weatherDetail.rainShape = weatherData[rainShapeIndex].fcstValue;
