@@ -75,14 +75,14 @@ export default {
   },
 
   mounted() {
-    this.isWeather(this.weatherData);
-    this.isTemp(this.weatherData);
-    this.isWeatherDetail(this.weatherData);
+    this.getWeather(this.weatherData);
+    this.getTemp(this.weatherData);
+    this.getWeatherDetail(this.weatherData);
     this.getDailyWeather(this.weatherData);
   },
 
   methods: {
-    isWeather(weatherData) {
+    getWeather(weatherData) {
       this.weatherSummery = weatherData[2].fcstValue;
 
       if (weatherData[2].fcstValue === "맑음") {
@@ -108,7 +108,7 @@ export default {
       document.body.classList.add(this.weather);
     },
 
-    isTemp(weatherData) {
+    getTemp(weatherData) {
       this.temp.current = weatherData[0].fcstValue.slice(0, -1);
 
       const highestIndex = this.weatherData.findIndex(
@@ -125,7 +125,7 @@ export default {
       );
     },
 
-    isWeatherDetail(weatherData) {
+    getWeatherDetail(weatherData) {
       const humdIndex = this.weatherData.findIndex(
         (v) => v.category === "습도"
       );
