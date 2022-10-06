@@ -117,8 +117,12 @@ export default {
       const lowestIndex = this.weatherData.findIndex(
         (v) => v.category === "일 최저기온"
       );
-      this.temp.highest = weatherData[highestIndex].fcstValue.slice(0, -1);
-      this.temp.lowest = weatherData[lowestIndex].fcstValue.slice(0, -1);
+      this.temp.highest = Math.floor(
+        weatherData[highestIndex].fcstValue.slice(0, -1)
+      );
+      this.temp.lowest = Math.floor(
+        weatherData[lowestIndex].fcstValue.slice(0, -1)
+      );
     },
 
     isWeatherDetail(weatherData) {
