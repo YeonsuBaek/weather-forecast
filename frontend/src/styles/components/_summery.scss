@@ -3,11 +3,11 @@
 
   &-list {
     @include flexbox;
+    gap: 16px;
   }
 
   &-item {
     @include column-flexbox;
-    margin-right: 16px;
     width: 48px;
   }
 
