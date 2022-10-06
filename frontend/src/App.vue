@@ -13,6 +13,7 @@
             :weather="weather"
             :temp="temp"
             :weatherDetail="weatherDetail"
+            :dailyWeather="dailyWeather"
           />
           <CodiContent v-show="codiShow" />
           <MusicContent v-show="musicShow" />
@@ -32,6 +33,7 @@ import GlobalFooter from "./components/GlobalFooter.vue";
 import CodiContent from "./components/CodiContent.vue";
 import MusicContent from "./components/MusicContent.vue";
 import weatherList from "./assets/data/weather.json";
+import { ref } from "vue";
 
 const weatherData = weatherList;
 
@@ -65,6 +67,10 @@ export default {
       codiShow: false,
       musicShow: false,
       weatherData,
+      dailyWeather: ref([]),
+      weatherTime: 0,
+      dateComparison: 0,
+      weatherCondition: "",
     };
   },
 
@@ -72,6 +78,7 @@ export default {
     this.isWeather(this.weatherData);
     this.isTemp(this.weatherData);
     this.isWeatherDetail(this.weatherData);
+    this.getDailyWeather(this.weatherData);
   },
 
   methods: {
@@ -133,6 +140,55 @@ export default {
       this.weatherDetail.rainPercent =
         weatherData[rainPercentIndex].fcstValue + "%";
       this.weatherDetail.rainShape = weatherData[rainShapeIndex].fcstValue;
+    },
+
+    getDailyWeather(weatherData) {
+      for (let i = 0; i < weatherData.length; i += 24) {
+        if (weatherData[i].category !== "1시간 기온") {
+          i++;
+          continue;
+        }
+
+        this.weatherTime = Number(weatherData[i].fcstTime) / 100;
+        this.dateComparison = weatherData[i].fcstDate - weatherData[i].baseDate;
+
+        if (this.weatherTime === 0) {
+          if (this.dateComparison === 0) {
+            this.weatherTime = "오늘";
+          } else if (this.dateComparison === 1) {
+            this.weatherTime = "내일";
+          } else if (this.dateComparison === 2) {
+            this.weatherTime = "모레";
+          } else if (this.dateComparison === 3) {
+            this.weatherTime = "글피";
+          }
+        } else {
+          this.weatherTime = this.weatherTime + "시";
+        }
+
+        this.weatherCondition = weatherData[i + 2].fcstValue;
+
+        if (this.weatherCondition === "맑음") {
+          this.weatherCondition = "clear";
+        } else if (this.weatherCondition === "구름많음") {
+          this.weatherCondition = "cloudy";
+        } else if (this.weatherCondition === "흐림") {
+          this.weatherCondition = "blur";
+        } else if (
+          this.weatherCondition === "비" ||
+          this.weatherCondition === "소나기"
+        ) {
+          this.weatherCondition = "rainy";
+        } else if (this.weatherCondition === "눈") {
+          this.weatherCondition = "snowy";
+        }
+
+        this.dailyWeather.push({
+          time: this.weatherTime,
+          weather: this.weatherCondition,
+          temp: weatherData[i].fcstValue.slice(0, -1),
+        });
+      }
     },
 
     moveToTab(tab) {

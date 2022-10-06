@@ -53,10 +53,14 @@
 
     <div class="daily">
       <ul class="daily-list">
-        <li class="daily-item">
-          <span class="daily-time">지금</span>
-          <i class="daily-icon" :class="weather" aria-label="맑음"></i>
-          <span class="daily-temp" aria-label="기온">26</span>
+        <li
+          v-for="(daily, index) in dailyWeather"
+          :key="index"
+          class="daily-item"
+        >
+          <span class="daily-time">{{ daily.time }}</span>
+          <i class="daily-icon" :class="daily.weather" aria-label="맑음"></i>
+          <span class="daily-temp" aria-label="기온">{{ daily.temp }}</span>
         </li>
       </ul>
     </div>
@@ -70,6 +74,7 @@ export default {
     weather: String,
     temp: Object,
     weatherDetail: Object,
+    dailyWeather: Array,
   },
 };
 </script>
