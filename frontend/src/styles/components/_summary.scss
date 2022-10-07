@@ -23,4 +23,29 @@
       opacity: 1;
     }
   }
+
+  @include responsive(D) {
+    margin-bottom: 36px;
+
+    &-list {
+      gap: 24px;
+    }
+
+    &-item {
+      width: 64px;
+    }
+
+    dt {
+      font-size: 16px;
+
+      i {
+        margin: 8px 0;
+        font-size: 40px;
+      }
+    }
+
+    dd {
+      font-size: 18px;
+    }
+  }
 }
