@@ -28,6 +28,7 @@
 
   &-time {
     font-size: 13px;
+    white-space: nowrap;
   }
 
   &-temp {
@@ -71,6 +72,33 @@
 
     &.snowy {
       background-position: -66px -32px;
+    }
+  }
+
+  @include responsive(D) {
+    padding: 16px 0;
+    margin-bottom: 0;
+
+    &-item {
+      &:first-child {
+        margin-left: 24px;
+      }
+
+      &:last-child {
+        padding-right: 24px;
+      }
+    }
+
+    &-time {
+      font-size: 16px;
+    }
+
+    &-temp {
+      font-size: 18px;
+    }
+
+    &-icon {
+      margin: 4px 0;
     }
   }
 }
