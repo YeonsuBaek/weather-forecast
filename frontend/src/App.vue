@@ -72,6 +72,7 @@ export default {
       weatherTime: 0,
       dateComparison: 0,
       weatherCondition: "",
+      changeDate: false,
     };
   },
 
@@ -170,6 +171,8 @@ export default {
         this.dateComparison = weatherData[i].fcstDate - weatherData[i].baseDate;
 
         if (this.weatherTime === 0) {
+          this.changeDate = true;
+
           if (this.dateComparison === 0) {
             this.weatherTime = "오늘";
           } else if (this.dateComparison === 1) {
@@ -180,6 +183,7 @@ export default {
             this.weatherTime = "글피";
           }
         } else {
+          this.changeDate = false;
           this.weatherTime = this.weatherTime + "시";
         }
 
@@ -202,6 +206,7 @@ export default {
 
         this.dailyWeather.push({
           time: this.weatherTime,
+          date: this.changeDate,
           weather: this.weatherCondition,
           temp: weatherData[i].fcstValue.slice(0, -1),
         });

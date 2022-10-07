@@ -27,11 +27,38 @@
   }
 
   &-time {
+    padding: 4px 8px;
     font-size: 13px;
     white-space: nowrap;
+    background-color: transparent;
+    border-radius: 100px;
+
+    &.changeDate {
+      &:is(.clear, .cloudy) {
+        background-color: $clear-01;
+      }
+
+      &.clear-night {
+        background-color: $clear-night;
+      }
+
+      &.blur {
+        background-color: $blur-03;
+      }
+
+      &.rainy {
+        background-color: $rainy-01;
+      }
+
+      &.snowy {
+        background-color: $snowy-03;
+      }
+    }
   }
 
   &-temp {
+    padding: 4px 8px;
+
     &:after {
       content: "˚";
     }

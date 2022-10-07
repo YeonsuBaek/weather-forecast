@@ -58,7 +58,11 @@
           :key="index"
           class="daily-item"
         >
-          <span class="daily-time">{{ daily.time }}</span>
+          <span
+            class="daily-time"
+            :class="[{ changeDate: daily.date }, weather]"
+            >{{ daily.time }}</span
+          >
           <i class="daily-icon" :class="daily.weather" aria-label="맑음"></i>
           <span class="daily-temp" aria-label="기온">{{ daily.temp }}</span>
         </li>
