@@ -1,6 +1,6 @@
 .codi {
   &-women {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   &-men {
@@ -27,11 +27,21 @@
     }
   }
 
+  &-list {
+    @include flexbox;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
   &-item {
-    display: block;
-    margin-bottom: 16px;
-    width: 100%;
+    width: calc((100% - 16px) / 2);
     aspect-ratio: 1/1;
+  }
+
+  &-button {
+    display: block;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
     border-radius: 4px;
 
@@ -45,6 +55,24 @@
       img {
         filter: brightness(0.9);
       }
+    }
+  }
+
+  @include responsive(D) {
+    &-women {
+      margin-bottom: 48px;
+    }
+
+    &-title {
+      font-size: 18px;
+    }
+
+    &-site-button {
+      font-size: 16px;
+    }
+
+    &-item {
+      width: calc((100% - 32px) / 3);
     }
   }
 }

@@ -12,8 +12,8 @@
       </header>
 
       <ul class="codi-list">
-        <li v-for="(codi, index) in women" :key="index">
-          <a class="codi-item" :href="codi.link" target="_blank">
+        <li class="codi-item" v-for="(codi, index) in women" :key="index">
+          <a class="codi-button" :href="codi.link" target="_blank">
             <img :src="codi.image" :alt="codi.alt" />
           </a>
         </li>
@@ -30,15 +30,15 @@
           >더보기</a
         >
       </header>
-    </div>
 
-    <ul class="codi-list">
-      <li v-for="(codi, index) in men" :key="index">
-        <a class="codi-item" :href="codi.link" target="_blank">
-          <img :src="codi.image" :alt="codi.alt" />
-        </a>
-      </li>
-    </ul>
+      <ul class="codi-list">
+        <li class="codi-item" v-for="(codi, index) in men" :key="index">
+          <a class="codi-button" :href="codi.link" target="_blank">
+            <img :src="codi.image" :alt="codi.alt" />
+          </a>
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
 
