@@ -12,7 +12,7 @@
       </header>
 
       <ul class="codi-list">
-        <li class="codi-item" v-for="(codi, index) in women" :key="index">
+        <li class="codi-item" v-for="(codi, index) in womenList" :key="index">
           <a class="codi-button" :href="codi.link" target="_blank">
             <img :src="codi.image" :alt="codi.alt" />
           </a>
@@ -32,7 +32,7 @@
       </header>
 
       <ul class="codi-list">
-        <li class="codi-item" v-for="(codi, index) in men" :key="index">
+        <li class="codi-item" v-for="(codi, index) in menList" :key="index">
           <a class="codi-button" :href="codi.link" target="_blank">
             <img :src="codi.image" :alt="codi.alt" />
           </a>
@@ -45,16 +45,67 @@
 <script>
 import womenCodi from "@/assets/data/women.json";
 import menCodi from "@/assets/data/men.json";
+import { ref } from "vue";
 
 export default {
-  setup() {
-    const women = womenCodi;
-    const men = menCodi;
+  props: {
+    temp: Object,
+  },
 
+  data() {
     return {
-      women,
-      men,
+      women: womenCodi,
+      men: menCodi,
+      womenList: ref([]),
+      menList: ref([]),
     };
+  },
+
+  mounted() {
+    this.changeWomenCodiList(this.women);
+    this.changeMenCodiList(this.men);
+  },
+
+  methods: {
+    changeWomenCodiList(women) {
+      let womenIndex = this.codiIndex(this.temp.current);
+
+      for (let i = 0; i < women[womenIndex].length; i++) {
+        this.womenList.push({
+          image: women[womenIndex][i].image,
+          link: women[womenIndex][i].link,
+          alt: women[womenIndex][i].alt,
+        });
+      }
+    },
+
+    changeMenCodiList(men) {
+      let menIndex = this.codiIndex(this.temp.current);
+
+      for (let i = 0; i < men[menIndex].length; i++) {
+        this.menList.push({
+          image: men[menIndex][i].image,
+          link: men[menIndex][i].link,
+          alt: men[menIndex][i].alt,
+        });
+      }
+    },
+
+    codiIndex(temp) {
+      if (temp >= 23) {
+        return 1;
+      } else if (temp < 23 && temp >= 10) {
+        let today = new Date();
+
+        if (today.getMonth() < 7) {
+          return 0;
+        } else {
+          return 2;
+        }
+      } else {
+        return 3;
+      }
+    },
   },
 };
 </script>
