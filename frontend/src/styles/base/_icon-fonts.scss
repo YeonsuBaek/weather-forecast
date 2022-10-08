@@ -63,15 +63,28 @@ i {
   color: #fff;
 }
 
-:is(.ic-closet, .ic-music, .ic-temp):is(.clear, .cloudy, .clear-night):before {
+.ic-search:before {
+  content: "\e90b";
+  color: $snowy-03;
+}
+.ic-close:before {
+  content: "\e907";
+  color: #222;
+}
+.ic-call:before {
+  content: "\e908";
   color: #fff;
 }
-:is(.ic-closet, .ic-music, .ic-temp).rainy::before {
+
+:is(.ic-closet, .ic-music, .ic-temp, .ic-call):is(.clear, .cloudy, .clear-night):before {
+  color: #fff;
+}
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).rainy::before {
   color: $rainy-03;
 }
-:is(.ic-closet, .ic-music, .ic-temp).blur::before {
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).blur::before {
   color: $blur-03;
 }
-:is(.ic-closet, .ic-music, .ic-temp).snowy::before {
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).snowy::before {
   color: $snowy-03;
 }
