@@ -3,8 +3,16 @@
     <span class="header-message">지금 한신대는</span>
     <h1 class="current-condition">{{ weatherSummery }}</h1>
 
+    <button
+      class="phoneBookButton headerIcon"
+      type="button"
+      @click="clickPhoneBook"
+    >
+      <i class="ic-call"></i>
+    </button>
+
     <a
-      class="hs-button"
+      class="hs-button headerIcon"
       href="https://www.hs.ac.kr/"
       target="_blank"
       type="button"
@@ -26,6 +34,12 @@ export default {
     return {
       isActiveSearchModal: false,
     };
+  },
+
+  methods: {
+    clickPhoneBook() {
+      this.$emit("alertOpenPhoneBook");
+    },
   },
 };
 </script>

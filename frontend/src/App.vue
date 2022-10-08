@@ -7,7 +7,11 @@
           <GlobalFooter @changeTab="moveToTab" :weather="weather" />
         </div>
         <div class="col-sm-4 col-lg-6">
-          <GlobalHeader :weather="weather" :weatherSummery="weatherSummery" />
+          <GlobalHeader
+            :weather="weather"
+            :weatherSummery="weatherSummery"
+            @alertOpenPhoneBook="openPhoneBook"
+          />
           <WeatherContent
             v-show="weatherShow"
             :weather="weather"
@@ -22,6 +26,11 @@
         <div class="col-lg-4 lg-only"></div>
       </div>
     </div>
+
+    <PhoneBook
+      :isOpenPhoneBook="isOpenPhoneBook"
+      @alertClosePhoneBook="closePhoneBook"
+    />
   </div>
 </template>
 
@@ -34,6 +43,7 @@ import CodiContent from "./components/CodiContent.vue";
 import MusicContent from "./components/MusicContent.vue";
 import weatherList from "./assets/data/weather.json";
 import { ref } from "vue";
+import PhoneBook from "./components/PhoneBook.vue";
 
 const weatherData = weatherList;
 
@@ -46,6 +56,7 @@ export default {
     GlobalFooter,
     CodiContent,
     MusicContent,
+    PhoneBook,
   },
 
   data() {
@@ -73,6 +84,7 @@ export default {
       dateComparison: 0,
       weatherCondition: "",
       changeDate: false,
+      isOpenPhoneBook: false,
     };
   },
 
@@ -227,6 +239,14 @@ export default {
         this.codiShow = false;
         this.musicShow = true;
       }
+    },
+
+    openPhoneBook() {
+      this.isOpenPhoneBook = true;
+    },
+
+    closePhoneBook() {
+      this.isOpenPhoneBook = false;
     },
   },
 };

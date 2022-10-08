@@ -1,9 +1,9 @@
 <template>
-  <aside class="phoneBook">
+  <aside class="phoneBook" :class="{ 'is-open': isOpenPhoneBook }">
     <header class="phoneBook-header">
       <h2 class="title">한신대학교 전화번호부</h2>
       <button class="close-button" type="button">
-        <i class="ic-close"></i>
+        <i class="ic-close" @click="clickCloseButton"></i>
       </button>
     </header>
 
@@ -51,7 +51,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    isOpenPhoneBook: Boolean,
+  },
+
+  methods: {
+    clickCloseButton() {
+      this.$emit("alertClosePhoneBook");
+    },
+  },
+};
 </script>
 
 <style></style>
