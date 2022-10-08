@@ -38,14 +38,25 @@
     font-size: 18px;
   }
 
-  .hs-button {
+  .headerIcon {
     position: absolute;
     top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .phoneBookButton {
+    left: 16px;
+
+    i {
+      font-size: 32px;
+    }
+  }
+
+  .hs-button {
     right: 16px;
     width: 48px;
     height: 48px;
     overflow: hidden;
-    transform: translate(0, -50%);
 
     img {
       width: 100%;
