@@ -1,0 +1,2564 @@
+[
+  {
+    "department": "한신학원",
+    "department_detail": "이사장",
+    "name": "박상규",
+    "phone": "031-379-0005",
+    "room": 1209
+  },
+  {
+    "department": "한신학원",
+    "department_detail": "법인사무국장",
+    "name": "전형금",
+    "phone": "031-379-0006",
+    "room": 1208
+  },
+  {
+    "department": "한신학원",
+    "department_detail": "법인사무국",
+    "name": "김다혜",
+    "phone": "031-379-0007",
+    "room": 1208
+  },
+  {
+    "department": "총장실",
+    "department_detail": "총장",
+    "name": "강성영",
+    "phone": "031-379-0001",
+    "room": 1202
+  },
+  {
+    "department": "총장실",
+    "department_detail": "비서팀장",
+    "name": "고영삼",
+    "phone": "031-379-0002",
+    "room": 1202
+  },
+  {
+    "department": "총장실",
+    "department_detail": "비서",
+    "name": "선미다",
+    "phone": "031-379-0001",
+    "room": 1202
+  },
+  {
+    "department": "총장실",
+    "department_detail": "수행비서",
+    "name": "박응용",
+    "phone": "031-379-0002",
+    "room": 1202
+  },
+  {
+    "department": "교목실",
+    "department_detail": "교목실장",
+    "name": "나현기",
+    "phone": "031-379-0010",
+    "room": 4101
+  },
+  {
+    "department": "교목실",
+    "department_detail": "교목",
+    "name": "김남석",
+    "phone": "031-379-0009",
+    "room": 4103
+  },
+  {
+    "department": "교목실",
+    "department_detail": "교목",
+    "name": "강은미",
+    "phone": "031-379-0781",
+    "room": 4104
+  },
+  {
+    "department": "교목실",
+    "department_detail": "교목",
+    "name": "진형섭",
+    "phone": "031-379-0779",
+    "room": 4102
+  },
+  {
+    "department": "교목실",
+    "department_detail": "교목실팀장",
+    "name": "김기중",
+    "phone": "031-379-0012",
+    "room": 4106
+  },
+  {
+    "department": "교목실",
+    "department_detail": "담당",
+    "name": "박충만",
+    "phone": "031-379-0013",
+    "room": 4106
+  },
+  {
+    "department": "대외협력센터",
+    "department_detail": "대외협력센터팀장",
+    "name": "고영삼",
+    "phone": "031-379-0002",
+    "room": 1202
+  },
+  {
+    "department": "대외협력센터",
+    "department_detail": "대외협력",
+    "name": "김영호",
+    "phone": "031-379-0890",
+    "room": 1307
+  },
+  {
+    "department": "대외협력센터",
+    "department_detail": "대외협력",
+    "name": "박병룡",
+    "phone": "031-379-0891",
+    "room": 1307
+  },
+  {
+    "department": "대외협력센터",
+    "department_detail": "발전기금",
+    "name": "이주현",
+    "phone": "031-379-0892",
+    "room": 1202
+  },
+  {
+    "department": "감사실",
+    "department_detail": "감사실장",
+    "name": "김흥기",
+    "phone": "031-379-0110",
+    "room": 1301
+  },
+  {
+    "department": "감사실",
+    "department_detail": "감사실",
+    "name": "김민지",
+    "phone": "031-379-0111",
+    "room": 1302
+  },
+  {
+    "department": "인권센터",
+    "department_detail": "인권센터장",
+    "name": "김흥기",
+    "phone": "031-379-0110",
+    "room": 1301
+  },
+  {
+    "department": "인권센터",
+    "department_detail": "팀장",
+    "name": "이점건",
+    "phone": "031-379-0041",
+    "room": 6105
+  },
+  {
+    "department": "인권센터",
+    "department_detail": "담당",
+    "name": "김민지",
+    "phone": "031-379-0807",
+    "room": 6223
+  },
+  {
+    "department": "기획처",
+    "department_detail": "기획처장",
+    "name": "류승택",
+    "phone": "031-379-0030",
+    "room": 1207
+  },
+  {
+    "department": "기획처",
+    "department_detail": "기획예산팀장",
+    "name": "최윤호",
+    "phone": "031-379-0031",
+    "room": 1304
+  },
+  {
+    "department": "기획처",
+    "department_detail": "기획관리",
+    "name": "박현",
+    "phone": "031-379-0034",
+    "room": 1304
+  },
+  {
+    "department": "기획처",
+    "department_detail": "담당",
+    "name": "김은비",
+    "phone": "031-379-0032",
+    "room": 1304
+  },
+  {
+    "department": "기획처",
+    "department_detail": "대학평가팀장",
+    "name": "김정현",
+    "phone": "031-379-0225",
+    "room": 1302
+  },
+  {
+    "department": "기획처",
+    "department_detail": "평가",
+    "name": "강현우",
+    "phone": "031-379-0226",
+    "room": 1302
+  },
+  {
+    "department": "기획처",
+    "department_detail": "평가",
+    "name": "김미선",
+    "phone": "031-379-0227",
+    "room": 1302
+  },
+  {
+    "department": "기획처",
+    "department_detail": "혁신성과관리팀장",
+    "name": "조현식",
+    "phone": "031-379-0851",
+    "room": 1315
+  },
+  {
+    "department": "기획처",
+    "department_detail": "담당",
+    "name": "최지혜",
+    "phone": "031-379-0852",
+    "room": 1315
+  },
+  {
+    "department": "기획처",
+    "department_detail": "일반연구원",
+    "name": "이태영",
+    "phone": "031-379-0856",
+    "room": 1315
+  },
+  {
+    "department": "기획처",
+    "department_detail": "일반연구원",
+    "name": "김윤경",
+    "phone": "031-379-0853",
+    "room": 1315
+  },
+  {
+    "department": "기획처",
+    "department_detail": "일반연구원",
+    "name": "장민수",
+    "phone": "031-379-0854",
+    "room": 1315
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교무혁신처장",
+    "name": "변종석",
+    "phone": "031-379-0020",
+    "room": 1203
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교무팀장",
+    "name": "김종호",
+    "phone": "031-379-0021",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "학적·휴복학·졸업",
+    "name": "이재영",
+    "phone": "031-379-0022",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "서태원",
+    "phone": "031-379-0022",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "학적·졸업·교직",
+    "name": "배윤경",
+    "phone": "031-379-0023",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "수업·수강신청",
+    "name": "박문수",
+    "phone": "031-379-0024",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "수업·공결·계절",
+    "name": "류수윤",
+    "phone": "031-379-0025",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일반연구원",
+    "name": "이세린",
+    "phone": "031-379-0264",
+    "room": 8104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교수연구팀장",
+    "name": "김진우",
+    "phone": "031-379-0026",
+    "room": 1102
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "원수연",
+    "phone": "031-379-0029",
+    "room": 1102
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교원인사",
+    "name": "목윤아",
+    "phone": "031-379-0027",
+    "room": 1102
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "연구업적·연구비",
+    "name": "박주희",
+    "phone": "031-379-0028",
+    "room": 1102
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교양교육센터장",
+    "name": "차윤정",
+    "phone": "031-379-0668",
+    "room": 3517
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "팀장",
+    "name": "장봉기",
+    "phone": "031-379-0750",
+    "room": 6202
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "최성혜",
+    "phone": "031-379-0732",
+    "room": 8107
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "연구원",
+    "name": "이재익",
+    "phone": "031-379-0733",
+    "room": 8107
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "대학행정팀장",
+    "name": "전석철",
+    "phone": "031-379-0450",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "전재선",
+    "phone": "031-379-0470",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "문예창작학과 담당",
+    "name": "박순빈",
+    "phone": "031-379-0460",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "중국어문화영상융합학과, 한중문화콘텐츠학과, IT콘텐츠학과 담당",
+    "name": "이은정",
+    "phone": "031-379-0509",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "경제학과/ 특수체육학과 담당",
+    "name": "최연우",
+    "phone": "031-379-0500",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "글로벌인재학부/글로벌비즈니스학부 담당",
+    "name": "이수진",
+    "phone": "031-379-0490",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "수리금융학과 담당",
+    "name": "권미애",
+    "phone": "031-379-0600",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "소프트웨어융합학부 담당",
+    "name": "이수인",
+    "phone": "031-379-0650",
+    "room": "18421-1"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "컴퓨터공학부/소프트웨어융합학부 실습담당",
+    "name": "안도연",
+    "phone": "031-379-0628",
+    "room": "18421-1"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "한국사학과, 디지털영상문화콘텐츠학과 담당",
+    "name": "조경호",
+    "phone": "031-379-0440",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "미디어영상광고홍보학부 담당",
+    "name": "최지희",
+    "phone": "031-379-0580",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "컴퓨터공학부 담당",
+    "name": "원유정",
+    "phone": "031-379-0630",
+    "room": "18421-1"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "IT대학 실습담당",
+    "name": "백준호",
+    "phone": "031-379-0649",
+    "room": "18421-1"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "심리아동학부/사회학과 담당",
+    "name": "이한별",
+    "phone": "031-379-0550",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "신학부/종교문화학과/철학과 담당",
+    "name": "김용준",
+    "phone": "031-379-0390",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "중국학과/IT경영학과 담당",
+    "name": "박슬기롭다",
+    "phone": "031-379-0530",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "국제경제학과/공공인재학부 담당",
+    "name": "엄태선",
+    "phone": "031-379-0560",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육혁신원원장",
+    "name": "변종석",
+    "phone": "031-379-0020",
+    "room": 7208
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육혁신원부원장",
+    "name": "남세현",
+    "phone": "031-379-0527",
+    "room": 8206
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "부교수",
+    "name": "이종운",
+    "phone": "031-379-0730",
+    "room": 8305
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "조교수",
+    "name": "유은하",
+    "phone": "031-379-0729",
+    "room": 8305
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "조교수",
+    "name": "김계자",
+    "phone": "031-379-0731",
+    "room": 8327
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육혁신원 연구교수",
+    "name": "차정민",
+    "phone": "031-379-0827",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육혁신원 연구교수",
+    "name": "이승연",
+    "phone": "031=379-0828",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교수학습지원센터장",
+    "name": "차윤정",
+    "phone": "031-379-0668",
+    "room": 3517
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "팀장",
+    "name": "장봉기",
+    "phone": "031-379-0750",
+    "room": 6202
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교수학습지원센터담당",
+    "name": "김가영",
+    "phone": "031-379-0836",
+    "room": 6202
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "선임급연구원",
+    "name": "이림",
+    "phone": "031-379-0834",
+    "room": 6202
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일반연구원",
+    "name": "최민혁",
+    "phone": "031-379-0755",
+    "room": 6202
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육성과관리센터장",
+    "name": "김동심",
+    "phone": "031-379-0142",
+    "room": 3517
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일반연구원",
+    "name": "박동선",
+    "phone": "031-379-0832",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "박가현",
+    "phone": "031-379-0756",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일반연구원",
+    "name": "최여광",
+    "phone": "031-379-0758",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "SW역량강화센터장",
+    "name": "박성진",
+    "phone": "031-379-0641",
+    "room": 18413
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "SW역량강화센터",
+    "name": "박종현",
+    "phone": "031-379-0796",
+    "room": 18502
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "교육성과관리센터팀장",
+    "name": "이기형",
+    "phone": "031-379-0740",
+    "room": "Jan-01"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "박가현",
+    "phone": "031-379-0756",
+    "room": "Jan-02"
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "이러닝센터장",
+    "name": "김동심",
+    "phone": "031-379-0142",
+    "room": 3517
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "이러닝센터팀장",
+    "name": "손병창",
+    "phone": "031-379-0751",
+    "room": 20104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일본학과/경영학과 담당",
+    "name": "전나영",
+    "phone": "031-379-0570",
+    "room": 8105
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "담당",
+    "name": "진민걸",
+    "phone": "031-379-0754",
+    "room": 20309
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "일반연구원",
+    "name": "김한나",
+    "phone": "031-379-0752",
+    "room": 20104
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "국어국문학과 학과조교",
+    "name": "원은채",
+    "phone": "031-379-0400",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "독일어문화학과/영미문화학과 담당",
+    "name": "윤수빈",
+    "phone": "031-379-0420",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "사회복지학과/재활상담학과 담당",
+    "name": "심주영",
+    "phone": "031-379-0510",
+    "room": 8106
+  },
+  {
+    "department": "교무혁신처",
+    "department_detail": "응용통계학과 학과조교",
+    "name": "최예빈",
+    "phone": "031-379-0610",
+    "room": 8105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생복지처장",
+    "name": "최민성",
+    "phone": "031-379-0040",
+    "room": 1206
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생장학팀장",
+    "name": "이점건",
+    "phone": "031-379-0041",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "국가장학",
+    "name": "최승훈",
+    "phone": "031-379-0042",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생복지",
+    "name": "김재욱",
+    "phone": "031-379-0043",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "교내장학",
+    "name": "정승필",
+    "phone": "031-379-0044",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "보건진료소",
+    "name": "김나영",
+    "phone": "031-379-0775",
+    "room": 17106
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "생활관장(경기)",
+    "name": "최민성",
+    "phone": "031-379-0170",
+    "room": ""
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "팀장",
+    "name": "송성선",
+    "phone": "031-379-0171",
+    "room": ""
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "이광순",
+    "phone": "031-379-0172",
+    "room": ""
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "오민석",
+    "phone": "031-379-0173",
+    "room": ""
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "한종희",
+    "phone": "031-379-0174",
+    "room": ""
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생상담센터장",
+    "name": "안도연",
+    "phone": "031-379-0749",
+    "room": 8225
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "팀장",
+    "name": "이점건",
+    "phone": "031-379-0041",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "허영주",
+    "phone": "031-379-0769",
+    "room": 6223
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "김지혜",
+    "phone": "031-379-0771",
+    "room": 6223
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "장애학습지원센터장",
+    "name": "최민성",
+    "phone": "031-379-0040",
+    "room": 1206
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "팀장",
+    "name": "이점건",
+    "phone": "031-379-0041",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "김재욱",
+    "phone": "031-379-0043",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생복지센터팀장",
+    "name": "이점건",
+    "phone": "031-379-0041",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "담당",
+    "name": "박원식",
+    "phone": "031-379-0045",
+    "room": 6105
+  },
+  {
+    "department": "학생복지처",
+    "department_detail": "학생상담센터/일반연구원",
+    "name": "이정신",
+    "phone": "031-379-0770",
+    "room": 6223
+  },
+  {
+    "department": "사무처",
+    "department_detail": "사무처장",
+    "name": "이상헌",
+    "phone": "031-379-0060",
+    "room": 1210
+  },
+  {
+    "department": "사무처",
+    "department_detail": "총무팀장",
+    "name": "임춘하",
+    "phone": "031-379-0062",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "4대보험, 개인정보보호",
+    "name": "이혜영",
+    "phone": "031-379-0063",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "담당",
+    "name": "신한나",
+    "phone": "031-379-0064",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "복무근태·서무",
+    "name": "노경숙",
+    "phone": "031-379-0065",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "구매·입찰·계약",
+    "name": "이대회",
+    "phone": "031-379-0066",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "담당",
+    "name": "이동렬",
+    "phone": "",
+    "room": 1101
+  },
+  {
+    "department": "사무처",
+    "department_detail": "경비·주차",
+    "name": "종합상황실",
+    "phone": "031-379-0070",
+    "room": "정문"
+  },
+  {
+    "department": "사무처",
+    "department_detail": "재무팀장",
+    "name": "이명아",
+    "phone": "031-379-0074",
+    "room": 1104
+  },
+  {
+    "department": "사무처",
+    "department_detail": "등록·회계",
+    "name": "서민지",
+    "phone": "031-379-0075",
+    "room": 1104
+  },
+  {
+    "department": "사무처",
+    "department_detail": "등록",
+    "name": "오수빈",
+    "phone": "031-379-0076",
+    "room": 1104
+  },
+  {
+    "department": "사무처",
+    "department_detail": "급여·회계",
+    "name": "김가현",
+    "phone": "031-379-0077",
+    "room": 1104
+  },
+  {
+    "department": "사무처",
+    "department_detail": "시설자산팀장",
+    "name": "신양호",
+    "phone": "031-379-0080",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "자산",
+    "name": "이정화",
+    "phone": "031-379-0081",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "행정",
+    "name": "이주은",
+    "phone": "031-379-0082",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "안전",
+    "name": "김경태",
+    "phone": "031-379-0083",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "건축",
+    "name": "이창덕",
+    "phone": "031-379-0084",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "전기",
+    "name": "최성찬",
+    "phone": "031-379-0085",
+    "room": 7001
+  },
+  {
+    "department": "사무처",
+    "department_detail": "설비",
+    "name": "이영호",
+    "phone": "031-379-0086",
+    "room": 2004
+  },
+  {
+    "department": "사무처",
+    "department_detail": "설비",
+    "name": "권상민",
+    "phone": "031-379-0097",
+    "room": 2004
+  },
+  {
+    "department": "사무처",
+    "department_detail": "조경",
+    "name": "이재길",
+    "phone": "031-379-0087",
+    "room": 20002
+  },
+  {
+    "department": "사무처",
+    "department_detail": "목공",
+    "name": "전세정",
+    "phone": "031-379-0088",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "건축관리실",
+    "name": "임종근",
+    "phone": "031-379-0093",
+    "room": 3102
+  },
+  {
+    "department": "사무처",
+    "department_detail": "건축관리실",
+    "name": "이기풍",
+    "phone": "031-379-0093",
+    "room": 3102
+  },
+  {
+    "department": "사무처",
+    "department_detail": "전기관리실",
+    "name": "함석준",
+    "phone": "031-379-0096",
+    "room": 7001
+  },
+  {
+    "department": "사무처",
+    "department_detail": "기관실",
+    "name": "박흥규",
+    "phone": "031-379-0098",
+    "room": 2004
+  },
+  {
+    "department": "사무처",
+    "department_detail": "조경",
+    "name": "안태현",
+    "phone": "031-379-0087",
+    "room": 20002
+  },
+  {
+    "department": "사무처",
+    "department_detail": "미화",
+    "name": "김미미",
+    "phone": "031-379-0092",
+    "room": 3216
+  },
+  {
+    "department": "사무처",
+    "department_detail": "청소감독실",
+    "name": "박연원",
+    "phone": "031-379-0298",
+    "room": 18115
+  },
+  {
+    "department": "사무처",
+    "department_detail": "체육관장",
+    "name": "임종민",
+    "phone": "031-379-0622",
+    "room": 8201
+  },
+  {
+    "department": "사무처",
+    "department_detail": "그린캠퍼스사업단장",
+    "name": "이상헌",
+    "phone": "031-379-0060",
+    "room": 1210
+  },
+  {
+    "department": "사무처",
+    "department_detail": "그린캠퍼스사업단 팀장",
+    "name": "신양호",
+    "phone": "031-379-0080",
+    "room": 6424
+  },
+  {
+    "department": "사무처",
+    "department_detail": "그린캠퍼스사업단 담당",
+    "name": "김옥선",
+    "phone": "031-379-0116",
+    "room": 6424
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "진로취업본부장 대학일자리플러스센터장 현장실습지원센터장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "대학일자리센터플러스팀장",
+    "name": "이헌준",
+    "phone": "031-379-0051",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "담당",
+    "name": "염승자",
+    "phone": "031-379-0053",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "담당",
+    "name": "김준원",
+    "phone": "031-379-0057",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "취업지원관(현장실습)",
+    "name": "임승하",
+    "phone": "031-379-0813",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "이수진",
+    "phone": "031-379-0811",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "신아름",
+    "phone": "031-379-0812",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "김진아",
+    "phone": "031-379-0058",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "정은희",
+    "phone": "031-379-0054",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "장예슬",
+    "phone": "031-379-0815",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "김도아",
+    "phone": "031-379-0810",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "남궁혜영",
+    "phone": "031-379-0897",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "취창업지원팀일반연구원",
+    "name": "박은수",
+    "phone": "031-379-0816",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "취업지원관(취업교과)",
+    "name": "신수정",
+    "phone": "031-379-0056",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "현장실습지원센터장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "현장실습지원센터 팀장",
+    "name": "이헌준",
+    "phone": "031-379-0051",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "IPP형일학습병행제단장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "부교수",
+    "name": "최기석",
+    "phone": "031-379-0887",
+    "room": 17103
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "부교수",
+    "name": "손성달",
+    "phone": "031-379-0886",
+    "room": 17104
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "조교수",
+    "name": "이경봉",
+    "phone": "031-379-0884",
+    "room": 17104
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "조교수",
+    "name": "김용희",
+    "phone": "031-379-0885",
+    "room": 7210
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "IPP센터장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "IPP센터 팀장",
+    "name": "오수연",
+    "phone": "031-379-0881",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "양정아",
+    "phone": "031-379-0877",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "방진희",
+    "phone": "031-379-0898",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "조민영",
+    "phone": "031-379-0878",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "김동근",
+    "phone": "031-379-0876",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "박혜미",
+    "phone": "031-379-0879",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "듀얼공동훈련센터장",
+    "name": "김상욱",
+    "phone": "031-379-0550",
+    "room": 1205
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "담당",
+    "name": "양정아",
+    "phone": "031-379-0877",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "담당",
+    "name": "방진희",
+    "phone": "031-379-0898",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "조민영",
+    "phone": "031-379-0878",
+    "room": 6201
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "경기도형대학생취업 브리지사업단팀장",
+    "name": "이헌준",
+    "phone": "031-379-0051",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "RnD사업단장",
+    "name": "류승택",
+    "phone": "031-379-0644",
+    "room": 18407
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "팀장",
+    "name": "이헌준",
+    "phone": "031-379-0051",
+    "room": 6101
+  },
+  {
+    "department": "진로취업본부",
+    "department_detail": "일반연구원",
+    "name": "유지혜",
+    "phone": "031-379-0894",
+    "room": 6108
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학홍보본부장",
+    "name": "지원배",
+    "phone": "031-379-0101",
+    "room": 1204
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학인재발굴팀장",
+    "name": "류희정",
+    "phone": "031-379-0102",
+    "room": 1103
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학전형",
+    "name": "김수향",
+    "phone": "031-379-0103",
+    "room": 1103
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학전형",
+    "name": "강호섭",
+    "phone": "031-379-0104",
+    "room": 1103
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학전형",
+    "name": "양수열",
+    "phone": "031-379-0105",
+    "room": 1103
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "입학전형",
+    "name": "장지수",
+    "phone": "031-379-0106",
+    "room": 1103
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "브랜드홍보팀장",
+    "name": "김동규",
+    "phone": "031-379-0036",
+    "room": 1313
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "홍보물제작",
+    "name": "이주현",
+    "phone": "031-379-0037",
+    "room": 1313
+  },
+  {
+    "department": "입학홍보본부",
+    "department_detail": "언론·온라인홍보",
+    "name": "서창수",
+    "phone": "031-379-0038",
+    "room": 1313
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "디지털본부장실",
+    "name": "서정욱",
+    "phone": "031-379-0120",
+    "room": 1309
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "정보시스템팀장",
+    "name": "조명원",
+    "phone": "031-379-0121",
+    "room": 18305
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "그룹웨어·메일·행정",
+    "name": "박세환",
+    "phone": "031-379-0123",
+    "room": 18305
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "학사업무",
+    "name": "정준훈",
+    "phone": "031-379-0125",
+    "room": 18305
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "그룹웨어·메일·행정",
+    "name": "이지은",
+    "phone": "031-379-0124",
+    "room": 18305
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "AI빅데이터센터장",
+    "name": "서정욱",
+    "phone": "031-379-0662",
+    "room": 18501
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "조교수",
+    "name": "김애영",
+    "phone": "031-379-0609",
+    "room": 8207
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "AI빅데이터센터 팀장",
+    "name": "조익일",
+    "phone": "031-379-0251",
+    "room": 14102
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "담당",
+    "name": "안혜영",
+    "phone": "031-379-0256",
+    "room": 14102
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "IR센터장",
+    "name": "박성진",
+    "phone": "031-379-0641",
+    "room": 18413
+  },
+  {
+    "department": "디지털본부",
+    "department_detail": "IR센터 팀장",
+    "name": "조익일",
+    "phone": "031-379-0251",
+    "room": 14102
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "대학원장(경기)",
+    "name": "이인재",
+    "phone": "031-379-0130",
+    "room": 2107
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "교학팀장",
+    "name": "김성미",
+    "phone": "031-379-0132",
+    "room": 2108
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "학적‧졸업",
+    "name": "정인수",
+    "phone": "031-379-0137",
+    "room": 2108
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "수업‧장학",
+    "name": "유가은",
+    "phone": "031-379-0133",
+    "room": 2108
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "시험‧논문",
+    "name": "남윤아",
+    "phone": "031-379-0143",
+    "room": 2108
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "정신분석대학원실습조교",
+    "name": "김현진",
+    "phone": "031-379-0138",
+    "room": 2108
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "교육대학원장",
+    "name": "오현숙",
+    "phone": "031-379-0135",
+    "room": 2104
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "교육대학원",
+    "name": "옥장흠",
+    "phone": "031-379-0672",
+    "room": 8221
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "교육대학원",
+    "name": "김동심",
+    "phone": "031-379-0142",
+    "room": 8223
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "교육대학원",
+    "name": "김애영",
+    "phone": "031-379-0609",
+    "room": 8207
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "겸임",
+    "name": "최인화",
+    "phone": "031-379-0673",
+    "room": 3420
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "정신분석대학원장",
+    "name": "오현숙",
+    "phone": "031-379-0135",
+    "room": 2104
+  },
+  {
+    "department": "대학원(경기)",
+    "department_detail": "정신분석대학원",
+    "name": "김태완",
+    "phone": "031-379-0667",
+    "room": 8328
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "신학대학원장",
+    "name": "전철",
+    "phone": "02)2125-0102",
+    "room": ""
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "대학원장(서울)",
+    "name": "이인재",
+    "phone": "031-379-0130",
+    "room": 2107
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "사회혁신경영대학원장",
+    "name": "이기호",
+    "phone": "02)2125-0189",
+    "room": "Feb-05"
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교역지도실장",
+    "name": "이향명",
+    "phone": "02)2125-0104",
+    "room": ""
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교학부장",
+    "name": "김창주",
+    "phone": "02)2125-0105",
+    "room": 2214
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교학팀장",
+    "name": "임충",
+    "phone": "02)2125-0107",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교학",
+    "name": "이광표",
+    "phone": "02)2125-0111",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교학",
+    "name": "장함지",
+    "phone": "02)2125-0108",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "서무‧시설",
+    "name": "김미경",
+    "phone": "02)2125-0110",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "사회혁신경영 대학원팀장",
+    "name": "임충",
+    "phone": "02)2125-0107",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "사회혁신경영대학원",
+    "name": "김미경",
+    "phone": "02)2125-0110",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교학‧국제교류",
+    "name": "이명지",
+    "phone": "02)2125-0109",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "교역지도실",
+    "name": "조나단",
+    "phone": "02)2125-0106",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "통신방제실‧전기",
+    "name": "김영국",
+    "phone": "02)2125-0112",
+    "room": 2102
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "담당",
+    "name": "유용우",
+    "phone": "02)2125-0113",
+    "room": ""
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "생활관장",
+    "name": "이향명",
+    "phone": "02)2125-0104",
+    "room": ""
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "생활관팀장",
+    "name": "임충",
+    "phone": "02)2125-0107",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "생활관",
+    "name": "이광표",
+    "phone": "02)2125-0111",
+    "room": 2201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "생활관",
+    "name": "조리실",
+    "phone": "02)2125-0144",
+    "room": ""
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "미화원실",
+    "name": "나현숙",
+    "phone": "02)2125-0116",
+    "room": 1201
+  },
+  {
+    "department": "대학원(서울)",
+    "department_detail": "생활관",
+    "name": "김수자",
+    "phone": "02)2125-0145",
+    "room": "생활관"
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "중앙도서관장",
+    "name": "서정욱",
+    "phone": "031-379-0150",
+    "room": 6122
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "중앙도서관팀장",
+    "name": "김흥식",
+    "phone": "031-379-0151",
+    "room": 6123
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "수서.예산.통계",
+    "name": "최미영",
+    "phone": "031-379-0152",
+    "room": 6123
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "행정보조",
+    "name": "김유진",
+    "phone": "031-379-0153",
+    "room": 6123
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "정리,행정",
+    "name": "이은미",
+    "phone": "031-379-0154",
+    "room": 6123
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "비도서.도서전산",
+    "name": "황익순",
+    "phone": "031-379-0155",
+    "room": 6123
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "전자자료열람실(1층)",
+    "name": "안내",
+    "phone": "031-379-0156",
+    "room": 6124
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "대출실(2층)",
+    "name": "안내",
+    "phone": "031-379-0157~8",
+    "room": 6221
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "대츨실.특수자료실",
+    "name": "이경미",
+    "phone": "031-379-0159",
+    "room": 6322
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "정기간행물",
+    "name": "김민정",
+    "phone": "031-379-0162",
+    "room": 6121
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "학술원장",
+    "name": "이인재",
+    "phone": "031-379-0523",
+    "room": 8403
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "학술원",
+    "name": "문경덕",
+    "phone": "031-379-0195",
+    "room": 6202
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "출판부장",
+    "name": "이인재",
+    "phone": "031-379-0523",
+    "room": 8403
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "출판부",
+    "name": "안혜영",
+    "phone": "031-379-0221",
+    "room": 14102
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "박물관장",
+    "name": "이형원",
+    "phone": "031-379-0446",
+    "room": 8324
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "박물관",
+    "name": "문경덕",
+    "phone": "031-379-0195",
+    "room": 6204
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "박물관",
+    "name": "강정식",
+    "phone": "031-379-0194",
+    "room": 6204
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "기록정보관장",
+    "name": "이영남",
+    "phone": "031-379-0205",
+    "room": 20504
+  },
+  {
+    "department": "종합학술정보원(경기)",
+    "department_detail": "기록정보관",
+    "name": "문경덕",
+    "phone": "031-379-0195",
+    "room": 20504
+  },
+  {
+    "department": "종합학술정보원(서울)",
+    "department_detail": "장공도서관장",
+    "name": "전철",
+    "phone": "02)2125-0102",
+    "room": 2213
+  },
+  {
+    "department": "종합학술정보원(서울)",
+    "department_detail": "장공도서관팀장",
+    "name": "임충",
+    "phone": "02)2125-0107",
+    "room": 2201
+  },
+  {
+    "department": "종합학술정보원(서울)",
+    "department_detail": "담당",
+    "name": "문경덕",
+    "phone": "02)2125-0321",
+    "room": 6222
+  },
+  {
+    "department": "종합학술정보원(서울)",
+    "department_detail": "대출·정기간행물",
+    "name": "김수남",
+    "phone": "02)2125-0131",
+    "room": 3202
+  },
+  {
+    "department": "종합학술정보원(서울)",
+    "department_detail": "수서.행정.자료조직",
+    "name": "황은영",
+    "phone": "02)2125-0134",
+    "room": 3202
+  },
+  {
+    "department": "학보사",
+    "department_detail": "학보사주간",
+    "name": "김예랑",
+    "phone": "02)2125-0518",
+    "room": 8312
+  },
+  {
+    "department": "학보사",
+    "department_detail": "담당",
+    "name": "문경덕",
+    "phone": "031-379-0321",
+    "room": 6222
+  },
+  {
+    "department": "방송국",
+    "department_detail": "방송국주간",
+    "name": "김예랑",
+    "phone": "02)2125-0518",
+    "room": 8312
+  },
+  {
+    "department": "방송국",
+    "department_detail": "담당",
+    "name": "문경덕",
+    "phone": "02)2125-0321",
+    "room": 18306
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "국제교류원장",
+    "name": "지원배",
+    "phone": "031-379-0586",
+    "room": 8325
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "국제교류원",
+    "name": "팡리",
+    "phone": "031-379-0778",
+    "room": 17302
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "국제교류원",
+    "name": "정예수",
+    "phone": "031-379-0795",
+    "room": "Jan-03"
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "국제교류원",
+    "name": "백민석",
+    "phone": "031-379-0762",
+    "room": 18306
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "국제교육교류팀장",
+    "name": "양성모",
+    "phone": "031-379-0210",
+    "room": 6323
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "선임급연구원",
+    "name": "이도형",
+    "phone": "031-379-0760",
+    "room": 17301
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "담당",
+    "name": "손자람",
+    "phone": "031-379-0212",
+    "room": 6323
+  },
+  {
+    "department": "국제교류원",
+    "department_detail": "일반연구원",
+    "name": "조인성",
+    "phone": "031-379-0211",
+    "room": 6323
+  },
+  {
+    "department": "평생교육원(경기)",
+    "department_detail": "평생교육원장(경기)",
+    "name": "김대숙",
+    "phone": "031-379-0793",
+    "room": 2303
+  },
+  {
+    "department": "평생교육원(경기)",
+    "department_detail": "평생교육원팀장",
+    "name": "신윤선",
+    "phone": "031-379-0190",
+    "room": 20407
+  },
+  {
+    "department": "평생교육원(경기)",
+    "department_detail": "담당",
+    "name": "이현순",
+    "phone": "031-379-0188",
+    "room": 20407
+  },
+  {
+    "department": "평생교육원(경기)",
+    "department_detail": "담당",
+    "name": "김은비",
+    "phone": "031-379-0189",
+    "room": 20407
+  },
+  {
+    "department": "평생교육원(서울)",
+    "department_detail": "평생교육원장(서울)",
+    "name": "정건화",
+    "phone": "02)2125-0127",
+    "room": 3101
+  },
+  {
+    "department": "평생교육원(서울)",
+    "department_detail": "평생교육원",
+    "name": "이대신",
+    "phone": "02)2125-0127",
+    "room": 2201
+  },
+  {
+    "department": "평생교육원(서울)",
+    "department_detail": "담당",
+    "name": "이광표",
+    "phone": "02)2125-0111",
+    "room": ""
+  },
+  {
+    "department": "평생교육원(서울)",
+    "department_detail": "담당",
+    "name": "김미경",
+    "phone": "02)2125-0110",
+    "room": ""
+  },
+  {
+    "department": "창업지원단",
+    "department_detail": "창업지원단장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "창업지원단",
+    "department_detail": "팀장",
+    "name": "임병철",
+    "phone": "031-379-0241",
+    "room": 18518
+  },
+  {
+    "department": "창업지원단",
+    "department_detail": "담당",
+    "name": "김지석",
+    "phone": "031-379-0242",
+    "room": 18518
+  },
+  {
+    "department": "창업지원단",
+    "department_detail": "창업보육센터장",
+    "name": "김상욱",
+    "phone": "031-379-0050",
+    "room": 1205
+  },
+  {
+    "department": "민주사회정책연구원",
+    "department_detail": "민주사회정책연구원",
+    "name": "정건화",
+    "phone": "02)2125-0174",
+    "room": "백석관201"
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "산학협력단장",
+    "name": "조창석",
+    "phone": "031-379-0652",
+    "room": 18503
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "산학협력사업팀장",
+    "name": "임병철",
+    "phone": "031-379-0241",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "연구비관리",
+    "name": "하은영",
+    "phone": "031-379-0243",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "행정 ‧ 회계",
+    "name": "정초희",
+    "phone": "031-379-0244",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "연구비관리",
+    "name": "김은정",
+    "phone": "031-379-0245",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "연구비관리",
+    "name": "가소담",
+    "phone": "031-379-0257",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "연구기획",
+    "name": "김종환",
+    "phone": "031-379-0247",
+    "room": ""
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "한신아동발달상담 연구센터장",
+    "name": "이경숙",
+    "phone": "031-379-0525",
+    "room": 18313
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "실습조교",
+    "name": "김계순",
+    "phone": "",
+    "room": 18313
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "지역발전센터장",
+    "name": "정건화",
+    "phone": "031-379-0504",
+    "room": 8408
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "지역발전센터부소장",
+    "name": "김준혁",
+    "phone": "031-379-0439",
+    "room": 3521
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "팀장",
+    "name": "임병철",
+    "phone": "031-379-0241",
+    "room": 18518
+  },
+  {
+    "department": "산학협력단(경기·서울)",
+    "department_detail": "한신어린이센터장",
+    "name": "유희정",
+    "phone": "031-379-0748",
+    "room": 8323
+  },
+  {
+    "department": "한신대종교와과학센터",
+    "department_detail": "종교와과학센터장",
+    "name": "전철",
+    "phone": "02)2125-0176",
+    "room": 2213
+  },
+  {
+    "department": "한신대종교와과학센터",
+    "department_detail": "담당",
+    "name": "김미경",
+    "phone": "02)2125-0110",
+    "room": 2201
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "글로벌피스연구원장",
+    "name": "이석민",
+    "phone": "02)2125-0102",
+    "room": 4001
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "특임교수",
+    "name": "장창준",
+    "phone": "02)2125-0126",
+    "room": ""
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "실습조교",
+    "name": "이대신",
+    "phone": "02)2125-0111",
+    "room": ""
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "평화와공공성센터장",
+    "name": "이기호",
+    "phone": "02)2125-0193",
+    "room": ""
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "통일평화정책센터장",
+    "name": "이석민",
+    "phone": "031-379-0738",
+    "room": 8303
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "평화와공공성센터장",
+    "name": "이기호",
+    "phone": "02)2125-0193",
+    "room": "Feb-02"
+  },
+  {
+    "department": "글로벌피스연구원",
+    "department_detail": "센터연구교수",
+    "name": "백장현",
+    "phone": "02)2125-0187",
+    "room": "Jan-02"
+  },
+  {
+    "department": "캠퍼스타운사업단(서울)",
+    "department_detail": "캠퍼스타운사업단장",
+    "name": "이기호",
+    "phone": "02)2125-0193",
+    "room": "Feb-02"
+  },
+  {
+    "department": "캠퍼스타운사업단(서울)",
+    "department_detail": "캠퍼스타운팀장",
+    "name": "임충",
+    "phone": "02)2125-0107",
+    "room": 2201
+  },
+  {
+    "department": "캠퍼스타운사업단(서울)",
+    "department_detail": "일반연구원",
+    "name": "이규황",
+    "phone": "02)2125-0177",
+    "room": ""
+  },
+  {
+    "department": "캠퍼스타운사업단(서울)",
+    "department_detail": "일반연구원",
+    "name": "정미정",
+    "phone": "02)2125-0178",
+    "room": ""
+  },
+  {
+    "department": "휴먼케어서비스센터",
+    "department_detail": "휴먼케어서비스센터장",
+    "name": "백변경희",
+    "phone": "031-379-0526",
+    "room": 8313
+  },
+  {
+    "department": "휴먼케어서비스센터",
+    "department_detail": "조교수",
+    "name": "김용훈",
+    "phone": "031-379-0524",
+    "room": 3401
+  },
+  {
+    "department": "휴먼케어서비스센터",
+    "department_detail": "조교수",
+    "name": "박상현",
+    "phone": "031-379-0519",
+    "room": 8229
+  },
+  {
+    "department": "휴먼케어서비스센터",
+    "department_detail": "부교수",
+    "name": "임종민",
+    "phone": "031-379-0622",
+    "room": 8201
+  },
+  {
+    "department": "휴먼케어서비스센터",
+    "department_detail": "파트장",
+    "name": "신한나",
+    "phone": "031-379-0064",
+    "room": 1101
+  },
+  {
+    "department": "임상심리연구센터",
+    "department_detail": "임상심리연구센터장",
+    "name": "안도연",
+    "phone": "031-379-0749",
+    "room": 8225
+  },
+  {
+    "department": "임상심리연구센터",
+    "department_detail": "실습조교",
+    "name": "곽아영",
+    "phone": "031-379-0201",
+    "room": "Jan-06"
+  },
+  {
+    "department": "임상심리연구센터",
+    "department_detail": "실습조교",
+    "name": "박영주",
+    "phone": "031-379-0201",
+    "room": "Jan-06"
+  },
+  {
+    "department": "임상심리연구센터",
+    "department_detail": "실습조교",
+    "name": "염효원",
+    "phone": "031-379-0202",
+    "room": "Jan-06"
+  },
+  {
+    "department": "임상심리연구센터",
+    "department_detail": "실습조교",
+    "name": "박진영",
+    "phone": "031-379-0202",
+    "room": "Jan-06"
+  },
+  {
+    "department": "독립기구",
+    "department_detail": "교수협의회",
+    "name": "하종문",
+    "phone": "031-379-0542",
+    "room": 8112
+  },
+  {
+    "department": "독립기구",
+    "department_detail": "노동조합지부",
+    "name": "유두영",
+    "phone": "031-379-0271~2",
+    "room": 3105
+  },
+  {
+    "department": "독립기구",
+    "department_detail": "민주노동조합",
+    "name": "박준용",
+    "phone": "031-379-0361",
+    "room": "Jan-06"
+  },
+  {
+    "department": "독립기구",
+    "department_detail": "예비군대대",
+    "name": "권기민",
+    "phone": "031-379-0276",
+    "room": 10102
+  },
+  {
+    "department": "우편취급국",
+    "department_detail": "우편취급국",
+    "name": "이미숙",
+    "phone": "031-379-0285",
+    "room": 17102
+  },
+  {
+    "department": "우편취급국",
+    "department_detail": "우편취급국",
+    "name": "서정원",
+    "phone": "031-379-0268",
+    "room": 17102
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "신학대학",
+    "name": "신학과",
+    "phone": "031-379-0371",
+    "room": 3316
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "국어국문학과",
+    "phone": "031-379-0401",
+    "room": 3417
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "독어독문학과",
+    "phone": "031-379-0421",
+    "room": 3415
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "철학과",
+    "phone": "031-379-0431",
+    "room": 3418
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "한국사학과",
+    "phone": "031-379-0441",
+    "room": 3419
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "종교문화학과",
+    "phone": "031-379-0451",
+    "room": 3312
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "문예창작학과",
+    "phone": "031-379-0461",
+    "room": 3510
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "한중문화산업대학",
+    "name": "한중문화콘텐츠학과",
+    "phone": "031-379-0507",
+    "room": 3401
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "한중문화산업대학",
+    "name": "IT콘텐츠학과",
+    "phone": "031-379-0529",
+    "room": "Jan-01"
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "사회과학대학",
+    "name": "경제학과",
+    "phone": "031-379-0501",
+    "room": 3515
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "사회과학대학",
+    "name": "사회학과",
+    "phone": "031-379-0551",
+    "room": 3311
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "사회과학대학",
+    "name": "미디어영상광고홍보학부",
+    "phone": "031-379-0581",
+    "room": 3512
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "휴먼서비스대학",
+    "name": "사회복지학과",
+    "phone": "031-379-0511",
+    "room": 3314
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "휴먼서비스대학",
+    "name": "재활상담학과",
+    "phone": "031-379-0521",
+    "room": 3313
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "휴먼서비스대학",
+    "name": "특수체육학과",
+    "phone": "031-379-0621",
+    "room": 3511
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "휴먼서비스대학",
+    "name": "심리/아동학과",
+    "phone": "031-379-0820",
+    "room": 3502
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "글로벌협력대학",
+    "name": "일본학과",
+    "phone": "031-379-0541",
+    "room": 3319
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "글로벌협력대학",
+    "name": "경영학과",
+    "phone": "031-379-0571",
+    "room": 3513
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "글로벌협력대학",
+    "name": "국제경제학과",
+    "phone": "031-379-0561",
+    "room": 3514
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "글로벌협력대학",
+    "name": "IT경영학과",
+    "phone": "031-379-0591",
+    "room": 7306
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "IT대학",
+    "name": "수리금융학과",
+    "phone": "031-379-0601",
+    "room": 7318
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "IT대학",
+    "name": "응용통계학과",
+    "phone": "031-379-0611",
+    "room": "Jan-01"
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "IT대학",
+    "name": "컴퓨터공학부",
+    "phone": "031-379-0631",
+    "room": "18204-1"
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "영미문화학과",
+    "phone": "031-379-0411",
+    "room": 3416
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "인문대학",
+    "name": "디지털영상문화콘텐츠학과",
+    "phone": "031-379-0481",
+    "room": 9103
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "문화영상융합대학",
+    "name": "중국어문화영상융합학과",
+    "phone": "031-379-0471",
+    "room": 3414
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "문화영상융합대학",
+    "name": "중국어문화영상문화학과",
+    "phone": "031-379-0531",
+    "room": 3318
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "IT대학",
+    "name": "소프트웨어융합학부",
+    "phone": "031-379-0651",
+    "room": 18508
+  },
+  {
+    "department": "학과 학생회실",
+    "department_detail": "글로벌협력대학",
+    "name": "글러벌비즈니스학부",
+    "phone": "031-379-0490",
+    "room": 8106
+  },
+  {
+    "department": "명예교수실/강사휴게실",
+    "department_detail": "명예교수실",
+    "name": "명예교수실",
+    "phone": "031-379-0399",
+    "room": 2106
+  },
+  {
+    "department": "명예교수실/강사휴게실",
+    "department_detail": "강사휴게실 만우관",
+    "name": "강사휴게실",
+    "phone": "031-379-0282",
+    "room": 3421
+  },
+  {
+    "department": "명예교수실/강사휴게실",
+    "department_detail": "강사휴게실 만우관 팩스",
+    "name": "강사휴게실",
+    "phone": "031-379-0284",
+    "room": 3421
+  },
+  {
+    "department": "명예교수실/강사휴게실",
+    "department_detail": "강사휴게실 학과실습동",
+    "name": "강사휴게실",
+    "phone": "031-379-0283",
+    "room": 9102
+  },
+  {
+    "department": "명예교수실/강사휴게실",
+    "department_detail": "강사휴게실 학과실습동 팩스",
+    "name": "강사휴게실",
+    "phone": "031-379-0728",
+    "room": 9102
+  },
+  {
+    "department": "기타",
+    "department_detail": "담당",
+    "name": "",
+    "phone": "031-379-0215",
+    "room": ""
+  }
+]

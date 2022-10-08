@@ -12,6 +12,7 @@
         class="phoneBook-search-form"
         type="text"
         placeholder="전화번호 또는 소속을 입력해주세요"
+        @input="searchPhone($event)"
       />
       <i class="ic-search"></i>
     </div>
@@ -23,27 +24,15 @@
     </div>
 
     <ul class="phoneBook-list">
-      <li class="phoneBook-item">
-        <span>한신학원</span>
-        <span>이사장</span>
+      <li
+        v-for="(phone, index) in phoneList"
+        :key="index"
+        class="phoneBook-item"
+      >
+        <span>{{ phone.department }}</span>
+        <span>{{ phone.department_detail }}</span>
         <span>
-          <a href="tel:031-379-0005">031-379-0005</a>
-        </span>
-      </li>
-
-      <li class="phoneBook-item">
-        <span>한신학원2</span>
-        <span>이사장2</span>
-        <span>
-          <a href="tel:031-379-0006">031-379-0006</a>
-        </span>
-      </li>
-
-      <li class="phoneBook-item">
-        <span>한신학원3</span>
-        <span>이사장3</span>
-        <span>
-          <a href="tel:031-379-0007">031-379-0007</a>
+          <a :href="phone.phone">{{ phone.phone }}</a>
         </span>
       </li>
     </ul>
@@ -51,14 +40,43 @@
 </template>
 
 <script>
+import phone from "@/assets/data/phone.json";
+
+const phoneList = phone;
+
 export default {
   props: {
     isOpenPhoneBook: Boolean,
   },
 
+  data() {
+    return {
+      phoneList,
+    };
+  },
+
   methods: {
     clickCloseButton() {
       this.$emit("alertClosePhoneBook");
+    },
+
+    searchPhone(event) {
+      console.log(event.target.value);
+
+      for (let i = 0; i < this.phoneList.length; i++) {
+        if (
+          this.phoneList[i].phone.includes(event.target.value) === false &&
+          this.phoneList[i].department.includes(event.target.value) === false &&
+          this.phoneList[i].department_detail.includes(event.target.value) ===
+            false
+        ) {
+          document.querySelectorAll(".phoneBook-item")[i].style.display =
+            "none";
+        } else {
+          document.querySelectorAll(".phoneBook-item")[i].style.display =
+            "flex";
+        }
+      }
     },
   },
 };
