@@ -61,8 +61,6 @@ export default {
     },
 
     searchPhone(event) {
-      console.log(event.target.value);
-
       for (let i = 0; i < this.phoneList.length; i++) {
         if (
           this.phoneList[i].phone.includes(event.target.value) === false &&
