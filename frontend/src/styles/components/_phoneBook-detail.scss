@@ -1,0 +1,43 @@
+.phoneBook-detail {
+  @include pos-center;
+  display: none;
+  padding: 24px 36px;
+  background-color: #fff;
+  border-radius: 8px;
+  z-index: $phone-book-detail;
+
+  &.is-active {
+    display: block;
+  }
+
+  &-button {
+    width: 100%;
+    height: 40px;
+  }
+
+  &-list {
+    @include column-flexbox;
+  }
+
+  &-item {
+    @include flexbox;
+    padding: 8px 0;
+
+    dt {
+      width: 72px;
+      color: #b5babd;
+    }
+
+    dd {
+      width: 120px;
+      color: $snowy-02;
+    }
+
+    &.phone {
+      dd {
+        color: #0088ff;
+        text-decoration: underline;
+      }
+    }
+  }
+}

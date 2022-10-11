@@ -29,13 +29,42 @@
         :key="index"
         class="phoneBook-item"
       >
-        <span>{{ phone.department }}</span>
-        <span>{{ phone.department_detail }}</span>
-        <span>
-          <a :href="phone.phone">{{ phone.phone }}</a>
-        </span>
+        <button class="phoneBook-detail-button" type="button">
+          <span>{{ phone.department }}</span>
+          <span>{{ phone.department_detail }}</span>
+          <span>{{ phone.phone }}</span>
+        </button>
+
+        <aside class="phoneBook-detail">
+          <dl class="phoneBook-detail-list">
+            <div class="phoneBook-detail-item">
+              <dt>소속</dt>
+              <dd>{{ phone.department }}</dd>
+            </div>
+            <div class="phoneBook-detail-item">
+              <dt>세부소속</dt>
+              <dd>{{ phone.department_detail }}</dd>
+            </div>
+            <div class="phoneBook-detail-item">
+              <dt>이름</dt>
+              <dd>{{ phone.name }}</dd>
+            </div>
+            <div class="phoneBook-detail-item phone">
+              <dt>전화번호</dt>
+              <dd>
+                <a :href="phone.phone">{{ phone.phone }}</a>
+              </dd>
+            </div>
+            <div class="phoneBook-detail-item">
+              <dt>실번호</dt>
+              <dd>{{ phone.room }}</dd>
+            </div>
+          </dl>
+        </aside>
       </li>
     </ul>
+
+    <div class="overlay"></div>
   </aside>
 </template>
 
