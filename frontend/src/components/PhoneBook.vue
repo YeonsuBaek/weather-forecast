@@ -29,7 +29,11 @@
         :key="index"
         class="phoneBook-item"
       >
-        <button class="phoneBook-detail-button" type="button">
+        <button
+          class="phoneBook-detail-button"
+          type="button"
+          @click="openPhoneBookDetail(index)"
+        >
           <span>{{ phone.department }}</span>
           <span>{{ phone.department_detail }}</span>
           <span>{{ phone.phone }}</span>
@@ -64,7 +68,11 @@
       </li>
     </ul>
 
-    <div class="overlay"></div>
+    <div
+      class="overlay"
+      :class="{ 'is-active': openDetail }"
+      @click="closePhoneBookDetail"
+    ></div>
   </aside>
 </template>
 
@@ -81,6 +89,7 @@ export default {
   data() {
     return {
       phoneList,
+      openDetail: false,
     };
   },
 
@@ -104,6 +113,20 @@ export default {
             "flex";
         }
       }
+    },
+
+    openPhoneBookDetail(idx) {
+      this.openDetail = true;
+      const phoneBookDetail =
+        document.querySelectorAll(".phoneBook-detail")[idx];
+      phoneBookDetail.classList.add("is-active");
+    },
+
+    closePhoneBookDetail() {
+      this.openDetail = false;
+      document
+        .querySelector(".phoneBook-detail.is-active")
+        .classList.remove("is-active");
     },
   },
 };
