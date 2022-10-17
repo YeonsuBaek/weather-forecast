@@ -23,14 +23,14 @@
           <MusicContent v-show="musicShow" />
         </div>
 
-        <div class="col-lg-4 lg-only"></div>
+        <div class="col-lg-4">
+          <PhoneBook
+            :isOpenPhoneBook="isOpenPhoneBook"
+            @alertClosePhoneBook="closePhoneBook"
+          />
+        </div>
       </div>
     </div>
-
-    <PhoneBook
-      :isOpenPhoneBook="isOpenPhoneBook"
-      @alertClosePhoneBook="closePhoneBook"
-    />
   </div>
 </template>
 
