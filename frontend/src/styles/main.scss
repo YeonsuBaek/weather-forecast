@@ -1,9 +1,11 @@
 @import "./constants/colors";
 @import "./constants/typography";
+@import "./constants/z-index";
 
 @import "./base/reset";
 @import "./base/normalize";
 @import "./base/globals";
+@import "./base/icon-fonts";
 
 @import "./mixins/responsive";
 @import "./mixins/positions";
@@ -12,10 +14,13 @@
 @import "./layouts/grids";
 @import "./layouts/header";
 @import "./layouts/scrollbar";
-@import "./layouts/toasts";
+@import "./layouts/tabs";
+@import "./layouts/footer";
 
 @import "./components/current-temp";
-@import "./components/search-modal";
 @import "./components/daily-temp";
-@import "./components/weekly-temp";
-@import "./components/dropdown";
+@import "./components/current-time";
+@import "./components/summary";
+@import "./components//codi";
+@import "./components//phoneBook";
+@import "./components/phoneBook-detail";

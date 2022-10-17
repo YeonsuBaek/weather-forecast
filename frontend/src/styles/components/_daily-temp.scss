@@ -27,10 +27,38 @@
   }
 
   &-time {
+    padding: 4px 8px;
     font-size: 13px;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 100px;
+
+    &.changeDate {
+      &:is(.clear, .cloudy) {
+        background-color: $clear-01;
+      }
+
+      &.clear-night {
+        background-color: $clear-night;
+      }
+
+      &.blur {
+        background-color: $blur-03;
+      }
+
+      &.rainy {
+        background-color: $rainy-01;
+      }
+
+      &.snowy {
+        background-color: $snowy-03;
+      }
+    }
   }
 
   &-temp {
+    padding: 4px 8px;
+
     &:after {
       content: "˚";
     }
@@ -43,7 +71,61 @@
     overflow: hidden;
     background-image: url("@/assets/icons/icon-weather.png");
     background-size: 164px 128.34px;
-    background-position: -131.6px 0;
     background-repeat: no-repeat;
+
+    &.clear {
+      background-position: -0.5px 0;
+    }
+
+    &.clear-night {
+      background-position: -33px 0;
+    }
+
+    &.cloudy {
+      background-position: -99.1px 0;
+    }
+
+    &.cloudy-night {
+      background-position: -131.6px 0;
+    }
+
+    &.blur {
+      background-position: -66px 0;
+    }
+
+    &.rainy {
+      background-position: -0.5px -32px;
+    }
+
+    &.snowy {
+      background-position: -66px -32px;
+    }
+  }
+
+  @include responsive(D) {
+    padding: 16px 0;
+    margin-bottom: 0;
+
+    &-item {
+      &:first-child {
+        margin-left: 24px;
+      }
+
+      &:last-child {
+        padding-right: 24px;
+      }
+    }
+
+    &-time {
+      font-size: 16px;
+    }
+
+    &-temp {
+      font-size: 18px;
+    }
+
+    &-icon {
+      margin: 4px 0;
+    }
   }
 }

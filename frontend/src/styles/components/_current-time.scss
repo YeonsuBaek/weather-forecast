@@ -1,0 +1,15 @@
+.current-time {
+  @include column-flexbox;
+  padding: 48px 0 60px 0;
+  border-right: 1px solid rgba($color: #fff, $alpha: 0.25);
+
+  .date {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .time {
+    font-size: 18px;
+    opacity: 0.75;
+  }
+}

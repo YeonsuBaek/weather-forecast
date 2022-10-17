@@ -1,67 +1,44 @@
 <template>
-  <header class="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <button class="location" type="button" @click="openSearchModal">
-            <h1 class="location-name">
-              {{ location }}
-            </h1>
-            <strong class="location-weather">{{ weather }}</strong>
-          </button>
-        </div>
-      </div>
-    </div>
+  <header class="header" :class="weather">
+    <span class="header-message">지금 한신대는</span>
+    <h1 class="current-condition">{{ weatherSummery }}</h1>
 
-    <SearchModal
-      :isActiveSearchModal="isActiveSearchModal"
-      @closeModal="closeActiveModal"
-      :placeState="placeState"
-      :placeCity="placeCity"
-      :placeTown="placeTown"
-      @selectPlace="viewPlaceName"
-    />
+    <button
+      class="phoneBookButton headerIcon"
+      type="button"
+      @click="clickPhoneBook"
+    >
+      <i class="ic-call"></i>
+    </button>
+
+    <a
+      class="hs-button headerIcon"
+      href="https://www.hs.ac.kr/"
+      target="_blank"
+      type="button"
+    >
+      <img src="../assets/icons/icon-hs-white.svg" alt="" />
+    </a>
   </header>
 </template>
 
 <script>
-import SearchModal from "./SearchModal.vue";
-import PlaceState from "@/assets/data/state.json";
-import PlaceCity from "@/assets/data/city.json";
-import PlaceTown from "@/assets/data/town.json";
-
-const placeState = PlaceState;
-const placeCity = PlaceCity;
-const placeTown = PlaceTown;
-
 export default {
   name: "GlobalHeader",
-  components: {
-    SearchModal,
-  },
+
   props: {
     weather: String,
+    weatherSummery: String,
   },
   data() {
     return {
       isActiveSearchModal: false,
-      location: "수원시 금곡동",
-      placeState,
-      placeCity,
-      placeTown,
     };
   },
+
   methods: {
-    openSearchModal() {
-      this.isActiveSearchModal = !this.isActiveSearchModal;
-    },
-    closeActiveModal() {
-      this.isActiveSearchModal = !this.isActiveSearchModal;
-    },
-    viewPlaceName(city, town) {
-      if (city !== "시/군/구" && town !== "동/읍/면") {
-        this.location = `${city} ${town}`;
-      }
+    clickPhoneBook() {
+      this.$emit("alertOpenPhoneBook");
     },
   },
 };

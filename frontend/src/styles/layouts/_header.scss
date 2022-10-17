@@ -1,58 +1,85 @@
 .header {
-  @include flexbox;
-  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  @include column-flexbox;
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background: $clear-01;
+  z-index: $global-header;
 
-  .location {
-    @include column-flexbox;
-    width: 100%;
-    color: #fff;
+  &.clear-night {
+    background: $clear-night;
+  }
 
-    &-name {
-      margin: 0 0 4px 0;
+  &.blur {
+    color: $blur-02;
+    background: $blur-01;
+  }
+
+  &.rainy {
+    background: $rainy-01;
+  }
+
+  &.snowy {
+    color: $snowy-02;
+    background: $snowy-01;
+  }
+
+  .header-message {
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.75;
+  }
+
+  .current-condition {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  .headerIcon {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+
+  .phoneBookButton {
+    left: 16px;
+
+    i {
+      font-size: 32px;
+    }
+  }
+
+  .hs-button {
+    right: 16px;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  @include responsive(D) {
+    position: relative;
+    @include column-flexbox(center, start);
+    margin-top: 48px;
+
+    .header-message {
       font-size: 16px;
     }
 
-    &-weather {
-      font-size: 13px;
-      font-weight: 400;
-      opacity: 0.75;
+    .current-condition {
+      font-size: 24px;
     }
-  }
-}
 
-.clear {
-  .header {
-    background: linear-gradient($clear-01, rgba($clear-01, 0));
-  }
-}
-
-.clear-night {
-  .header {
-    background: linear-gradient($clear-night, rgba($clear-night, 0));
-  }
-}
-
-.cloudy {
-  .header {
-    background: linear-gradient($cloudy-01, rgba($cloudy-01, 0));
-  }
-
-  .location {
-    color: $cloudy-02;
-  }
-}
-
-.rainy {
-  .header {
-    background: linear-gradient($rainy-01, rgba($rainy-01, 0));
-  }
-}
-
-.snowy {
-  .header {
-    background: linear-gradient($snowy-01, rgba($snowy-01, 0));
-  }
-  .location {
-    color: $snowy-02;
+    .hs-button {
+      right: 0;
+    }
   }
 }

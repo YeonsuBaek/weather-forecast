@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "tab";
+  src: url("@/assets/fonts/tab.eot");
+  src: url("@/assets/fonts/tab.eot#iefix") format("embedded-opentype"),
+    url("@/assets/fonts/tab.ttf") format("truetype"),
+    url("@/assets/fonts/tab.woff") format("woff"),
+    url("@/assets/fonts/tab.svg#tab") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "tab" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-humd:before {
+  content: "\e903";
+  color: #fff;
+}
+.ic-rain:before {
+  content: "\e904";
+  color: #fff;
+}
+.ic-water:before {
+  content: "\e905";
+  color: #fff;
+}
+.ic-wind:before {
+  content: "\e906";
+  color: #fff;
+}
+
+:is(.ic-humd, .ic-rain, .ic-water, .ic-wind).blur:before {
+  color: $blur-02;
+}
+
+:is(.ic-humd, .ic-rain, .ic-water, .ic-wind).snowy:before {
+  color: $snowy-02;
+}
+
+.ic-closet:before {
+  content: "\e900";
+  color: #fff;
+}
+.ic-music:before {
+  content: "\e901";
+  color: #fff;
+}
+.ic-temp:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.ic-search:before {
+  content: "\e90b";
+  color: $snowy-03;
+}
+.ic-close:before {
+  content: "\e907";
+  color: #222;
+}
+.ic-call:before {
+  content: "\e908";
+  color: #fff;
+}
+
+:is(.ic-closet, .ic-music, .ic-temp, .ic-call):is(.clear, .cloudy, .clear-night):before {
+  color: #fff;
+}
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).rainy::before {
+  color: $rainy-03;
+}
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).blur::before {
+  color: $blur-03;
+}
+:is(.ic-closet, .ic-music, .ic-temp, .ic-sear-call).snowy::before {
+  color: $snowy-03;
+}

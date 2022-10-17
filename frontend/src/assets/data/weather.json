@@ -1,0 +1,3746 @@
+[
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "19도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "5.5m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "1500",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "19도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "5.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "1600",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "4.5m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "1700",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "17도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "4.5m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "1800",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "16도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "4.4m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "1900",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "4.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "2000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "3.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "2100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "3.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "2200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "2.6m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "65"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221004",
+    "fcstTime": "2300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "1.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "70"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "1.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "75"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "0.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "0.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0400",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "1.4m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0500",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "1.5m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "일 최저기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0600",
+    "fcstValue": "12.0도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "1.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0700",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "1.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0800",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "2.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "75"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "0900",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "16도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "2.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "70"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "16도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "1.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "65"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "17도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "1.6m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "65"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "1.4m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "1.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1400",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "19도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "1.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "일 최고기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1500",
+    "fcstValue": "19.0도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "19도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "2.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1600",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "2.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1700",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "17도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "2.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "70"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1800",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "2.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "구름많음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "20"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "75"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "1900",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "2.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "2000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "2.5m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "2100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "2.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "2200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "2.4m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221005",
+    "fcstTime": "2300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "2.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "1.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "1.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "0.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "0.2m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0400",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "0.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0500",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "0.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "일 최저기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0600",
+    "fcstValue": "12.0도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "12도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "0.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0700",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "13도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "1.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0800",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "0900",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "0.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "16도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "1.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "75"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "17도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "0.6m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "70"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "0.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "65"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "0.7m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1400",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "60"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "일 최고기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1500",
+    "fcstValue": "18.0도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "18도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "0.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "55"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1600",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "17도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "1.6m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "65"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1700",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "16도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "1.9m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "70"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1800",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "2.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "75"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "1900",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "15도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "2.3m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "80"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "2000",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "2.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "2100",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "1.4m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "2200",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "1.8m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "85"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221006",
+    "fcstTime": "2300",
+    "fcstValue": "적설없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 기온",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "14도"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "풍속",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "2.1m/s"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "하늘 상태",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "흐림"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수형태",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "강수확률",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "30"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 강수량",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "강수없음"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "습도",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "90"
+  },
+  {
+    "baseDate": "20221004",
+    "baseTime": "1400",
+    "category": "1시간 신적설",
+    "fcstDate": "20221007",
+    "fcstTime": "0000",
+    "fcstValue": "적설없음"
+  }
+]

@@ -9,7 +9,8 @@ body {
   font-family: $font-main;
   color: #fff;
 
-  &.clear {
+  &.clear,
+  &.cloudy {
     background-color: $clear-01;
   }
 
@@ -17,9 +18,9 @@ body {
     background-color: $clear-night;
   }
 
-  &.cloudy {
-    background-color: $cloudy-01;
-    color: $cloudy-02;
+  &.blur {
+    background-color: $blur-01;
+    color: $blur-02;
   }
 
   &.rainy {
