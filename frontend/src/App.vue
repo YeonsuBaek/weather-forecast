@@ -25,6 +25,7 @@
 
         <div class="col-lg-4">
           <PhoneBook
+            :weather="weather"
             :isOpenPhoneBook="isOpenPhoneBook"
             @alertClosePhoneBook="closePhoneBook"
           />

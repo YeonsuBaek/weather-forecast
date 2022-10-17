@@ -1,5 +1,5 @@
 <template>
-  <aside class="phoneBook-modal">
+  <aside class="phoneBook-modal" :class="weather">
     <button class="phoneBook-button lg-only" type="button">
       <h2 class="phoneBook-title">한신대학교 전화번호부</h2>
       <i class="ic-call"></i>
@@ -91,6 +91,7 @@ const phoneList = phone;
 export default {
   props: {
     isOpenPhoneBook: Boolean,
+    weather: Object,
   },
 
   data() {
