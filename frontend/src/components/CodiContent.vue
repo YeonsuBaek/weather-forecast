@@ -1,8 +1,8 @@
 <template>
   <section class="tab tab-codi">
     <div class="codi-women">
-      <header class="codi-header">
-        <h2 class="codi-title">여성 코디 추천</h2>
+      <header class="tab-header">
+        <h2 class="tab-title">여성 코디 추천</h2>
         <a
           class="codi-site-button"
           href="https://store.musinsa.com/app/codimap/lists"
@@ -21,8 +21,8 @@
     </div>
 
     <div class="codi-men">
-      <header class="codi-header">
-        <h2 class="codi-title">남성 코디 추천</h2>
+      <header class="tab-header">
+        <h2 class="tab-title">남성 코디 추천</h2>
         <a
           class="codi-site-button"
           href="https://store.musinsa.com/app/codimap/lists"

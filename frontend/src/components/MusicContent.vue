@@ -1,7 +1,7 @@
 <template>
-  <section class="tab tab-codi">
-    <header class="codi-header">
-      <h2 class="codi-title">{{ weatherMessage }} 때 듣기 좋은 음악</h2>
+  <section class="tab tab-music">
+    <header class="tab-header">
+      <h2 class="tab-title">{{ weatherMessage }} 때 듣기 좋은 음악</h2>
     </header>
 
     <ul class="codi-list">

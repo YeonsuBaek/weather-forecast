@@ -1,7 +1,23 @@
 .tab {
-  padding-top: calc(60px + 8px);
+  padding: calc(60px + 8px) 0 calc(50px + 8px) 0;
+
+  &-header {
+    @include flexbox(between, end);
+    padding: 0 8px;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  &-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
 
   @include responsive(D) {
     padding-top: 48px;
+
+    &-title {
+      font-size: 18px;
+    }
   }
 }
