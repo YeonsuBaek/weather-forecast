@@ -158,5 +158,9 @@
     &-list {
       height: 580px;
     }
+
+    .overlay.is-active {
+      display: none;
+    }
   }
 }

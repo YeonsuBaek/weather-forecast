@@ -91,7 +91,7 @@ const phoneList = phone;
 export default {
   props: {
     isOpenPhoneBook: Boolean,
-    weather: Object,
+    weather: String,
   },
 
   data() {

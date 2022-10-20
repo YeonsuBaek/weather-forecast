@@ -13,6 +13,7 @@
   &-button {
     width: 100%;
     height: 40px;
+    color: $snowy-02;
   }
 
   &-list {
@@ -38,6 +39,12 @@
         color: #0088ff;
         text-decoration: underline;
       }
+    }
+  }
+
+  @include responsive(D) {
+    &-button {
+      color: #fff;
     }
   }
 }
