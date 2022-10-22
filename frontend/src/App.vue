@@ -19,7 +19,7 @@
             :weatherDetail="weatherDetail"
             :dailyWeather="dailyWeather"
           />
-          <CodiContent v-show="codiShow" />
+          <CodiContent v-show="codiShow" :codiIndex="codiIndex" />
           <MusicContent
             v-show="musicShow"
             :weatherMessage="weatherMessage"
@@ -92,6 +92,7 @@ export default {
       isOpenPhoneBook: false,
       weatherMessage: "",
       musicIndex: 0,
+      codiIndex: 0,
     };
   },
 
@@ -100,6 +101,7 @@ export default {
     this.getTemp(this.weatherData);
     this.getWeatherDetail(this.weatherData);
     this.getDailyWeather(this.weatherData);
+    this.getCodiIndex(this.temp.highest);
     this.isWeatherMessage(weatherData[2].fcstValue);
     this.getMusicIndex(this.weatherMessage);
   },
@@ -256,6 +258,22 @@ export default {
 
     closePhoneBook() {
       this.isOpenPhoneBook = false;
+    },
+
+    getCodiIndex(highestTemp) {
+      let today = new Date();
+
+      if (highestTemp < 10) {
+        this.codiIndex = 3;
+      } else if (highestTemp < 20) {
+        if (today.getMonth() < 7) {
+          this.codiIndex = 0;
+        } else {
+          this.codiIndex = 2;
+        }
+      } else {
+        this.codiIndex = 1;
+      }
     },
 
     isWeatherMessage(currentWeather) {

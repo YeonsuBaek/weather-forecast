@@ -12,7 +12,11 @@
       </header>
 
       <ul class="codi-list">
-        <li class="codi-item" v-for="(codi, index) in womenList" :key="index">
+        <li
+          class="codi-item"
+          v-for="(codi, index) in womenList[codiIndex]"
+          :key="index"
+        >
           <a class="codi-button" :href="codi.link" target="_blank">
             <img :src="codi.image" :alt="codi.alt" />
           </a>
@@ -32,7 +36,11 @@
       </header>
 
       <ul class="codi-list">
-        <li class="codi-item" v-for="(codi, index) in menList" :key="index">
+        <li
+          class="codi-item"
+          v-for="(codi, index) in menList[codiIndex]"
+          :key="index"
+        >
           <a class="codi-button" :href="codi.link" target="_blank">
             <img :src="codi.image" :alt="codi.alt" />
           </a>
@@ -48,6 +56,10 @@ import menCodi from "@/assets/data/men.json";
 import { ref } from "vue";
 
 export default {
+  props: {
+    codiIndex: Number,
+  },
+
   data() {
     return {
       women: womenCodi,
@@ -58,46 +70,40 @@ export default {
   },
 
   mounted() {
+    this.addCodiIndex();
     this.changeWomenCodiList(this.women);
     this.changeMenCodiList(this.men);
   },
 
   methods: {
     changeWomenCodiList(women) {
-      const womenIndex = this.codiIndex();
-
-      for (let i = 0; i < women[womenIndex].length; i++) {
-        this.womenList.push({
-          image: women[womenIndex][i].image,
-          link: women[womenIndex][i].link,
-          alt: women[womenIndex][i].alt,
-        });
+      for (let i = 0; i < 4; i++) {
+        for (let j = 0; j < 6; j++) {
+          this.womenList[i].push({
+            image: women[i][j].image,
+            link: women[i][j].link,
+            alt: women[i][j].alt,
+          });
+        }
       }
     },
 
     changeMenCodiList(men) {
-      const menIndex = this.codiIndex();
-
-      for (let i = 0; i < men[menIndex].length; i++) {
-        this.menList.push({
-          image: men[menIndex][i].image,
-          link: men[menIndex][i].link,
-          alt: men[menIndex][i].alt,
-        });
+      for (let i = 0; i < 4; i++) {
+        for (let j = 0; j < 6; j++) {
+          this.menList[i].push({
+            image: men[i][j].image,
+            link: men[i][j].link,
+            alt: men[i][j].alt,
+          });
+        }
       }
     },
 
-    codiIndex() {
-      let today = new Date();
-
-      if (today.getMonth() >= 3 && today.getMonth() <= 5) {
-        return 0;
-      } else if (today.getMonth() >= 6 && today.getMonth() <= 8) {
-        return 1;
-      } else if (today.getMonth() >= 9 && today.getMonth() <= 10) {
-        return 2;
-      } else {
-        return 3;
+    addCodiIndex() {
+      for (let i = 0; i < 4; i++) {
+        this.womenList.push([]);
+        this.menList.push([]);
       }
     },
   },
