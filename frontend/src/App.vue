@@ -36,6 +36,8 @@
         </div>
       </div>
     </div>
+
+    <LoadingSpinner />
   </div>
 </template>
 
@@ -47,8 +49,9 @@ import GlobalFooter from "./components/GlobalFooter.vue";
 import CodiContent from "./components/CodiContent.vue";
 import MusicContent from "./components/MusicContent.vue";
 import weatherList from "./assets/data/weather.json";
-import { ref } from "vue";
 import PhoneBook from "./components/PhoneBook.vue";
+import LoadingSpinner from "./components/LoadingSpinner.vue";
+import { ref } from "vue";
 
 const weatherData = weatherList;
 
@@ -62,6 +65,7 @@ export default {
     CodiContent,
     MusicContent,
     PhoneBook,
+    LoadingSpinner,
   },
 
   data() {
