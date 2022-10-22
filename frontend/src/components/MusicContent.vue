@@ -4,15 +4,17 @@
       <h2 class="tab-title">{{ weatherMessage }} 때 듣기 좋은 음악</h2>
     </header>
 
-    <ul class="codi-list">
-      <li>
+    <ul class="music-list">
+      <li class="music-item">
         <iframe
-          src="https://www.youtube.com/embed/kTJi9YpmE3M?controls=0"
+          src="https://www.youtube.com/embed/kTJi9YpmE3M"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <strong class="music-title">눈사람</strong>
+        <span class="music-singer">정승환</span>
       </li>
     </ul>
   </section>
