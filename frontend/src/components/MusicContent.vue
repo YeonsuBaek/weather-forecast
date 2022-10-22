@@ -23,33 +23,11 @@
 <script>
 export default {
   props: {
-    weather: Object,
+    weatherMessage: Object,
   },
 
   data() {
-    return {
-      weatherMessage: "",
-    };
-  },
-
-  mounted() {
-    this.isWeatherMessage(this.weather);
-  },
-
-  methods: {
-    isWeatherMessage(currentWeather) {
-      if (currentWeather === "clear") {
-        this.weatherMessage = "맑을";
-      } else if (currentWeather === "cloudy") {
-        this.weatherMessage = "구름 많을";
-      } else if (currentWeather === "blur") {
-        this.weatherMessage = "흐릴";
-      } else if (currentWeather === "rainy") {
-        this.weatherMessage = "비올";
-      } else if (currentWeather === "snowy") {
-        this.weatherMessage = "눈 올";
-      }
-    },
+    return {};
   },
 };
 </script>

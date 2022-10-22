@@ -20,7 +20,7 @@
             :dailyWeather="dailyWeather"
           />
           <CodiContent v-show="codiShow" />
-          <MusicContent v-show="musicShow" :weather="weather" />
+          <MusicContent v-show="musicShow" :weatherMessage="weatherMessage" />
         </div>
 
         <div class="col-lg-4">
@@ -86,6 +86,7 @@ export default {
       weatherCondition: "",
       changeDate: false,
       isOpenPhoneBook: false,
+      weatherMessage: "",
     };
   },
 
@@ -94,6 +95,7 @@ export default {
     this.getTemp(this.weatherData);
     this.getWeatherDetail(this.weatherData);
     this.getDailyWeather(this.weatherData);
+    this.isWeatherMessage(weatherData[2].fcstValue);
   },
 
   methods: {
@@ -248,6 +250,20 @@ export default {
 
     closePhoneBook() {
       this.isOpenPhoneBook = false;
+    },
+
+    isWeatherMessage(currentWeather) {
+      if (currentWeather === "맑음") {
+        this.weatherMessage = "맑을";
+      } else if (currentWeather === "구름많음") {
+        this.weatherMessage = "구름 많을";
+      } else if (currentWeather === "흐림") {
+        this.weatherMessage = "흐릴";
+      } else if (currentWeather === "비") {
+        this.weatherMessage = "비 올";
+      } else if (currentWeather === "눈") {
+        this.weatherMessage = "눈 올";
+      }
     },
   },
 };
