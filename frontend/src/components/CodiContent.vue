@@ -48,10 +48,6 @@ import menCodi from "@/assets/data/men.json";
 import { ref } from "vue";
 
 export default {
-  props: {
-    temp: Object,
-  },
-
   data() {
     return {
       women: womenCodi,
@@ -68,7 +64,7 @@ export default {
 
   methods: {
     changeWomenCodiList(women) {
-      let womenIndex = this.codiIndex(this.temp.current);
+      const womenIndex = this.codiIndex();
 
       for (let i = 0; i < women[womenIndex].length; i++) {
         this.womenList.push({
@@ -80,7 +76,7 @@ export default {
     },
 
     changeMenCodiList(men) {
-      let menIndex = this.codiIndex(this.temp.current);
+      const menIndex = this.codiIndex();
 
       for (let i = 0; i < men[menIndex].length; i++) {
         this.menList.push({
@@ -91,17 +87,15 @@ export default {
       }
     },
 
-    codiIndex(temp) {
-      if (temp >= 23) {
-        return 1;
-      } else if (temp < 23 && temp >= 10) {
-        let today = new Date();
+    codiIndex() {
+      let today = new Date();
 
-        if (today.getMonth() < 7) {
-          return 0;
-        } else {
-          return 2;
-        }
+      if (today.getMonth() >= 3 && today.getMonth() <= 5) {
+        return 0;
+      } else if (today.getMonth() >= 6 && today.getMonth() <= 8) {
+        return 1;
+      } else if (today.getMonth() >= 9 && today.getMonth() <= 10) {
+        return 2;
       } else {
         return 3;
       }

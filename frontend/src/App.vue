@@ -19,7 +19,7 @@
             :weatherDetail="weatherDetail"
             :dailyWeather="dailyWeather"
           />
-          <CodiContent v-show="codiShow" :temp="temp" />
+          <CodiContent v-show="codiShow" />
           <MusicContent v-show="musicShow" :weather="weather" />
         </div>
 
