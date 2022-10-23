@@ -1,5 +1,5 @@
 <template>
-  <aside class="loading-spinner">
+  <aside v-if="showLoadingSpinner" class="loading-spinner">
     <div class="thumbnail-list">
       <div class="thumbnail clear">
         <img src="@/assets/icons/icon-clear.svg" alt="" />
@@ -23,7 +23,26 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      showLoadingSpinner: true,
+    };
+  },
+  mounted() {
+    this.closeLoadingSpinner();
+  },
+
+  methods: {
+    closeLoadingSpinner() {
+      setTimeout(() => this.closeLoadingSpinner2(), 6000);
+    },
+
+    closeLoadingSpinner2() {
+      this.showLoadingSpinner = false;
+    },
+  },
+};
 </script>
 
 <style></style>
