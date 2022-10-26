@@ -83,7 +83,7 @@ class GeographicServiceImplTest {
 
         List<String> townDTOS = geographicService.findTown(list);
         list = list.stream().distinct().collect(Collectors.toList());
-        System.out.println(townDTOS.size() + " " + townDTOS.get(0).toString() + " " + townDTOS.get(1).toString());
+        //System.out.println(townDTOS.size() + " " + townDTOS.get(0).toString() + " " + townDTOS.get(1).toString());
         //Assertions.assertEquals(townDTOS.get(0).getTown(), "도곡동");
 
     }
