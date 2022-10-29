@@ -52,6 +52,7 @@ import weatherList from "./assets/data/weather.json";
 import PhoneBook from "./components/PhoneBook.vue";
 import LoadingSpinner from "./components/LoadingSpinner.vue";
 import { ref } from "vue";
+import axios from "axios";
 
 const weatherData = weatherList;
 
@@ -70,6 +71,7 @@ export default {
 
   data() {
     return {
+      weatherData,
       weather: "clear",
       weatherSummery: "맑음",
       temp: {
@@ -86,7 +88,6 @@ export default {
       weatherShow: true,
       codiShow: false,
       musicShow: false,
-      weatherData,
       weatherWind: "",
       dailyWeather: ref([]),
       weatherTime: 0,
@@ -101,16 +102,26 @@ export default {
   },
 
   mounted() {
+    this.getWeatherData();
+
     this.getWeather(this.weatherData);
     this.getTemp(this.weatherData);
     this.getWeatherDetail(this.weatherData);
     this.getDailyWeather(this.weatherData);
     this.getCodiIndex(this.temp.highest);
-    this.isWeatherMessage(weatherData[2].fcstValue);
+    this.isWeatherMessage(this.weatherData[2].fcstValue);
     this.getMusicIndex(this.weatherMessage);
   },
 
   methods: {
+    getWeatherData() {
+      const url =
+        "/weather/fcst/20221027/1700?state=경기도&city=오산시&town=세마동";
+      axios.get(url).then((res) => {
+        console.log(res.data);
+      });
+    },
+
     getWeather(weatherData) {
       this.weatherSummery = weatherData[2].fcstValue;
 
