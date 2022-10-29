@@ -48,13 +48,13 @@ import CurrentTime from "./components/CurrentTime.vue";
 import GlobalFooter from "./components/GlobalFooter.vue";
 import CodiContent from "./components/CodiContent.vue";
 import MusicContent from "./components/MusicContent.vue";
-import weatherList from "./assets/data/weather.json";
+// import weatherList from "./assets/data/weather.json";
 import PhoneBook from "./components/PhoneBook.vue";
 import LoadingSpinner from "./components/LoadingSpinner.vue";
 import { ref } from "vue";
 import axios from "axios";
 
-const weatherData = weatherList;
+// const weatherData = weatherList;
 
 export default {
   name: "App",
@@ -71,7 +71,7 @@ export default {
 
   data() {
     return {
-      weatherData,
+      weatherData: ref([]),
       weather: "clear",
       weatherSummery: "맑음",
       temp: {
@@ -103,14 +103,6 @@ export default {
 
   mounted() {
     this.getWeatherData();
-
-    this.getWeather(this.weatherData);
-    this.getTemp(this.weatherData);
-    this.getWeatherDetail(this.weatherData);
-    this.getDailyWeather(this.weatherData);
-    this.getCodiIndex(this.temp.highest);
-    this.isWeatherMessage(this.weatherData[2].fcstValue);
-    this.getMusicIndex(this.weatherMessage);
   },
 
   methods: {
@@ -118,7 +110,14 @@ export default {
       const url =
         "/weather/fcst/20221027/1700?state=경기도&city=오산시&town=세마동";
       axios.get(url).then((res) => {
-        console.log(res.data);
+        this.weatherData.push(res.data);
+        this.getWeather(this.weatherData[0]);
+        this.getTemp(this.weatherData[0]);
+        this.getWeatherDetail(this.weatherData[0]);
+        this.getDailyWeather(this.weatherData[0]);
+        this.getCodiIndex(this.temp.highest);
+        this.isWeatherMessage(this.weatherData[0]);
+        this.getMusicIndex(this.weatherMessage);
       });
     },
 
@@ -151,10 +150,10 @@ export default {
     getTemp(weatherData) {
       this.temp.current = weatherData[0].fcstValue.slice(0, -1);
 
-      const highestIndex = this.weatherData.findIndex(
+      const highestIndex = weatherData.findIndex(
         (v) => v.category === "일 최고기온"
       );
-      const lowestIndex = this.weatherData.findIndex(
+      const lowestIndex = weatherData.findIndex(
         (v) => v.category === "일 최저기온"
       );
       this.temp.highest = Math.floor(
@@ -166,16 +165,12 @@ export default {
     },
 
     getWeatherDetail(weatherData) {
-      const humdIndex = this.weatherData.findIndex(
-        (v) => v.category === "습도"
-      );
-      const windIndex = this.weatherData.findIndex(
-        (v) => v.category === "풍속"
-      );
-      const rainPercentIndex = this.weatherData.findIndex(
+      const humdIndex = weatherData.findIndex((v) => v.category === "습도");
+      const windIndex = weatherData.findIndex((v) => v.category === "풍속");
+      const rainPercentIndex = weatherData.findIndex(
         (v) => v.category === "강수확률"
       );
-      const rainShapeIndex = this.weatherData.findIndex(
+      const rainShapeIndex = weatherData.findIndex(
         (v) => v.category === "강수형태"
       );
 
@@ -291,16 +286,18 @@ export default {
       }
     },
 
-    isWeatherMessage(currentWeather) {
-      if (currentWeather === "맑음") {
+    isWeatherMessage(weatherData) {
+      const currentSky = weatherData[2].fcstValue;
+
+      if (currentSky === "맑음") {
         this.weatherMessage = "맑을";
-      } else if (currentWeather === "구름많음") {
+      } else if (currentSky === "구름많음") {
         this.weatherMessage = "구름 많을";
-      } else if (currentWeather === "흐림") {
+      } else if (currentSky === "흐림") {
         this.weatherMessage = "흐릴";
-      } else if (currentWeather === "비") {
+      } else if (currentSky === "비") {
         this.weatherMessage = "비 올";
-      } else if (currentWeather === "눈") {
+      } else if (currentSky === "눈") {
         this.weatherMessage = "눈 올";
       }
     },
