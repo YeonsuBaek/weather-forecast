@@ -25,6 +25,8 @@ public class MusicController {
 
     @RequestMapping("restapi/music/findByWeather")
     public List<MusicDTO> musicRecommend(@RequestParam(value="weather") String weather) {
+        //예시 https://hsweatherapi.xyz/restapi/music/findByWeather?weather=눈
+        //비/눈/맑음/흐림
         List<MusicDTO> musicList = musicService.musicByWeather(weather);
         List<MusicDTO> musicRecommendList = new ArrayList<>();
 

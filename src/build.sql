@@ -117,7 +117,7 @@ CREATE TABLE `getMidLandFcst` (
     `wf6PM` VARCHAR(8) NULL,
     `wf7AM` VARCHAR(8) NULL,
     `wf7PM` VARCHAR(8) NULL,
-	`wf8`	VARCHAR(8)	NULL.
+	`wf8`	VARCHAR(8)	NULL,
     `wf9` VARCHAR(8) NULL,
     `wf10` VARCHAR(8) NULL
 );
@@ -141,5 +141,23 @@ ALTER TABLE `getMidLandFcst` ADD CONSTRAINT `PK_GETMIDLANDFCST` PRIMARY KEY (
 ALTER TABLE vilagefcst MODIFY no INT NOT NULL AUTO_INCREMENT;
 
 ALTER TABLE geographic_coordinate MODIFY no INT NOT NULL AUTO_INCREMENT;
+
+CREATE TABLE `hanshin_number` (
+	`num` INT(11) NOT NULL,
+	`department` VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	`department_detail` VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	`name` VARCHAR(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	`phone` VARCHAR(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	`room` VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	PRIMARY KEY (`num`)
+) ENGINE=InnoDB;
+
+CREATE TABLE `music` (
+	`title` VARCHAR(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	`singer` VARCHAR(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+	`link` VARCHAR(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	`weather` VARCHAR(8) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL,
+	PRIMARY KEY (`title`)
+);
 
 

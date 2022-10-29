@@ -37,6 +37,8 @@ public class WeatherRestApiController {
 
     @RequestMapping("/restapi/weather/findState")
     public List<String> findState() {
+
+        //주 불러오기 https://hsweatherapi.xyz/restapi/weather/findState
         List<String> list = new ArrayList<>();
         List<Geographic> geographicList = geographicRepository.findAll();
 
@@ -49,6 +51,7 @@ public class WeatherRestApiController {
     public List<String> findCity(
             @RequestParam(value = "state") String state
     ) {
+        //도시 불러오기 https://hsweatherapi.xyz/restapi/weather/findCity?state=경기도
         List<String> list = new ArrayList<>();
         List<Geographic> geographicList = geographicRepository.findDistinctCityByState(state);
 
@@ -62,6 +65,7 @@ public class WeatherRestApiController {
             @RequestParam(value = "state") String state,
             @RequestParam(value = "city") String city
     ) {
+        //마을 불러오기 https://hsweatherapi.xyz/restapi/weather/findTown?state=경기도&city=오산시
         List<String> list = new ArrayList<>();
         List<Geographic> geographicList = geographicRepository.findDistinctTownByStateAndCity(state, city);
 
@@ -80,7 +84,7 @@ public class WeatherRestApiController {
     ) throws JsonProcessingException, ParseException {
 
         //예시
-        //http://localhost:8091/restapi/weather/fcst/20221004/1400?state=%EA%B2%BD%EA%B8%B0%EB%8F%84&city=%EC%98%A4%EC%82%B0%EC%8B%9C&town=%EC%84%B8%EB%A7%88%EB%8F%99
+        //날씨 불러오기 https://hsweatherapi.xyz/restapi/weather/fcst/20221027/1700?state=%EA%B2%BD%EA%B8%B0%EB%8F%84&city=%EC%98%A4%EC%82%B0%EC%8B%9C&town=%EC%84%B8%EB%A7%88%EB%8F%99
 
         String key = WeatherAPIConfig.key;
 
