@@ -46,6 +46,13 @@
           </button>
 
           <aside class="phoneBook-detail">
+            <button
+              class="close-button lg-only"
+              type="button"
+              @click="closePhoneBookDetail"
+            >
+              <i class="ic-close"></i>
+            </button>
             <dl class="phoneBook-detail-list">
               <div class="phoneBook-detail-item">
                 <dt>소속</dt>
