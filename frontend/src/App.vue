@@ -107,17 +107,23 @@ export default {
 
   methods: {
     getWeatherData() {
+      const baseTimeList = ["2", "5", "8", "11", "14", "17", "20", "23"];
       let today = new Date();
       let year = ("0" + today.getFullYear()).slice(-2);
       let month = ("0" + (today.getMonth() + 1)).slice(-2);
       let day = ("0" + today.getDate()).slice(-2);
-      let hour = "20";
-      // let hour = ("0" + today.getHours()).slice(-2);
-      // let minute = ("0" + today.getMinutes()).slice(-2);
+      let hour = ("0" + today.getHours()).slice(-2);
+      let minute = ("0" + today.getMinutes()).slice(-2);
 
-      // if (minute >= 0 && minute <= 10) {
-      //   hour = hour - 1;
-      // }
+      if (minute >= 0 && minute <= 10) {
+        hour = hour - 1;
+      }
+
+      do {
+        if (!baseTimeList.includes(hour)) {
+          hour--;
+        }
+      } while (baseTimeList.includes(hour));
 
       const url = `/weather/fcst/20${year}${month}${day}/${hour}00?state=경기도&city=오산시&town=세마동`;
       axios.get(url).then((res) => {
