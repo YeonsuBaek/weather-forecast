@@ -111,7 +111,13 @@ export default {
       let year = ("0" + today.getFullYear()).slice(-2);
       let month = ("0" + (today.getMonth() + 1)).slice(-2);
       let day = ("0" + today.getDate()).slice(-2);
-      let hour = ("0" + today.getHours()).slice(-2);
+      let hour = "20";
+      // let hour = ("0" + today.getHours()).slice(-2);
+      // let minute = ("0" + today.getMinutes()).slice(-2);
+
+      // if (minute >= 0 && minute <= 10) {
+      //   hour = hour - 1;
+      // }
 
       const url = `/weather/fcst/20${year}${month}${day}/${hour}00?state=경기도&city=오산시&town=세마동`;
       axios.get(url).then((res) => {
@@ -201,7 +207,7 @@ export default {
     getDailyWeather(weatherData) {
       for (let i = 0; i < weatherData.length; i += 24) {
         if (weatherData[i].category !== "1시간 기온") {
-          i++;
+          i -= 23;
           continue;
         }
 
@@ -211,15 +217,9 @@ export default {
         if (this.weatherTime === 0) {
           this.changeDate = true;
 
-          if (this.dateComparison === 0) {
-            this.weatherTime = "오늘";
-          } else if (this.dateComparison === 1) {
-            this.weatherTime = "내일";
-          } else if (this.dateComparison === 2) {
-            this.weatherTime = "모레";
-          } else if (this.dateComparison === 3) {
-            this.weatherTime = "글피";
-          }
+          const weatherDay = Number(weatherData[i].fcstDate.substr(6, 2));
+
+          this.weatherTime = `${weatherDay}일`;
         } else {
           this.changeDate = false;
           this.weatherTime = this.weatherTime + "시";
