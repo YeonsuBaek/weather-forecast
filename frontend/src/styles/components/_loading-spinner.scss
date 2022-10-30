@@ -1,0 +1,161 @@
+.loading-spinner {
+  @include pos-center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  color: $snowy-02;
+  background-color: $snowy-01;
+  z-index: 1000;
+  animation: 5s spinner 1s 1;
+
+  &-message {
+    @include pos-center-x;
+    bottom: 40px;
+    font-size: 24px;
+  }
+}
+
+.thumbnail {
+  @include pos-center;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-iteration-count: 1;
+
+  &:nth-child(1) {
+    opacity: 0;
+    animation-name: spinner-01;
+  }
+
+  &:nth-child(2) {
+    opacity: 0;
+    animation-name: spinner-02;
+  }
+
+  &:nth-child(3) {
+    opacity: 0;
+    animation-name: spinner-03;
+  }
+
+  &:nth-child(4) {
+    opacity: 0;
+    animation-name: spinner-04;
+  }
+
+  &:nth-child(5) {
+    opacity: 1;
+    animation-name: spinner-05;
+  }
+}
+
+@keyframes spinner {
+  100% {
+    background-color: $clear-01;
+    color: #fff;
+  }
+  75% {
+    background-color: $clear-night;
+    color: #fff;
+  }
+  50% {
+    background-color: $blur-01;
+    color: $blur-02;
+  }
+  25% {
+    background-color: $rainy-01;
+    color: $rainy-02;
+  }
+  0% {
+    background-color: $snowy-01;
+    color: $snowy-02;
+  }
+}
+
+@keyframes spinner-01 {
+  100% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes spinner-02 {
+  100% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes spinner-03 {
+  100% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes spinner-04 {
+  100% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+}
+
+@keyframes spinner-05 {
+  100% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  0% {
+    opacity: 1;
+  }
+}

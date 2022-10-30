@@ -13,6 +13,7 @@
   &-button {
     width: 100%;
     height: 40px;
+    color: $snowy-02;
   }
 
   &-list {
@@ -37,6 +38,25 @@
       dd {
         color: #0088ff;
         text-decoration: underline;
+      }
+    }
+  }
+
+  @include responsive(D) {
+    &-button {
+      color: #fff;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      font-size: 24px;
+
+      i {
+        &::before {
+          color: $snowy-02;
+        }
       }
     }
   }

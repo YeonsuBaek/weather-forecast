@@ -1,0 +1,61 @@
+.phoneBook-modal {
+  @include responsive(D) {
+    &.blur {
+      .phoneBook-button,
+      .ic-call:before,
+      .phoneBook-list-header,
+      .phoneBook-detail-button {
+        color: $blur-02;
+      }
+
+      .phoneBook-list-header {
+        border-bottom: 1px solid $blur-03;
+      }
+
+      .phoneBook-search {
+        border: 1px solid $blur-03;
+
+        &-form {
+          color: $blur-02;
+
+          &::placeholder {
+            color: $blur-03;
+          }
+        }
+
+        i {
+          color: $blur-03;
+        }
+      }
+    }
+
+    &.snowy {
+      .phoneBook-button,
+      .ic-call:before,
+      .phoneBook-list-header,
+      .phoneBook-detail-button {
+        color: $snowy-02;
+      }
+
+      .phoneBook-list-header {
+        border-bottom: 1px solid $snowy-03;
+      }
+
+      .phoneBook-search {
+        border: 1px solid $snowy-03;
+
+        &-form {
+          color: $snowy-02;
+
+          &::placeholder {
+            color: $snowy-03;
+          }
+        }
+
+        i {
+          color: $snowy-03;
+        }
+      }
+    }
+  }
+}
