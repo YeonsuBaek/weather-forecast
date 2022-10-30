@@ -5,27 +5,23 @@
     </header>
 
     <ul class="music-list">
-      <li
-        v-for="(music, index) in musicList[musicIndex]"
-        :key="index"
-        class="music-item"
-      >
+      <li class="music-item">
         <iframe
-          :src="music.link"
+          :src="musicLink"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         ></iframe>
-        <strong class="music-title">{{ music.title }}</strong>
-        <span class="music-singer">{{ music.singer }}</span>
+        <strong class="music-title">{{ musicTitle }}</strong>
+        <span class="music-singer">{{ musicSinger }}</span>
       </li>
     </ul>
   </section>
 </template>
 
 <script>
-import music from "@/assets/data/music.json";
 import { ref } from "vue";
+import axios from "axios";
 
 export default {
   props: {
@@ -35,45 +31,69 @@ export default {
 
   data() {
     return {
-      music: music,
-      musicList: ref([]),
+      music: ref([]),
+      currentWeather: "",
+      musicTitle: "",
+      musicSinger: "",
+      musicLink: "",
     };
   },
 
   mounted() {
-    this.addMusicList();
-    this.changeMusicList(this.music);
+    this.getMusicData(this.weatherMessage);
+    // this.addMusicList();
+    // this.changeMusicList(this.music);
   },
 
   methods: {
-    addMusicList() {
-      for (let i = 0; i < 4; i++) {
-        this.musicList.push([]);
+    getMusicData(weather) {
+      this.currentWeather = "맑음";
+
+      if (weather === "흐린") {
+        this.currentWeather = "흐림";
+      } else if (weather === "비 올") {
+        this.currentWeather = "비";
+      } else if (weather === "눈 올") {
+        this.currentWeather = "눈";
       }
+
+      const url = "music/findByWeather?weather=" + this.currentWeather;
+      axios.get(url).then((res) => {
+        this.music.push(res.data);
+        this.musicTitle = this.music[0][0].title;
+        this.musicSinger = this.music[0][0].singer;
+        this.musicLink = this.music[0][0].link;
+      });
     },
 
-    changeMusicList() {
-      this.pushMusicList("비", 0);
-      this.pushMusicList("눈", 1);
-      this.pushMusicList("흐림", 2);
-      this.pushMusicList("맑음", 3);
-    },
+    // addMusicList() {
+    //   for (let i = 0; i < 4; i++) {
+    //     this.musicList.push([]);
+    //   }
+    // },
 
-    pushMusicList(currentWeather, listIndex) {
-      const weatherIndex = music.findIndex((v) => v.weather === currentWeather);
+    // changeMusicList() {
+    //   this.pushMusicList("비", 0);
+    //   this.pushMusicList("눈", 1);
+    //   this.pushMusicList("흐림", 2);
+    //   this.pushMusicList("맑음", 3);
+    // },
 
-      for (let i = weatherIndex; i < this.music.length; i++) {
-        if (music[i].weather !== currentWeather) {
-          break;
-        }
+    // pushMusicList(currentWeather, listIndex) {
+    //   const weatherIndex = music.findIndex((v) => v.weather === currentWeather);
 
-        this.musicList[listIndex].push({
-          title: music[i].title,
-          singer: music[i].singer,
-          link: music[i].link,
-        });
-      }
-    },
+    //   for (let i = weatherIndex; i < this.music.length; i++) {
+    //     if (music[i].weather !== currentWeather) {
+    //       break;
+    //     }
+
+    //     this.musicList[listIndex].push({
+    //       title: music[i].title,
+    //       singer: music[i].singer,
+    //       link: music[i].link,
+    //     });
+    //   }
+    // },
   },
 };
 </script>
