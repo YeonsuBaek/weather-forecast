@@ -107,8 +107,13 @@ export default {
 
   methods: {
     getWeatherData() {
-      const url =
-        "/weather/fcst/20221027/1700?state=경기도&city=오산시&town=세마동";
+      let today = new Date();
+      let year = ("0" + today.getFullYear()).slice(-2);
+      let month = ("0" + (today.getMonth() + 1)).slice(-2);
+      let day = ("0" + today.getDate()).slice(-2);
+      let hour = ("0" + today.getHours()).slice(-2);
+
+      const url = `/weather/fcst/20${year}${month}${day}/${hour}00?state=경기도&city=오산시&town=세마동`;
       axios.get(url).then((res) => {
         this.weatherData.push(res.data);
         this.getWeather(this.weatherData[0]);
