@@ -31,7 +31,7 @@
 
       <ul class="phoneBook-list">
         <li
-          v-for="(phone, index) in phoneList"
+          v-for="(phone, index) in phoneList[0]"
           :key="index"
           class="phoneBook-item"
         >
@@ -41,7 +41,7 @@
             @click="openPhoneBookDetail(index)"
           >
             <span>{{ phone.department }}</span>
-            <span>{{ phone.department_detail }}</span>
+            <span>{{ phone.departmentDetail }}</span>
             <span>{{ phone.phone }}</span>
           </button>
 
@@ -60,7 +60,7 @@
               </div>
               <div class="phoneBook-detail-item">
                 <dt>세부소속</dt>
-                <dd>{{ phone.department_detail }}</dd>
+                <dd>{{ phone.departmentDetail }}</dd>
               </div>
               <div class="phoneBook-detail-item">
                 <dt>이름</dt>
@@ -91,9 +91,8 @@
 </template>
 
 <script>
-import phone from "@/assets/data/phone.json";
-
-const phoneList = phone;
+import { ref } from "vue";
+import axios from "axios";
 
 export default {
   props: {
@@ -103,22 +102,34 @@ export default {
 
   data() {
     return {
-      phoneList,
+      phoneList: ref([]),
       openDetail: false,
     };
   },
 
+  mounted() {
+    this.getPhoneListData();
+  },
+
   methods: {
+    getPhoneListData() {
+      const url = "hanshinnumber/findall";
+      axios.get(url).then((res) => {
+        this.phoneList.push(res.data);
+      });
+    },
+
     clickCloseButton() {
       this.$emit("alertClosePhoneBook");
     },
 
     searchPhone(event) {
-      for (let i = 0; i < this.phoneList.length; i++) {
+      for (let i = 0; i < this.phoneList[0].length; i++) {
         if (
-          this.phoneList[i].phone.includes(event.target.value) === false &&
-          this.phoneList[i].department.includes(event.target.value) === false &&
-          this.phoneList[i].department_detail.includes(event.target.value) ===
+          this.phoneList[0][i].phone.includes(event.target.value) === false &&
+          this.phoneList[0][i].department.includes(event.target.value) ===
+            false &&
+          this.phoneList[0][i].departmentDetail.includes(event.target.value) ===
             false
         ) {
           document.querySelectorAll(".phoneBook-item")[i].style.display =
