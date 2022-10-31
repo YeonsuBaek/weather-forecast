@@ -86,6 +86,7 @@
     overflow: hidden;
     transform: translateX(-50%);
     animation: image-up 3000ms ease-in-out;
+    animation-delay: 6s;
     background-repeat: no-repeat;
     background-position: center top;
     z-index: $current-image;
